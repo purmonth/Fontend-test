@@ -1,0 +1,3 @@
+[2/7/2017, 10:50:03 AM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2/7/2017, 10:50:03 AM] layer "Hello@gmail.com": Unsupported extension: com
+[2/7/2017, 10:50:03 AM] layer "Hello@gmail.com": Unsupported extension: com

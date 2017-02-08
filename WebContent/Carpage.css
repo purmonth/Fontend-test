@@ -1,0 +1,340 @@
+
+
+
+
+a{
+    color: inherit;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/********************/
+.header {
+    width: 100%;
+    height: 100px;
+    background-color:#e7211e;
+}
+
+.header-logo{
+    float: left;
+}
+
+.header-logo img{
+    height: 30px;
+    padding: 30 30 0 30;
+}
+
+.header-slogan{
+    float: left;
+}
+
+.header-slogan img{
+    height: 13px;
+    padding-top: 41px;
+}
+
+.header-list{
+    float: right;
+}
+
+.header-list img{
+    padding: 30 60 30 30;
+    height: 30px;
+}
+
+
+/********************/
+.sidebar{
+    height: 1500px;
+    width: 200px;
+    float: left;
+}
+
+/**sidebar-top
+**/
+.sidebar-top{
+    height: 230px;
+    width: auto;
+    padding: 20 10 0 10;
+    
+}
+
+.sidebar-top-bar h3{
+    float: left;
+    font-size: 16px;
+    
+}
+
+.sidebar-top-bar img{
+    float: right;
+    padding-top: 13px;
+    height: 60%;
+    
+}
+
+.sidebar-top-bar{
+    height: 30px;
+    width: 160px;
+    padding: 5 10 5 10px;
+    float: left;
+}
+
+.bar{
+    width: auto;
+    height: 2;
+    background-color: darkgray;
+}
+
+/**sidebar-content
+**/
+.sidebar-content{
+    height: auto;
+    width: auto;
+    padding: 10 10 0 10px;
+}
+
+.sidebar-content-bar h3{
+    float: left;
+    font-size: 16px;
+}
+
+.sidebar-content-bar img{
+    height: 60%;
+    float: left;
+    padding-top: 13px;
+    padding-right: 20px;
+}
+
+.sidebar-content-bar{
+    height: 30px;
+    width: 160px;
+    padding: 5 20 5 20px;
+    float: left;
+}
+
+/********************/
+.index{
+    height: 1500px;
+    position: relative;
+    left: 210px;
+    padding-left: 10px;
+}
+
+/**index-top
+**/
+.index-top{
+    height: 200px;
+    width: auto;
+}
+
+.findbar{
+    height: 100px;
+    padding: 30 0 0 50;
+    
+}
+
+.sb-search{
+    position: relative;
+    margin-top: 10px;
+    height: 50px;
+    width: 400px;
+    
+}
+
+.sb-search-input{
+    position: absolute;
+    top: 10;
+    right: 10;
+    border: none;
+    outline: none;
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    z-index: 10;
+    padding: 20px 65px 20px 20px;
+    font-family: inherit;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+.sb-search-submit{
+    background: black; 
+    opacity: 0;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: -1;
+}
+
+.sb-icon-search{
+    
+}
+
+.sort{
+    
+}
+
+.pricingdisplay{
+    
+}
+
+
+/**index-content
+**/
+.index-content{
+    height: 1300px;
+    position: relative;
+    right: 200px;
+    overflow: scroll;
+}
+
+.index-content-block{
+    height: 300px;
+    width: 330px;
+    float: left;
+    margin: 10 5 10 5px;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+}
+
+.index-content-block img{
+    width: 330px;
+}
+
+.block-p{
+    width: 300px;
+    display: inline;
+    padding: 0 20 0 20;
+    color: black;
+    font-size: 14px;
+}
+
+.block-up{
+    padding-left: 10px; 
+    width: 290px;
+    height: 20px;
+}
+
+.carName{
+    float: left;
+}
+
+.price{
+    padding-right: 10px;
+    float: right;
+    color: #e7211e;
+}
+
+.block-down{
+    width: 290px;
+    height: 20px;
+    padding-top: 5px;
+    padding-left: 10px; 
+    color: #585858;
+}
+
+.block-down img{
+    height: 16px;
+    width: auto;
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.miles{
+    float: left;
+}
+
+.ship{
+    padding-right: 10px;
+    float: right;
+}
+
+
+
+
+/**footer
+**/
+.footer{
+    position: relative;
+    left: 200px;
+}
+
+.footer-background img{
+    width: 100%;
+}
+
+.footer-content{
+    padding-top: 5%;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.footer-content img{
+    height: 2%;
+    
+    width: auto;
+}
+
+.footer-content h2{
+    
+    font-size: 44px;
+    padding-left: 20%;
+    padding-right: 20%;
+   
+}
+
+.footer-bottom-button{
+    position: relative;
+    top: -20px;
+    height: 50px;
+    width: auto;
+    text-align: center;
+}
+
+.footer-bottom-button img{
+    height: 40px;
+    width: auto;
+    padding: 10 5 10 5;
+}
+
+.list{
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+
+}
+
+.list li{
+    float: left;
+    padding: 0 5 0 5;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.adress{
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+
+
+**/

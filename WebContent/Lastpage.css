@@ -1,0 +1,459 @@
+
+/********************/
+.Header {
+    width: 100%;
+    height: 80px;
+    background-color:#e7211e;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header img{
+    height: 30%;
+}
+
+
+.Header_Logo{
+    width: 70%
+}
+
+.Header_Menu{
+    width:5%;
+}
+
+
+/********************/
+
+.Content{
+    height: 1450px;
+}
+
+
+/********content-header
+********/
+.Nav{
+    height: 140px;
+    width: 1000px; 
+    display: flex;
+    align-items: center;
+}
+
+.Nav-skin{
+    background-color: #ebebeb;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+
+
+.Nav_Block{
+    width: 32%;
+    height: 100px;
+    font-size: 26px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Nav_Block-border{
+    border-left: solid 1px #7f7f7f;
+    border-right: solid 1px #7f7f7f;
+}
+
+.Nav_Block img{
+    height: 30%;
+}
+
+
+
+/********content-page
+********/
+.Content_Page{
+    height: 1200px;
+    width: 900px;
+    padding: 50 50 0 50px;
+    float: left;
+    font-size: 16px;
+}
+
+/****ItemsCart-top
+****/
+
+.Page_Title{
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.Page_Title_Word{
+    width: 70%;
+    float: left;
+    font-size: 2em;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.Page_Title_Block{
+    text-align: center;
+    width: 15%;
+}
+
+
+
+/****ItemsCart-middle
+****/
+.ItemsCart_Order{
+    height: 600px;
+    padding: 50 0 50 30;
+    border-radius: 2%;
+    border: solid 1px #7f7f7f;
+}
+
+.ItemsCart_Order_List{
+    display: inline-flex;
+    height: 120px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ItemsCart_Order_Arrow{
+    width: 5%;
+}
+
+.ItemsCart_Order_Arrow>img{
+    height: 20px;
+}
+
+.ItemsCart_Order_Caption{
+    font-size: 22px;
+    font-weight: bold;
+    width: 40%;
+}
+
+.ItemsCart_Order_Value{
+    width: 25%;
+    text-align: right;
+}
+
+.ItemsCart_Order_Trash {
+    width: 11%;
+    text-align: center;
+}
+
+.ItemsCart_Order_Trash>img{
+    height: 30px;
+}
+
+.ItemsCart_Order_Price{
+    width: 11%;
+}
+
+
+
+/****ItemsCart-bottom
+****/
+.ItemsCart_Bottom{
+    padding: 50px;
+    width: 900px;
+}
+
+.ItemsCart_Bottom_Read{
+    width: 500px;
+    float: left;
+    color: #7f7f7f;
+}
+
+.ItemsCart_Bottom_Total{
+    width: 100px;
+    padding-left: 35px; 
+    float: left;
+}
+
+.ItemsCart_Bottom_Price{
+    width: 200px;
+    float: left;
+    text-align: center;
+    font-size: 22px;
+    color: #11c759;
+}
+
+
+
+/****FinanceCustomize
+****/
+.FinanceCustomize{
+    height: 900px;
+    width: 450px;
+    float: left;
+}
+
+.FinanceCustomize_Content{
+    height: 700px;
+    border-top: solid 2px #7f7f7f;
+    display: flex;
+    flex-direction:column; 
+}
+
+.FinanceCustomize_Input{
+    height:  30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Input_Bar{
+    height: 80px;
+    border:solid #7f7f7f 1px;
+    border-radius: 10px;
+}
+
+.Input_Bar_Money{
+    height: 65px;
+    width: 40px;
+    padding-top: 15px;
+}
+
+.Input_Bar_Money-skin{
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+    background-color: #11c759;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.FinanceCustomize_TermLenth{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FinanceCustomize_Word{
+    font-size: 18px;
+}
+
+.TermLenth_Block{
+    height: 70%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.TermLenth_Word{
+    width: 500px;
+    float: left;
+}
+
+.TermLenth_Block-Skin{
+    border-radius: 10px;
+    text-align: center;
+    border: solid 1px #7f7f7f;
+}
+
+.TermLenth_Block-on{
+    background-color: #11c759;
+    color: white;
+}
+
+.TermLenth_Block_Number{
+    font-size: 30px;
+    height: 20%;
+} 
+
+.TermLenth_Block_Months{
+    font-size: 16px;
+    height: 20%;
+}
+
+
+
+/****Summary
+****/
+.Summary{
+    height: 900px;
+    width: 350px;
+    float: right;
+}
+
+.Summary_Order{
+    height: 700px;
+    padding: 0 40 0 40;
+}
+
+.Summary_Order-skin{
+    border-radius: 3%;
+    border: solid 1px #7f7f7f;
+}
+
+.Summary_Order_Block{
+    padding: 30 0 30 0;
+    border-bottom: #747474 solid 1px;
+}
+
+.Summary_Content_Bottom{
+    height: 170px;
+    padding-top: 30px;
+}
+
+.Summary_List{
+    font-size:18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15 0 15 0;
+}
+
+.Summary_List_Value{
+    font-weight: bold;
+}
+
+
+.Summary_Price-skin{
+    font-size: 30px;
+    position: relative;
+    top: -15px;
+    color: #11c759;
+    font-weight: bold;
+}
+
+
+
+/****PaymentCustomize
+****/
+.PaymentCustomize{
+    height:  900px;
+    width: 550px;
+    float: left;
+}
+
+.PaymentCustomize_Title{
+    padding-bottom: 40px;
+}
+
+
+.PaymentCustomize_Grayblock{
+    height: 220px;
+    margin:10 0 10 0;
+    width: 100%;
+    background-color: #f2f3f5;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.PaymentCustomize_Input{
+    width:10%;
+}
+
+.PaymentCustomize_Word{
+    width:50%;
+}
+
+.PaymentCustomize_Word_Title{
+    font-size: 22px;
+}
+
+.PaymentCustomize_Word_Content{
+    font-size: 16px;
+    color: #7f7f7f;
+}
+
+.PaymentCustomize_Img{
+    width: 30%;
+    
+}
+
+.PaymentCustomize_Img img{
+    height: 25px;
+    width: auto;
+    float: right;
+}
+
+
+
+/*********page-footer
+**********/
+.Page_Footer{
+    border-top: solid 1px #7f7f7f;
+    height: 200px;
+    width: 900px;
+    padding: 50 0 50 0;
+    text-align: center;
+    clear: both;
+}
+
+.Page_Footer_GoBack{
+    height: 50px;
+    padding-top: 30px;
+    width: 200px;
+    float: left;
+}
+
+.Page_Footer_Goback-skin{
+    font-size: 22px;
+    border-radius: 50px;
+    border: solid 1px #7f7f7f;
+    color: #7f7f7f;
+}
+
+.Page_Footer_FinanceOption{
+    height: 50px;
+    width: 300px;
+    padding-top: 30px;
+    float: right;
+}
+
+.Page_Footer_FinanceOption-skin{
+    text-align: center;
+    font-size: 22px;
+    background-color: #11c759; 
+    color: white;
+    border-radius: 50px;
+}
+
+.Page_Footer_Anatation{
+    padding-top: 50px;
+    height: 50px;
+    width: 100%;
+    float: right;
+}
+
+.Page_Footer_Anatation-skin{
+    text-align: right;
+    color: #7f7f7f;
+}
+
+
+
+
+/********************/
+.Footer{
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-image: url(DCBP.com/2-assets/footer%20bg.jpg);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Footer_Img>img{
+    height: 15%;
+}
+
+.Footer_Word{
+    font-size: 24px;
+}
+
+.Footer_Address{
+    font-size: 16px;
+}
+
+/********************/

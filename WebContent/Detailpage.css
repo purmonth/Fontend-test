@@ -1,0 +1,292 @@
+body{
+    width: 1300px;
+}
+
+/********************/
+.Header{
+    height: 600;
+    width: 1100;
+    background-image: url(DCBP.com/3-assets/hero.jpg);
+    background-size: 100% 100%;
+    color: white;
+}
+
+.Header_Nav{
+    height:80;
+    border-bottom: solid 1px darkgray;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header_Nav_Logo>img{
+    width:60%;
+}
+
+.Header_Nav_Logo{
+    width: 80%;
+}
+
+.Header_Nav_Menu{
+    width:10%;
+}
+
+.Header_Nav_Menu>img{
+    width:30%;
+}
+
+
+.Header_Detail{
+    height: 100px;  
+}
+
+.Header_Detail_Viewers{
+    height: 100px;
+}
+
+.Header_Detail_Viewers>img{
+    height: 30px;
+}
+
+.Header_Detail_Location{
+    
+}
+
+.Header_Detail_Gallery{
+    
+}
+
+.Header_Detail_CarType{
+    
+}
+
+
+/********************/
+.Content{
+    width: 900px;
+}
+
+
+.Page{
+    padding: 40 50 20 50;
+    width: 900px;
+}
+
+
+.Page_Title{
+    width: 220px;
+    padding:  2 10 2 10;
+}
+
+.Page_Title-skin{
+    background-color: #e7211e;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.Page_HeaderBlock{
+    width: 100%;
+    height: 100px;
+    padding-bottom: 30px;
+}
+
+.Page_HeaderBlock_Title{
+    font-size: 32px; 
+    font-weight: bold;
+}
+
+.Page_HeaderBlock_Content{
+    color: darkgray;
+}
+
+
+.Container_Block{
+    height: 150px;
+    width: 240px;
+    float: left;
+}
+
+.Container_Block_Content{
+    color: darkgray;
+    
+}
+
+.Container_Block_Title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Container_Img{
+    height: 60px;
+    width: 130px;
+    float: left;
+    padding: 10 20 10 10;
+}
+
+.Container_Img img{
+    height: 100%;
+    float: right;
+}
+
+
+
+/**first-index
+**/
+.Overview{
+    height: 300px;
+}
+
+
+/**second-index
+**/
+.Inspection{
+    height: 900px;
+}
+
+.Inspection_Container{
+    height: 700px;
+    padding-top: 100px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.Inspection_ContainerImg img{
+    height: 600px;
+    padding: 10px;
+}
+
+.Inspection_ContainerBlock{
+    width: 200px;
+}
+
+/**third-index
+**/
+.Insurance{
+    height: 800px;
+}
+
+
+.Insurance_Block{
+    height: 150px;
+    width: 400px;
+    padding: 25px;
+    float: left;
+}
+
+.red-bar img{
+    padding-top: 10px;
+    width: 50;
+    height: 3px;
+    clear: both;
+}
+
+
+/**fourth-index
+**/
+.PeaceOfMind{
+    height: 1300px;
+}
+
+.PeaceOfMind_Block{
+    height: 210px;
+    width: 400px;
+    padding: 25px;
+    float: left;
+}
+
+
+
+/**fifth-index
+**/
+.BeforeBuy{
+    height: 600px;
+}
+
+.BeforeBuy_Seller{
+    height: 100px;
+    width: 180px;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: right;
+    float: left;
+    
+}
+
+
+
+.BeforeBuy_Seller_Name{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.BeforeBuy_Seller_Location{
+    font-size: 18px;
+    color: darkgray;
+}
+
+.BeforeBuy_Comment{
+    width: 690px;
+    float: right;
+    font-size: 38px;
+    color: darkgray;
+}
+
+
+/********************/
+
+.Footer>img{
+    height: 70%;
+    width: 100%;
+}
+
+.Footer-Content{
+    padding-top: 5%;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.Footer-Content>img{
+    height: 2%;
+}
+
+.Footer-Content>h2{
+    font-size: 44px;
+    padding:0 20% 0 20%;
+}
+
+.Footer-Content_Button{
+    position: relative;
+    top: -20px;
+    height: 50px;
+}
+
+.Footer-Content_Button img{
+    height: 40px;
+    padding: 10 5 10 5;
+}
+
+.Footer-Content_List{
+    height: 10px;
+}
+
+.Footer-Content_List-Ul{
+    width: 60%;
+    padding: 0 20% 0 20%;
+}
+
+.Footer-Content_List li{
+    float: left;
+    padding: 0 5 0 5;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.Footer-Content_Address{
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+
+/*******************/
