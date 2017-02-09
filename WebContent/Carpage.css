@@ -113,7 +113,7 @@
 
 }
 
-.Page_Content_CarBlock{
+.CarBlock{
     height: 300px;
     width: 330px;
     margin: 10 5 10 5px;
@@ -122,7 +122,7 @@
     
 }
 
-.Page_Content_CarBlock img{
+.CarBlock_Img>img{
     width: 100%;
 }
 
