@@ -19,171 +19,144 @@ ul,li{
 
 
 
-/**header
+/**Header
 **/
-.header>img{
-    
-}
 
-.header-top {
-    position: absolute;
-    height: 75px;
+.Header{
     width: 100%;
-}
-
-.header-top_Logo{
-    width: 37.5%;
-    float: left;
-}
-
-.header-top_Logo>img{
-    padding: 25 0 0 45;
-}
-
-.header-top_SeeCar{
-    float: right;
-    padding: 22 0 20 0;
-    height: 10px;
-    width: 20%;
-}
-
-.header-top_SeeCar>a{
-    padding: 10 20 10 20;
+    height: 700px;
+    background-image: url(DCBP.com/1-assets/hero.jpg);
+    background-size: 100% 100%;
     color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Header_Top {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.Header_Top_Logo>img{
+    height: 55%;
+    width: auto;
+}
+
+.Header_Top_SeeCar{
+    width: 8%;
+    padding: 10 20 10 20;
+    text-align: center;
     background-color: #e7211e;
-    
 }
 
-.header-top_Menu{
-    width: 10%;
-    float: right;
-    padding: 10;
-}
 
-.header-top_Menu>img{
+.Header_Top_Menu>img{
     height: 50%;
     width: auto;
 }
 
 
-
-
-/**header-middle
-**/
-.header-middle{
-    position: absolute;
-    width: 100%;
-    height: 700px;
-    text-align: center;
-    color: white;
+.Header_Content{
+    height: 50%;
 }
 
-.header-middle_content{
-    padding: 15% 5% 5% 0%;
-}
-
-.header-middle_content>h1{
+.Header_Title{
     font-size: 60px;
+    font-weight: bold;
 }
 
-
+.Header_Detail{
+    height: 30%;
+}
 
 
 /******************************/
 
 
-/**first
+/**Carshop
 **/
-.content_first-index {
-    
-}
 
-.content_first-index>img{
-    
-}
-
-.content_first-index h1{
-    font-size:44px;
-    line-height: 0.4;
-}
-
-.content_first-index p{
-    font-size:14px;
-}
-
-.first-index_first-content{
-    height: 400px;
+.CarShop{
+    height: 1100px;
     width: 100%;
-    position: absolute;
-    padding-top: 80px;
+    background-image: url("DCBP.com/1-assets/bg%201.jpg");
+    background-size: 100% 100%;
     color: white;
 }
 
-.first-content_header{
+.CarShop_Header{
     height: 400px;
     width: 30%;
-    padding-left: 100px;
-    
     float: left;
 }
 
-.first-content_firstblock{
+.Carshop_Header_Introduction{
+    font-size: 22px;
+}
+
+.Carshop_Header_Title{
+    font-size: 40px;
+}
+
+.CarShop_Block{
     height: 200px;
     width: 30%;
     float: left;
+
 }
 
-.first-content_firstblock>img{
+.CarShop_Block>img{
     height: 120px;
     width: auto;
     float: left;
-    padding-top: 15px;
+    margin: 0 20 0 20px;
 }
 
-.firstblock_word{
-    padding-left: 30px;
+.CarShop_Block_Title{
+    font-size: 26px;
+    font-weight: bold;
 }
 
-.first-index_img>img{
-    position: absolute;
-    padding-top: 37%;
-    width: 100%;
+.CarShop_Block_Detail{
+
 }
-
-
-
-
 
 /**second
 **/
-.content_second-index {
+.Content_Second_Index {
     width:100%;
     color: black;
 }
 
-.content_second-index>img{
+.Content_Second_Index>img{
     
 }
 
-.second-index_second-content{
+.Second_Index_Second_Content{
     position: absolute;
 }
 
-.second-index_second-content>img{
-    padding: 0 0% 0 22.8% ;
-    width: 76.4%;
+.Second_Index_Second_Content>img{
+    
+    padding: 0 0% 0 23% ;
+    width: 76%;
     height: auto;
 }
 
-.second-content_word-block{
+.Second_Content_Word_Block{
     padding: 10% 0 0 10% ;
     position: absolute;
     height: 300px;
     width: 500px;
 }
 
-.second-content_word-block>img{
+.Second_Content_Word_Block>img{
     padding-top: 10%;
     height: 110%;
     width: auto;
@@ -192,34 +165,34 @@ ul,li{
 
 
 
-/**third
+/**Third
 **/
-.content_third-index {
+.Content_Third_Index {
     width:100%;
 }
 
-.content_third-index>img{
+.Content_Third_Index>img{
     
 }
 
-.third-index_third-content {
+.Third_Index_Third_Content {
     position: absolute;
     float: left;
 }
 
-.third-content_img {
+.Third_Content_Img {
     padding-top: 5%;
     width: 40%;
     float: left;
 }
 
-.third-content_img>img{
+.Third_Content_Img>img{
     width: 100%;
     height: auto;
     
 }
 
-.third-content_word{
+.Third_Content_Word{
     padding-top: 10%;
     height: auto;
     width: 40%;
@@ -227,15 +200,15 @@ ul,li{
     color: white;
 }
 
-.third-content_word h3{
+.Third_Content_Word h3{
     float: left;
 }
 
-.third-content_word p{
+.Third_Content_Word p{
     padding-right: 90px;
 }
 
-.third-content_word img{
+.Third_Content_Word img{
     height: 20px;
     padding: 20px;
     width: auto;
@@ -243,24 +216,24 @@ ul,li{
 
 
 
-/**fourth
+/**Fourth
 **/
-.content_fourth-index{
+.Content_Fourth_Index{
     width: 100%;
     color: white;
 }
 
-.fourth-index_fourth-content{
+.Fourth_Index_Fourth_Content{
     position: absolute;
     width: 400px;
     padding: 10% 0 0 20%;
 }
 
-.fourth-index_fourth-content p{
+.Fourth_Index_Fourth_Content p{
     padding-bottom: 40px;
 }
 
-.fourth-index_fourth-content img{
+.Fourth_Index_Fourth_Content img{
     height: 2px;
     width: 10px;
     float: left;
@@ -271,50 +244,50 @@ ul,li{
 
 
 /******************************/
-.footer{
+.Footer{
     
 }
 
-.footer>img{
+.Footer>img{
     position: absolute;
     padding-top: 38%;
     width: 106%;
 }
 
-/**footer-header
+/**Footer_Header
 **/
-.footer-header{
+.Footer_Header{
     
 }
 
-.footer-header-word{
+.Footer_Header_Word{
     position: absolute;
     padding-top: 10%;
     width: 100%;
     text-align: center;
 }
 
-.footer-header-word p{
+.Footer_Header_Word p{
     padding-left: 30%;
     padding-right: 30%;
     width: 40%;
 }
 
-.findcar {
+.Findcar {
     padding: 40 35% 0 35%;
     color: white;
 }
 
-.findcar h2{
+.Findcar h2{
     padding: 10;
     border-radius: 5%;
     background-color: #e7211e;
 }
 
 
-/**footer-bottom
+/**Footer_Bottom
 **/
-.footer-bottom_content{
+.Footer_Bottom_Content{
     position: absolute;
     color: white;
     padding: 13% 0% 0 0%;
@@ -322,20 +295,20 @@ ul,li{
     width: 
 }
 
-.footer-bottom_content img{
+.Footer_Bottom_Content img{
     height: 2%;
     padding-bottom: 5%;
     width: auto;
 }
 
-.footer-bottom_content h2{
+.Footer_Bottom_Content h2{
     font-size: 44px;
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 5%;
 }
 
-.footer-content_button{
+.Footer_Content_button{
     position: relative;
     top: -20px;
     height: 50px;
@@ -343,13 +316,13 @@ ul,li{
     text-align: center;
 }
 
-.footer-content_button img{
+.Footer_Content_button img{
     height: 40px;
     width: auto;
     padding: 10 5 10 5;
 }
 
-.footer-content_list{
+.Footer_Content_list{
     width: 100%;
     padding-left: 20%;
     padding-right: 20%;
@@ -357,13 +330,13 @@ ul,li{
     padding-top:10%; 
 }
 
-.footer-content_list li{
+.Footer_Content_list li{
     float: left;
     padding: 0 5 0 5;
     font-size: 12px;
 }
 
-.footer-content_address{
+.Footer_Content_address{
     padding-top: 10px;
     font-size: 10px;
 }
