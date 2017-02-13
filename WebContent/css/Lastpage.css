@@ -1,68 +1,68 @@
 
 /********************/
 .Header {
-    width: 100%;
-    height: 80px;
-    background-color:#e7211e;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color:#e7211e;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .Header img{
-    height: 30%;
+  height: 30%;
 }
 
 
 .Header_Logo{
-    width: 70%
+  width: 70%
 }
 
 .Header_Menu{
-    width:5%;
+  width:5%;
 }
 
 
 /********************/
 
 .Content{
-    height: 1450px;
+  height: 1450px;
 }
 
 
 /********content-header
 ********/
 .Nav{
-    height: 140px;
-    width: 1000px; 
-    display: flex;
-    align-items: center;
+  height: 140px;
+  width: 1000px; 
+  display: flex;
+  align-items: center;
 }
 
 .Nav-skin{
-    background-color: #ebebeb;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+  background-color: #ebebeb;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 
 
 .Nav_Block{
-    width: 32%;
-    height: 100px;
-    font-size: 26px;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 32%;
+  height: 100px;
+  font-size: 26px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .Nav_Block-border{
-    border-left: solid 1px #7f7f7f;
-    border-right: solid 1px #7f7f7f;
+  border-left: solid 1px #7f7f7f;
+  border-right: solid 1px #7f7f7f;
 }
 
 .Nav_Block img{
-    height: 30%;
+  height: 30%;
 }
 
 
@@ -70,33 +70,33 @@
 /********content-page
 ********/
 .Content_Page{
-    height: 1200px;
-    width: 900px;
-    padding: 50 50 0 50px;
-    float: left;
-    font-size: 16px;
+  height: 1200px;
+  width: 900px;
+  padding: 50 50 0 50px;
+  float: left;
+  font-size: 16px;
 }
 
 /****ItemCart-top
 ****/
 
 .Page_Title{
-    height: 100px;
-    width: 100%;
-    display: inline-flex;
+  height: 100px;
+  width: 100%;
+  display: inline-flex;
 }
 
 .Page_Title_Word{
-    width: 70%;
-    float: left;
-    font-size: 2em;
-    padding-left: 50px;
-    font-weight: bold;
+  width: 70%;
+  float: left;
+  font-size: 2em;
+  padding-left: 50px;
+  font-weight: bold;
 }
 
 .Page_Title_Block{
-    text-align: center;
-    width: 15%;
+  text-align: center;
+  width: 15%;
 }
 
 /** block **/
@@ -137,12 +137,12 @@
 
 /** block_element Row **/
 .ItemCart_Row{
-    width: 100%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
@@ -221,90 +221,90 @@
 /****FinanceCustomize
 ****/
 .FinanceCustomize{
-    height: 900px;
-    width: 450px;
-    float: left;
+  height: 900px;
+  width: 450px;
+  float: left;
 }
 
 .FinanceCustomize_Content{
-    height: 700px;
-    border-top: solid 2px #7f7f7f;
-    display: flex;
-    flex-direction:column; 
+  height: 700px;
+  border-top: solid 2px #7f7f7f;
+  display: flex;
+  flex-direction:column; 
 }
 
 .FinanceCustomize_Input{
-    height:  30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  height:  30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .Input_Bar{
-    height: 80px;
-    border:solid #7f7f7f 1px;
-    border-radius: 10px;
+  height: 80px;
+  border:solid #7f7f7f 1px;
+  border-radius: 10px;
 }
 
 .Input_Bar_Money{
-    height: 65px;
-    width: 40px;
-    padding-top: 15px;
+  height: 65px;
+  width: 40px;
+  padding-top: 15px;
 }
 
 .Input_Bar_Money-skin{
-    border-top-left-radius:10px;
-    border-bottom-left-radius: 10px;
-    background-color: #11c759;
-    color: white;
-    font-size: 50px;
-    text-align: center;
+  border-top-left-radius:10px;
+  border-bottom-left-radius: 10px;
+  background-color: #11c759;
+  color: white;
+  font-size: 50px;
+  text-align: center;
 }
 
 .FinanceCustomize_TermLenth{
-    height: 40%;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .FinanceCustomize_Word{
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .TermLenth_Block{
-    height: 70%;
-    width: 22%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  height: 70%;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .TermLenth_Word{
-    width: 500px;
-    float: left;
+  width: 500px;
+  float: left;
 }
 
 .TermLenth_Block-Skin{
-    border-radius: 10px;
-    text-align: center;
-    border: solid 1px #7f7f7f;
+  border-radius: 10px;
+  text-align: center;
+  border: solid 1px #7f7f7f;
 }
 
 .TermLenth_Block-on{
-    background-color: #11c759;
-    color: white;
+  background-color: #11c759;
+  color: white;
 }
 
 .TermLenth_Block_Number{
-    font-size: 30px;
-    height: 20%;
+  font-size: 30px;
+  height: 20%;
 } 
 
 .TermLenth_Block_Months{
-    font-size: 16px;
-    height: 20%;
+  font-size: 16px;
+  height: 20%;
 }
 
 
@@ -312,49 +312,58 @@
 /****Summary
 ****/
 .Summary{
-    height: 900px;
-    width: 350px;
-    float: right;
+  min-width: 350px;
+  float: right;
+  font-size: 20px;
 }
 
 .Summary_Order{
-    height: 700px;
-    padding: 0 40 0 40;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .Summary_Order-skin{
-    border-radius: 3%;
-    border: solid 1px #7f7f7f;
+  border-radius: 3%;
+  border: solid 1px #7f7f7f;
 }
 
 .Summary_Order_Block{
-    padding: 30 0 30 0;
-    border-bottom: #747474 solid 1px;
+  padding: 10% 0;
 }
 
-.Summary_Content_Bottom{
-    height: 170px;
-    padding-top: 30px;
+.Summary_Order_Line{
+  height: 1px;
+  width: 100%;
+  background: #747474;
 }
+
 
 .Summary_List{
-    font-size:18px;
-    display: flex;
-    justify-content: space-between;
-    padding: 15 0 15 0;
+  align-items: center;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.Summary_List_Caption{
+  width: 50%;
+  text-align: left;
 }
 
 .Summary_List_Value{
-    font-weight: bold;
+  width: 40%;
+  text-align: right;
+  font-weight: bold;
 }
 
 
 .Summary_Price-skin{
-    font-size: 30px;
-    position: relative;
-    top: -15px;
-    color: #11c759;
-    font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  top: -15px;
+  color: #11c759;
+  font-weight: bold;
 }
 
 
@@ -362,54 +371,54 @@
 /****PaymentCustomize
 ****/
 .PaymentCustomize{
-    height:  900px;
-    width: 550px;
-    float: left;
+  height:  900px;
+  width: 550px;
+  float: left;
 }
 
 .PaymentCustomize_Title{
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 
 .PaymentCustomize_Grayblock{
-    height: 220px;
-    margin:10 0 10 0;
-    width: 100%;
-    background-color: #f2f3f5;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+  height: 220px;
+  margin:10 0 10 0;
+  width: 100%;
+  background-color: #f2f3f5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 
 .PaymentCustomize_Input{
-    width:10%;
+  width:10%;
 }
 
 .PaymentCustomize_Word{
-    width:50%;
+  width:50%;
 }
 
 .PaymentCustomize_Word_Title{
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .PaymentCustomize_Word_Content{
-    font-size: 16px;
-    color: #7f7f7f;
+  font-size: 16px;
+  color: #7f7f7f;
 }
 
 .PaymentCustomize_Img{
-    width: 30%;
-    
+  width: 30%;
+  
 }
 
 .PaymentCustomize_Img img{
-    height: 25px;
-    width: auto;
-    float: right;
+  height: 25px;
+  width: auto;
+  float: right;
 }
 
 
@@ -417,53 +426,53 @@
 /*********page-footer
 **********/
 .Page_Footer{
-    border-top: solid 1px #7f7f7f;
-    height: 200px;
-    width: 900px;
-    padding: 50 0 50 0;
-    text-align: center;
-    clear: both;
+  border-top: solid 1px #7f7f7f;
+  height: 200px;
+  width: 900px;
+  padding: 50 0 50 0;
+  text-align: center;
+  clear: both;
 }
 
 .Page_Footer_GoBack{
-    height: 50px;
-    padding-top: 30px;
-    width: 200px;
-    float: left;
+  height: 50px;
+  padding-top: 30px;
+  width: 200px;
+  float: left;
 }
 
 .Page_Footer_Goback-skin{
-    font-size: 22px;
-    border-radius: 50px;
-    border: solid 1px #7f7f7f;
-    color: #7f7f7f;
+  font-size: 22px;
+  border-radius: 50px;
+  border: solid 1px #7f7f7f;
+  color: #7f7f7f;
 }
 
 .Page_Footer_FinanceOption{
-    height: 50px;
-    width: 300px;
-    padding-top: 30px;
-    float: right;
+  height: 50px;
+  width: 300px;
+  padding-top: 30px;
+  float: right;
 }
 
 .Page_Footer_FinanceOption-skin{
-    text-align: center;
-    font-size: 22px;
-    background-color: #11c759; 
-    color: white;
-    border-radius: 50px;
+  text-align: center;
+  font-size: 22px;
+  background-color: #11c759; 
+  color: white;
+  border-radius: 50px;
 }
 
 .Page_Footer_Anatation{
-    padding-top: 50px;
-    height: 50px;
-    width: 100%;
-    float: right;
+  padding-top: 50px;
+  height: 50px;
+  width: 100%;
+  float: right;
 }
 
 .Page_Footer_Anatation-skin{
-    text-align: right;
-    color: #7f7f7f;
+  text-align: right;
+  color: #7f7f7f;
 }
 
 
@@ -471,26 +480,26 @@
 
 /********************/
 .Footer{
-    height: 200px;
-    width: 100%;
-    color: white;
-    text-align: center;
-    background-image: url(DCBP.com/2-assets/footer%20bg.jpg);
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-around;
+  height: 200px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-image: url(DCBP.com/2-assets/footer%20bg.jpg);
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .Footer_Img>img{
-    height: 15%;
+  height: 15%;
 }
 
 .Footer_Word{
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .Footer_Address{
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /********************/

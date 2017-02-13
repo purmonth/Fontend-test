@@ -1,0 +1,48 @@
+/****Summary
+****/
+.Summary{
+  min-width: 350px;
+  float: right;
+  font-size: 20px;
+}
+
+
+
+.Summary_Order-skin{
+  border-radius: 3%;
+  border: solid 1px #7f7f7f;
+}
+
+.Summary_Order_Block{
+  padding: 10% 0;
+  border-bottom: #747474 solid 1px;
+}
+
+
+.Summary_Row{
+  align-items: center;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.Summary_Row_Caption{
+  width: 55%;
+  text-align: left;
+}
+
+.Summary_Row_Value{
+  width: 30%;
+  text-align: right;
+  font-weight: bold;
+}
+
+
+.Summary_Price-skin{
+  font-size: 30px;
+  position: relative;
+  top: -15px;
+  color: #11c759;
+  font-weight: bold;
+}
+
