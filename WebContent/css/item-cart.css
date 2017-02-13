@@ -1,6 +1,7 @@
 /** block **/
 .ItemCart
 {
+
   min-width: 800px;
   border: 1px dotted;
 }
@@ -14,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2%;
+  padding: 0 0;
 }
 
 .ItemCart_Header_Caption
@@ -30,6 +31,60 @@
   width: 10%;
 }
 
+
+
+
+/** block_element Row **/
+.ItemCart_Row{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.ItemCart_Row_Pointer
+{
+  width: 10%;
+  height: 30px;
+  background: url("../icons/pointer.png") no-repeat;
+  background-size: auto 20px;
+  background-position: center;
+}
+
+.ItemCart_Row_Caption
+{
+  width: 50%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.ItemCart_Row_Delivery
+{
+  width:  20%;
+  text-align: right;
+}
+
+.ItemCart_Row_Trash
+{
+  width: 10%;
+  height: 30px;
+  background: url("../icons/trash_can.png") no-repeat;
+  background-size: auto 30px;
+  background-position: center;
+  cursor: pointer;
+}
+
+.ItemCart_Row_UnitPrice
+{
+  width: 10%;
+  text-align: right;
+}
+
+
+
 /** block_element Footer **/
 .ItemCart_Footer
 {
@@ -39,7 +94,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2%;
 }
 
 .ItemCart_Footer_Caption
@@ -48,15 +102,6 @@
   font-size: 25px;
   font-weight: bold;
   color: #d3d3d3;
-  padding-left: 5%
-}
-
-.ItemCart_Footer_Caption
-{
-  width: 55%;
-  color: #d3d3d3;
-  font-size: 25px;
-  font-weight: bold;
   padding-left: 5%
 }
 
@@ -68,53 +113,4 @@
   text-align: right;
 }
 
-/** block_element Row **/
-.ItemCart_Row
-{
-  width: 100%;
-  height: 120px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 2%;
-}
 
-.ItemCart_Row_Pointer
-{
-  width: 5%;
-  height: 30px;
-  background: url("../icons/pointer.png") no-repeat;
-  background-size: auto 20px;
-  background-position: center;
-}
-
-.ItemCart_Row_Caption
-{
-  width: 40%;
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.ItemCart_Row_Delivery
-{
-  width: 25%;
-  text-align: right;
-}
-
-.ItemCart_Row_Trash
-{
-  width: 15%;
-  height: 30px;
-  background: url("../icons/trash_can.png") no-repeat;
-  background-size: auto 30px;
-  background-position: center;
-  cursor: pointer;
-}
-
-.ItemCart_Row_UnitPrice
-{
-  width: 15%;
-  text-align: right;
-}
-/** modifier **/
-/** extra styling for Vaadin components**/
