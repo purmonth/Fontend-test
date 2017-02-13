@@ -6,7 +6,11 @@
   font-size: 20px;
 }
 
-
+.Summary_Order{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
 .Summary_Order-skin{
   border-radius: 3%;
@@ -15,24 +19,29 @@
 
 .Summary_Order_Block{
   padding: 10% 0;
-  border-bottom: #747474 solid 1px;
+}
+
+.Summary_Order_Line{
+  height: 1px;
+  width: 100%;
+  background: #747474;
 }
 
 
-.Summary_Row{
+.Summary_List{
   align-items: center;
-  height: 60px;
+  height: 75px;
   display: flex;
   justify-content: center;
 }
 
-.Summary_Row_Caption{
-  width: 55%;
+.Summary_List_Caption{
+  width: 50%;
   text-align: left;
 }
 
-.Summary_Row_Value{
-  width: 30%;
+.Summary_List_Value{
+  width: 40%;
   text-align: right;
   font-weight: bold;
 }
@@ -45,4 +54,3 @@
   color: #11c759;
   font-weight: bold;
 }
-

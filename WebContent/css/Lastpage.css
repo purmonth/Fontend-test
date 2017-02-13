@@ -484,11 +484,12 @@
   width: 100%;
   color: white;
   text-align: center;
-  background-image: url(DCBP.com/2-assets/footer%20bg.jpg);
+  background-image: url(../Image/footer_bg.png);
   display: inline-flex;
   flex-direction: column;
   justify-content: space-around;
 }
+
 
 .Footer_Img>img{
   height: 15%;
