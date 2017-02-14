@@ -4,36 +4,42 @@ body{
 
 /********************/
 .Header{
-    height: 600;
-    width: 1100;
-    background-image: url(DCBP.com/3-assets/hero.jpg);
+    height: 850;
+    width: 1300;
+    background: url(../DCBP.com/3-assets/hero.jpg) no-repeat;
     background-size: 100% 100%;
     color: white;
 }
 
 .Header_Nav{
     height:80;
+    width: 100%;
     border-bottom: solid 1px darkgray;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.Header_Nav_Logo>img{
-    width:60%;
-}
+
 
 .Header_Nav_Logo{
-    width: 80%;
+    width: 60%;
+    height: 100%;
+    background:url(../icons/logo_logo.png) no-repeat left center; 
+    background-size: 60% auto;
+
 }
+
 
 .Header_Nav_Menu{
     width:10%;
+    height: 100%;
+    background: url(../icons/menu_icon.png) no-repeat center;
+    background-size: 30% auto;
+
 }
 
-.Header_Nav_Menu>img{
-    width:30%;
-}
+
 
 
 .Header_Detail{
@@ -47,19 +53,6 @@ body{
 .Header_Detail_Viewers>img{
     height: 30px;
 }
-
-.Header_Detail_Location{
-    
-}
-
-.Header_Detail_Gallery{
-    
-}
-
-.Header_Detail_CarType{
-    
-}
-
 
 /********************/
 .Content{
@@ -151,12 +144,19 @@ body{
     justify-content: center;
 }
 
-.Inspection_ContainerImg img{
+.Inspection_Container_Img img{
     height: 600px;
     padding: 10px;
 }
 
-.Inspection_ContainerBlock{
+.Inspection_Container_Img{
+    height: 600px;
+    width: 100%;
+    background: url(../DCBP.com/3-assets/car.png) no-repeat;
+    background-size: auto 100%; 
+}
+
+.Inspection_Container_Block{
     width: 200px;
 }
 
@@ -233,58 +233,55 @@ body{
 }
 
 
-/********************/
-
-.Footer>img{
-    height: 70%;
-    width: 100%;
-}
-
-.Footer-Content{
-    padding-top: 5%;
-    position: absolute;
+/**Footer
+**/
+.Footer{
     color: white;
     text-align: center;
+    height: 900px;
+    background-image: url(../image/footer_bg2.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center; 
+    font-size: 26px;
 }
 
-.Footer-Content>img{
-    height: 2%;
+.Footer_Logo{
+    width: 10%;
+    height: 10%;
+    background: url(../icons/logo_DCBP.png) no-repeat center;
+    background-size: 100% auto;
 }
 
-.Footer-Content>h2{
-    font-size: 44px;
-    padding:0 20% 0 20%;
+.Footer_Word{
+    width: 60%;
+    font-size: 60px;
 }
 
-.Footer-Content_Button{
-    position: relative;
-    top: -20px;
+.Footer_Button{
     height: 50px;
 }
 
-.Footer-Content_Button img{
+
+.Footer_Button>img{
     height: 40px;
-    padding: 10 5 10 5;
+    width: auto;
 }
 
-.Footer-Content_List{
-    height: 10px;
+.Footer_List{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.Footer_List_Word{
+    width: 14%;
 }
 
-.Footer-Content_List-Ul{
-    width: 60%;
-    padding: 0 20% 0 20%;
-}
-
-.Footer-Content_List li{
-    float: left;
-    padding: 0 5 0 5;
-    font-size: 12px;
-    list-style-type: none;
-}
-
-.Footer-Content_Address{
-    padding-top: 10px;
+.Footer_Address{
     font-size: 10px;
 }
 
