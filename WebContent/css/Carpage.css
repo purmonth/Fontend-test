@@ -5,7 +5,7 @@
     height: 80px;
     background-color:#e7211e;
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -24,6 +24,49 @@
     background-size: auto 100%;
 }
 
+
+.Header_MenuPage{
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    width: 250;
+    height: 500;
+    background:linear-gradient(to right bottom, #f7312e,  #c50000);
+    border-radius: 5px;
+    align-self: flex-start;
+    z-index: 1;
+    box-shadow:-6px 6px 12px rgba(20%,20%,40%,0.4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header_MenuPage_Cart{
+    width: 65%;
+    height: 10%;
+    background: url(../icons/cart.png) left no-repeat;
+    background-size: auto 75%;
+    font-size: 14px;
+}
+
+.Header_MenuPage_Menu{
+    width: 25%;
+    height: 10%;
+    background: url(../icons/menu_icon.png) right no-repeat;
+    background-size: auto 55%;
+}
+
+.Header_MenuPage_List{
+    height: 5%;
+    width: 100%;   
+}
+
+.Header_MenuPage_Language{
+    width: 50%;
+}
 
 /********************/
 .Sidebar{
@@ -180,7 +223,10 @@
 .Footer{
     color: white;
     text-align: center;
-    height: 800px;
+    height: 400px;
+    width: 80%;
+    position: relative;
+    left: 200px;
     background-image: url(../image/footer_bg2.png);
     display: flex;
     flex-direction: column;
@@ -197,7 +243,7 @@
 
 .Footer_Word{
     width: 60%;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 .Footer_Button{

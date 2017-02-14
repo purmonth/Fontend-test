@@ -1,0 +1,52 @@
+
+
+.Header_Menu{
+    width:5%;
+    height: 30%;
+    background: url(../icons/menu_icon.png) no-repeat;
+    background-size: auto 100%;
+}
+
+
+.Header_MenuPage{
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    width: 250px;
+    height: 500px;
+    background:linear-gradient(to right bottom, #f7312e,  #c50000);
+    border-radius: 5px;
+    align-self: flex-start;
+    z-index: 1;
+    box-shadow:-6px 6px 12px rgba(20%,20%,40%,0.4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header_MenuPage_Cart{
+    width: 65%;
+    height: 10%;
+    background: url(../icons/cart.png) left no-repeat;
+    background-size: auto 75%;
+    font-size: 14px;
+}
+
+.Header_MenuPage_Menu{
+    width: 25%;
+    height: 10%;
+    background: url(../icons/menu_icon.png) right no-repeat;
+    background-size: auto 55%;
+}
+
+.Header_MenuPage_List{
+    height: 5%;
+    width: 100%;   
+}
+
+.Header_MenuPage_Language{
+    width: 50%;
+}
