@@ -43,7 +43,7 @@
 /**Sidebar_Plus
 **/
 
-.Sidebar_PlusList{
+.PlusList_Row{
     height: 2%;
     width: 100%;
     display: inline-flex;
@@ -51,11 +51,11 @@
     align-items: center;
 }
 
-.Sidebar_PlusList_Word{
+.PlusList_Row_Word{
     width: 60%;
 }
 
-.Sidebar_PlusList_Img{
+.PlusList_Row_Img{
     width: 20%;
     height: 100%;
     background: url(../icons/plus.png) no-repeat center;
@@ -67,7 +67,7 @@
 /**Sidebar_Arrow
 **/
 
-.Sidebar_ArrowList{
+.ArrowList_Row{
     height: 2%;
     display: flex;
     justify-content: left;
@@ -76,11 +76,8 @@
     padding: 10 0;
 }
 
-.Sidebar_ArrowList_Img>img{
-    height: 60%;
-}
 
-.Sidebar_ArrowList_Img{
+.ArrowList_Row_Img{
     width: 20%;
     height: 30px;
     background: url(../icons/arrowlist.png) no-repeat center;

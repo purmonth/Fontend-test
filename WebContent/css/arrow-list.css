@@ -1,0 +1,19 @@
+/**Sidebar_Arrow
+**/
+
+.ArrowList_Row{
+    height: 2%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    padding: 10 0;
+}
+
+
+.ArrowList_Row_Img{
+    width: 20%;
+    height: 30px;
+    background: url(../icons/arrowlist.png) no-repeat center;
+    background-size: auto 80%;
+}
