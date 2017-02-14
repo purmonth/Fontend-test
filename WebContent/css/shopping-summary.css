@@ -1,3 +1,17 @@
+.Page_Title{
+  height: 100px;
+  width: 100%;
+  display: inline-flex;
+}
+
+.Page_Title_Word{
+  width: 70%;
+  float: left;
+  font-size: 2em;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
 /****ShoppingSummary
 ****/
 .ShoppingSummary{
