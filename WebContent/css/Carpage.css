@@ -74,7 +74,7 @@
     width: 200px;
     float: left;
     display: flex;
-    justify-content: space-around;
+    
     flex-direction: column;
 }
 
@@ -87,7 +87,7 @@
 **/
 
 .PlusList_Row{
-    height: 2%;
+    height: 3%;
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
@@ -226,7 +226,7 @@
     height: 400px;
     width: 80%;
     position: relative;
-    left: 200px;
+    left: 200;
     background-image: url(../image/footer_bg2.png);
     display: flex;
     flex-direction: column;
@@ -234,6 +234,13 @@
     align-items: center;
     align-content: center; 
     font-size: 26px;
+}
+
+.Footer_Logo{
+    width: 60%;
+    height: 30px;
+    background: url(../icons/logo_DCBP.png) center no-repeat;
+    background-size: auto  100%;
 }
 
 .Footer_Logo>img{
@@ -264,7 +271,7 @@
     font-size: 14px;
 }
 .Footer_List_Word{
-    width: 14%;
+    padding:0 20;
 }
 
 .Footer_Address{
