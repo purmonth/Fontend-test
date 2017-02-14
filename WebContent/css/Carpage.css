@@ -183,7 +183,7 @@
 .Footer{
     color: white;
     text-align: center;
-    height: 900px;
+    height: 600px;
     background-image: url(../image/footer_bg2.png);
     display: flex;
     flex-direction: column;
