@@ -6,7 +6,7 @@ body{
 .Header{
     height: 850;
     width: 1300;
-    background: url(../DCBP.com/3-assets/hero.jpg) no-repeat;
+    background: url(../icons/hero.jpg) no-repeat;
     background-size: 100% 100%;
     color: white;
 }
@@ -152,7 +152,7 @@ body{
 .Inspection_Container_Img{
     height: 600px;
     width: 100%;
-    background: url(../DCBP.com/3-assets/car.png) no-repeat;
+    background: url(../icons/detail_car.png) no-repeat;
     background-size: auto 100%; 
 }
 
