@@ -25,7 +25,7 @@ ul,li{
 .Header{
     width: 100%;
     height: 700px;
-    background-image: url(DCBP.com/1-assets/hero.jpg);
+    background-image: url(../image/hero.png);
     background-size: 100% 100%;
     color: white;
     text-align: center;
@@ -85,7 +85,7 @@ ul,li{
 .CarShop{
     height: 1100px;
     width: 100%;
-    background-image: url("DCBP.com/1-assets/bg%201.jpg");
+    background-image: url(../image/bg_1.png);
     background-size: 100% 100%;
     color: white;
 }
@@ -128,7 +128,7 @@ ul,li{
 .BuyingProcess {
     height: 1200px;
     color: black;
-    background-image: url(DCBP.com/1-assets/bg%202.jpg);   
+    background-image: url(../image/bg_2.png);   
 }
 
 .BuyingProcess>img{
@@ -164,7 +164,7 @@ ul,li{
 **/
 .Inspection{
     height: 1100px;
-    background-image: url(DCBP.com/1-assets/bg%203.jpg);
+    background-image: url(../image/bg_3.png);
     display: flex;
     align-items: center;
 }
@@ -220,7 +220,7 @@ ul,li{
     color: white;
     height: 900px;
     display: flex;
-    background-image: url(DCBP.com/1-assets/bg%204.jpg);
+    background-image: url(../image/bg_4.png);
     background-size: 100% 100%;
     align-items: center;
     font-size: 20px;
@@ -268,7 +268,7 @@ ul,li{
 .Registration{
     height: 900px;
     width: 100%;
-    background-image: url(DCBP.com/1-assets/bg%205.jpg);
+    background-image: url(../image/bg_5.png);
     background-size: 100% 100%; 
     text-align: center;
     display: flex;
@@ -322,7 +322,7 @@ ul,li{
     color: white;
     text-align: center;
     height: 900px;
-    background-image: url(image/footer_bg2.png);
+    background-image: url(../image/footer_bg2.png);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -369,5 +369,6 @@ ul,li{
 .Footer_List_Word-skin{
     border-left: 1px solid white;
 }
+
 
 /******************************/
