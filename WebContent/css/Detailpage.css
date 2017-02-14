@@ -41,19 +41,6 @@ body{
 
 
 
-
-.Header_Detail{
-    height: 100px;  
-}
-
-.Header_Detail_Viewers{
-    height: 100px;
-}
-
-.Header_Detail_Viewers>img{
-    height: 30px;
-}
-
 /********************/
 .Content{
     width: 900px;
@@ -68,7 +55,7 @@ body{
 
 .Page_Title{
     width: 220px;
-    padding:  2 10 2 10;
+    padding:  2 10;
 }
 
 .Page_Title-skin{
