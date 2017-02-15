@@ -40,6 +40,87 @@ body{
 }
 
 
+/***BuyNow
+***/
+.BuyNow{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    box-shadow:-6px 6px 6px rgba(20%,20%,40%,0.4);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.BuyNow_TotalPrice{
+    height: 100px;
+    background-color: #e7211e;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.BuyNow_TotalPrice_Logo{
+    width: 25%;
+}
+
+.BuyNow_TotalPrice_Logo>img{
+    height: 20px;
+}
+
+.BuyNow_TotalPrice_Price{
+    width: 55%;
+    font-size: 50px;
+    text-align: right;
+}
+
+
+.BuyNow_Row{
+    display: flex;
+    justify-content: center;
+    padding: 2% 5%;
+}
+
+.BuyNow_Row_Caption{
+    width: 50%;
+}
+
+.BuyNow_Row_Value{
+    width: 30%;
+    text-align: right;
+}
+
+.RedPrice{
+    font-size: 40px;
+    color:#e7211e;
+}
+
+.BuyNow_Button{
+    margin: 0 10%;
+    background-color: #e7211e;
+    color: white;
+    width: 80%;
+    height: 50;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px; 
+}
+
+.BuyNow_Annotation{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.line{
+    height: 1px;
+    width: 80%;
+    margin: 1% 10%;
+    background: #747474;
+}
 
 /********************/
 .Content{
@@ -161,12 +242,7 @@ body{
     float: left;
 }
 
-.red-bar img{
-    padding-top: 10px;
-    width: 50;
-    height: 3px;
-    clear: both;
-}
+
 
 
 /**fourth-index
@@ -277,3 +353,10 @@ body{
 }
 
 /*******************/
+
+.red-bar img{
+    padding-top: 10px;
+    width: 50;
+    height: 3px;
+    clear: both;
+}
