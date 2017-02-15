@@ -16,37 +16,121 @@ body{
     width: 100%;
     border-bottom: solid 1px darkgray;
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 
 
 .Header_Nav_Logo{
-    width: 60%;
+    width: 50%;
     height: 100%;
-    background:url(../icons/logo_logo.png) no-repeat left center; 
-    background-size: 60% auto;
+    background:url(../icons/logo_logo.png) no-repeat center; 
+    background-size: 80% auto;
 
 }
 
 
 .Header_Nav_Menu{
-    width:10%;
+    width:15%;
     height: 100%;
     background: url(../icons/menu_icon.png) no-repeat center;
-    background-size: 30% auto;
+    background-size: 20% auto;
 
 }
+
+
+.Header_Top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header_Top_BackSearch{
+    width: 45%;
+}
+
+.Header_Top_Views{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+}
+
+.Header_Top_Views>img{
+    height: 30px;
+    width: auto;
+    padding-right: 20px;
+}
+
+.Header_Arrow{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header_Arrow img{
+    height: 100px;
+}
+
+.Header_Arrow_Left{
+    width: 45%;
+    transform: rotate(-180deg);
+    display: flex;
+    align-items: center;
+
+    justify-content: flex-end;
+
+}
+
+.Header_Arrow_Right{
+    display: flex;
+    align-items: center;
+
+    justify-content: flex-end;
+    width: 45%;
+}
+
+.CarDetail{
+    margin: 0 5%; 
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CarDetail img{
+    height: 30px;
+    width: auto;
+    padding-right: 20px;
+}
+
+.CarDetail_Location{
+    width: 30%;
+}
+
+.CarDetail_Gallery{
+    width: 30%;
+}
+
+.CarDetail_CarName{
+    width: 100%;
+    font-size: 40px;
+}
+
 
 
 /***BuyNow
 ***/
 .BuyNow{
+    margin: 0 0 0 80%;
     height: 500px;
     width: 400px;
     background-color: white;
-    box-shadow:-6px 6px 6px rgba(20%,20%,40%,0.4);
+    box-shadow:0px 0px 6px 6px rgba(20%,20%,40%,0.4);
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -159,6 +243,7 @@ body{
 
 .Page_HeaderBlock_Content{
     color: darkgray;
+    margin: 0 0 10% 0;
 }
 
 
@@ -202,6 +287,7 @@ body{
 /**second-index
 **/
 .Inspection{
+
     height: 900px;
 }
 
@@ -301,7 +387,7 @@ body{
 .Footer{
     color: white;
     text-align: center;
-    height: 900px;
+    height: 800px;
     background-image: url(../image/footer_bg2.png);
     display: flex;
     flex-direction: column;
