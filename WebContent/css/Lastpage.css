@@ -14,6 +14,7 @@
     height: 30%;
     background: url(../icons/logo_logo.png) no-repeat;
     background-size: auto 100%;
+    cursor: pointer;
 }
 
 
@@ -22,6 +23,7 @@
     height: 30%;
     background: url(../icons/menu_icon.png) no-repeat;
     background-size: auto 100%;
+    cursor: pointer;
 }
 /********************/
 
@@ -34,7 +36,6 @@
 ********/
 .Nav{
   height: 140px;
-  width: 1000px; 
   display: flex;
   align-items: center;
 }
@@ -54,6 +55,7 @@
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
 }
 
 .Nav_Block-border{
@@ -117,7 +119,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0;
 }
 
 .ItemCart_Header_Caption
@@ -451,6 +452,7 @@
   padding-top: 30px;
   width: 200px;
   float: left;
+  cursor: pointer;
 }
 
 .Page_Footer_Goback-skin{
@@ -465,6 +467,7 @@
   width: 300px;
   padding-top: 30px;
   float: right;
+  cursor: pointer;
 }
 
 .Page_Footer_FinanceOption-skin{

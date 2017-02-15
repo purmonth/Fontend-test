@@ -41,11 +41,13 @@ ul,li{
     justify-content: space-around;
     align-content: center;
     align-items: center;
+
 }
 
 .Header_Top_Logo>img{
     height: 55%;
     width: auto;
+    cursor: pointer;
 }
 
 .Header_Top_SeeCar{
@@ -53,12 +55,14 @@ ul,li{
     padding: 10 20 10 20;
     text-align: center;
     background-color: #e7211e;
+    cursor: pointer;
 }
 
 
 .Header_Top_Menu>img{
     height: 50%;
     width: auto;
+    cursor: pointer;
 }
 
 
@@ -88,6 +92,8 @@ ul,li{
     background-image: url(../image/bg_1.png);
     background-size: 100% 100%;
     color: white;
+
+
 }
 
 .CarShop_Header{
@@ -349,6 +355,7 @@ ul,li{
 .Footer_Button>img{
     height: 40px;
     width: auto;
+    cursor: pointer;
 }
 
 .Footer_List{

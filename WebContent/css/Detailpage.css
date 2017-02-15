@@ -3,12 +3,23 @@ body{
 }
 
 /********************/
+
 .Header{
     height: 850;
     width: 1300;
-    background: url(../icons/hero.jpg) no-repeat;
-    background-size: 100% 100%;
     color: white;
+}
+
+.absolute{
+    width: 1300;
+    height: 850;
+    position: absolute;
+}
+
+
+.Header>img{
+    height: 100%;
+    width: 100%;
 }
 
 .Header_Nav{
@@ -27,7 +38,7 @@ body{
     height: 100%;
     background:url(../icons/logo_logo.png) no-repeat center; 
     background-size: 80% auto;
-
+    cursor:  pointer;
 }
 
 
@@ -36,7 +47,7 @@ body{
     height: 100%;
     background: url(../icons/menu_icon.png) no-repeat center;
     background-size: 20% auto;
-
+    cursor:  pointer;
 }
 
 
@@ -75,6 +86,7 @@ body{
 
 .Header_Arrow img{
     height: 100px;
+    cursor:  pointer;
 }
 
 .Header_Arrow_Left{
@@ -100,6 +112,7 @@ body{
     width: 60%;
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 .CarDetail img{
@@ -126,15 +139,16 @@ body{
 /***BuyNow
 ***/
 .BuyNow{
-    margin: 0 0 0 80%;
+    margin: 0 0 0 70%;
     height: 500px;
     width: 400px;
-    background-color: white;
+    
     box-shadow:0px 0px 6px 6px rgba(20%,20%,40%,0.4);
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 .BuyNow_TotalPrice{
@@ -191,6 +205,7 @@ body{
     text-align: center;
     font-size: 24px;
     border-radius: 5px; 
+    cursor: pointer;
 }
 
 .BuyNow_Annotation{
@@ -417,6 +432,7 @@ body{
 .Footer_Button>img{
     height: 40px;
     width: auto;
+    cursor: pointer;
 }
 
 .Footer_List{
