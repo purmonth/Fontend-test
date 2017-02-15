@@ -52,3 +52,20 @@
   color: #11c759;
   font-weight: bold;
 }
+
+.ShoppingSummary_Button
+{
+  width: 100%;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.ShoppingSummary_Button_Caption
+{
+  width: 100%;
+  font-size: 30px;
+  color: #ffffff;
+  background: #11c759;
+  text-align: center;
+  padding: 5px;
+}
