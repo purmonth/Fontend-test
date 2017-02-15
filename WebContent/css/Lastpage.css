@@ -219,100 +219,109 @@
 
 
 
-/****FinanceCustomize
+/****FinanceOption
 ****/
-.FinanceCustomize{
-  height: 900px;
-  width: 450px;
+.FinanceOption{
+  height: 700px;
+  border: 1px dotted;
+  min-width: 450px;
   float: left;
 }
 
-.FinanceCustomize_Content{
-  height: 700px;
-  border-top: solid 2px #7f7f7f;
-  display: flex;
-  flex-direction:column; 
+.FinanceOption_Header
+{
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 10%;
 }
 
-.FinanceCustomize_Input{
-  height:  30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.FinanceOption_Line
+{
+  height: 1px;
+  width: 100%;
+  background: #747474;
 }
 
-.Input_Bar{
-  height: 80px;
-  border:solid #7f7f7f 1px;
-  border-radius: 10px;
+
+.FinanceOption_Row
+{
+  padding: 10% 0 5% 0;
+  font-size: 20px;
+  font-weight: bold; 
 }
 
-.Input_Bar_Money{
-  height: 65px;
-  width: 40px;
-  padding-top: 15px;
-}
 
-.Input_Bar_Money-skin{
-  border-top-left-radius:10px;
-  border-bottom-left-radius: 10px;
-  background-color: #11c759;
-  color: white;
-  font-size: 50px;
-  text-align: center;
-}
-
-.FinanceCustomize_TermLenth{
-  height: 40%;
+.FinanceOption_Input
+{
+  height: 70px;
+  border: 1px solid;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.FinanceOption_Input_Caption
+{
+  width: 10%;
+  height: 100%;
+  font-size: 45px;
+  color: #ffffff;
+  background: #11c759;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.FinanceOption_Input_Field
+{
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/** block ButtonGroup **/
+.ButtonGroup
+{
+  
+  padding-top: 20%;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.FinanceCustomize_Word{
-  font-size: 18px;
-}
-
-.TermLenth_Block{
-  height: 70%;
-  width: 22%;
+.ButtonGroup_Button
+{
+  border: 1px solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 25%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
-.TermLenth_Word{
-  width: 500px;
-  float: left;
+.ButtonGroup_Button:hover
+{
+  cursor: pointer;
 }
 
-.TermLenth_Block-Skin{
-  border-radius: 10px;
-  text-align: center;
-  border: solid 1px #7f7f7f;
-}
-
-.TermLenth_Block-on{
+.ButtonGroup_Button-selected
+{
+  color: #ffffff;
   background-color: #11c759;
-  color: white;
 }
 
-.TermLenth_Block_Number{
-  font-size: 30px;
-  height: 20%;
-} 
-
-.TermLenth_Block_Months{
-  font-size: 16px;
-  height: 20%;
+.ButtonGroup_Button_Caption
+{
+  font-size: 40px;
 }
 
-
-
-
-
-
+.ButtonGroup_Button_Content
+{}
 
 /****ShoppingSummary
 ****/
@@ -324,7 +333,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  float: left;
+  
 }
 
 .ShoppingSummary_Header{
