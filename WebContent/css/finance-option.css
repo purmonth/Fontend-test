@@ -1,7 +1,7 @@
 /****FinanceOption
 ****/
 .FinanceOption{
-  height: 700px;
+  
   border: 1px dotted;
   min-width: 450px;
   float: left;
@@ -64,8 +64,6 @@
 /** block ButtonGroup **/
 .ButtonGroup
 {
-
-  padding-top: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,7 +74,7 @@
   border: 1px solid;
   border-radius: 10px;
   width: 100px;
-  height: 25%;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
