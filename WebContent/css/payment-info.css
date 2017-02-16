@@ -1,0 +1,126 @@
+
+
+.PaymentInfo_Header{
+  width: 70%;
+  font-size: 2em;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+
+/****PaymentCustomize
+****/
+.PaymentCustomize{
+  width: 550px;
+  float: left;
+}
+
+.PaymentCustomize_Title{
+  padding-bottom: 40px;
+}
+
+
+.PaymentCustomize_Grayblock{
+  height: 150px;
+  margin:10 0 10 0;
+  width: 100%;
+  background-color: #f2f3f5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.PaymentCustomize_Input{
+  width:10%;
+}
+
+.PaymentCustomize_Word{
+  width:50%;
+}
+
+.PaymentCustomize_Word_Title{
+  font-size: 22px;
+}
+
+.PaymentCustomize_Word_Content{
+  font-size: 16px;
+  color: #7f7f7f;
+}
+
+.PaymentCustomize_Img{
+  width: 30%;
+  
+}
+
+.PaymentCustomize_Img img{
+  height: 25px;
+  width: auto;
+  float: right;
+}
+
+
+/****PaymentInfo
+****/
+.PaymentInfo{
+  
+  border: 1px dotted;
+  width: 550px;
+}
+
+.PaymentInfo_Header
+{
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 10%;
+}
+
+.PaymentInfo_Line
+{
+  height: 2px;
+  margin-left: 10%; 
+  width: 80%;
+  background: darkgray;
+}
+
+
+.PaymentInfo_Row
+{
+  padding: 20px 0 5px 0;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+.PaymentInfo_Input
+{
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin:3%  10%;
+}
+
+.PaymentInfo_Input_Caption
+{
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10 0 5 0;
+}
+
+.PaymentInfo_Input_Field
+{
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+  padding-left: 10%;
+  border:1px solid darkgray;
+  border-radius: 5px;
+
+}
+
+.PaymentInfo_Input_Field-prompt
+{
+  color: #a0a0a0;
+}
