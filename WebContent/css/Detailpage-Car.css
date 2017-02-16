@@ -1,0 +1,70 @@
+body{
+	background-color: rgba(0,0,0,0.9);
+}
+
+
+.CarDetail{
+	height: 1000px;
+	width: 1300px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	color: white;
+}
+
+.CarDetail_Title{
+	width: 65%;
+	margin:0 5%; 
+}
+
+.CarDetail_Cross{
+	width: 15%;
+	text-align: right;
+	margin:0 5%;
+}
+
+.CarDetail_LeftArrow{
+	width: 5%;
+	display: flex;
+	align-items: center;
+	transform: rotate(-180deg);
+}	
+
+.CarDetail_LeftArrow>img{
+	width: 100%;
+	height: auto;
+}
+
+
+.CarDetail_MainImg{
+	width: 90%;
+}
+
+.CarDetail_MainImg>img{
+	width: 100%;
+	height: auto;
+}
+
+.CarDetail_RightArrow{
+	width: 5%;
+	display: flex;
+	align-items: center;
+}
+
+.CarDetail_RightArrow>img{
+	width: 100%;
+	height: auto;
+}
+
+.CarDetail_Img{
+	width: 13%;
+	margin:5px;
+}
+
+.CarDetail_Img>img{
+	width: 100%;
+	height: auto;
+}
+
