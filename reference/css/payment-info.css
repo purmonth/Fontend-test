@@ -1,0 +1,55 @@
+/****PaymentInfo
+****/
+.PaymentInfo{
+  
+  border: 1px dotted;
+  min-width: 600px;
+}
+
+.PaymentInfo_Header
+{
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 10%;
+}
+
+.PaymentInfo_Line
+{
+  height: 1px;
+  width: 100%;
+  background: #747474;
+}
+
+
+.PaymentInfo_Row
+{
+  padding: 20px 0 5px 0;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+.PaymentInfo_Input
+{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top:20px;
+}
+
+.PaymentInfo_Input_Caption
+{
+  color: #000000;
+  font-size: 25px;
+}
+
+.PaymentInfo_Input_Field
+{
+  width: 100%;
+  font-size: 25px;
+}
+
+.PaymentInfo_Input_Field-prompt
+{
+  color: #a0a0a0;
+}
