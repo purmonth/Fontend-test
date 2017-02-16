@@ -8,7 +8,6 @@ body{
 
 body img{
     width: 100%;
-    
 }
 
 ul,li{
@@ -51,11 +50,15 @@ ul,li{
 }
 
 .Header_Top_SeeCar{
-    width: 8%;
-    padding: 10 20 10 20;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: #e7211e;
     cursor: pointer;
+    border-radius: 3px;
 }
 
 
@@ -76,10 +79,68 @@ ul,li{
 }
 
 .Header_Detail{
+    height: 10%;
+}
+
+.Header_Search{
     height: 30%;
+    display: flex;
+    justify-content: center;
+}
+/******************************/
+.SearchBar
+{
+  height: 70px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+.SearchBar_Img
+{
+  width: 20%;
+  height: 100%;
+  font-size: 45px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: rgba(100%,100%,100%,0.3);
+}
+
+.SearchBar_Img>img{
+    width: auto;
+    height: 60%;
+}
+
+.SearchBar_Field
+{
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  border: none;
+  color: rgba(100%,100%,100%,0.7);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: rgba(100%,100%,100%,0.3);
 }
 
 
+.SearchBar_Go{
+    margin-left: 10px; 
+    width: 80px;
+    height: 70px;
+    background: #e7211e;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
 /******************************/
 
 
@@ -89,6 +150,7 @@ ul,li{
 .CarShop{
     height: 1100px;
     width: 100%;
+    padding: 10% 0 0 10%;
     background-image: url(../image/bg_1.png);
     background-size: 100% 100%;
     color: white;
@@ -114,7 +176,6 @@ ul,li{
     height: 200px;
     width: 30%;
     float: left;
-
 }
 
 .CarShop_Block>img{
@@ -135,6 +196,7 @@ ul,li{
     height: 1200px;
     color: black;
     background-image: url(../image/bg_2.png);   
+    
 }
 
 .BuyingProcess>img{
@@ -150,6 +212,7 @@ ul,li{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 10% 0 0 10%;
 }
 
 .BuyingProcess_WordBlock_Overview{
@@ -379,3 +442,4 @@ ul,li{
 
 
 /******************************/
+
