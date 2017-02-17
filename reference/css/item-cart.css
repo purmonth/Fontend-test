@@ -1,0 +1,115 @@
+/** block **/
+.ItemCart
+{
+
+  min-width: 800px;
+  border: 1px dotted;
+}
+
+/** block_element Header **/
+.ItemCart_Header
+{
+  border-bottom: 1px solid;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ItemCart_Header_Caption
+{
+  width: 55%;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 5%
+}
+
+.ItemCart_Header_Column
+{
+  width: 10%;
+}
+
+
+
+
+/** block_element Row **/
+.ItemCart_Row{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.ItemCart_Row_Pointer
+{
+  width: 10%;
+  height: 30px;
+  background: url("../icons/pointer.png") no-repeat;
+  background-size: auto 20px;
+  background-position: center;
+}
+
+.ItemCart_Row_Caption
+{
+  width: 50%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.ItemCart_Row_Delivery
+{
+  width:  20%;
+  text-align: right;
+}
+
+.ItemCart_Row_Trash
+{
+  width: 10%;
+  height: 30px;
+  background: url("../icons/trash_can.png") no-repeat;
+  background-size: auto 30px;
+  background-position: center;
+  cursor: pointer;
+}
+
+.ItemCart_Row_UnitPrice
+{
+  width: 10%;
+  text-align: right;
+}
+
+
+
+/** block_element Footer **/
+.ItemCart_Footer
+{
+  border-top: 1px solid;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ItemCart_Footer_Caption
+{
+  width: 55%;
+  font-size: 25px;
+  font-weight: bold;
+  color: #d3d3d3;
+  padding-left: 5%
+}
+
+.ItemCart_Footer_TotalPrice
+{
+  width: 15%;
+  color: #11c759;
+  font-size: 22px;
+  text-align: right;
+}
+
+

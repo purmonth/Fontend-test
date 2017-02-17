@@ -1,0 +1,71 @@
+.ShoppingSummary_Header{
+  width: 70%;
+  font-size: 2em;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+
+
+/****ShoppingSummary
+****/
+.ShoppingSummary{
+  min-width: 350px;
+  float: right;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.ShoppingSummary_Line{
+  height: 1px;
+  width: 100%;
+  background: #747474;
+}
+
+
+.ShoppingSummary_Row{
+  align-items: center;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.ShoppingSummary_Row_Caption{
+  width: 50%;
+  text-align: left;
+}
+
+.ShoppingSummary_Row_Value{
+  width: 40%;
+  text-align: right;
+  font-weight: bold;
+}
+
+
+.ShoppingSummary_Price-skin{
+  font-size: 30px;
+  position: relative;
+  top: -15px;
+  color: #11c759;
+  font-weight: bold;
+}
+
+.ShoppingSummary_Button
+{
+  width: 100%;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.ShoppingSummary_Button_Caption
+{
+  width: 100%;
+  font-size: 30px;
+  color: #ffffff;
+  background: #11c759;
+  text-align: center;
+  padding: 5px;
+}

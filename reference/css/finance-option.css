@@ -1,0 +1,101 @@
+/****FinanceOption
+****/
+.FinanceOption{
+  
+  border: 1px dotted;
+  min-width: 450px;
+  float: left;
+}
+
+.FinanceOption_Header
+{
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 10%;
+}
+
+.FinanceOption_Line
+{
+  height: 1px;
+  width: 100%;
+  background: #747474;
+}
+
+
+.FinanceOption_Row
+{
+  padding: 10% 0 5% 0;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+
+.FinanceOption_Input
+{
+  height: 70px;
+  border: 1px solid;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.FinanceOption_Input_Caption
+{
+  width: 10%;
+  height: 100%;
+  font-size: 45px;
+  color: #ffffff;
+  background: #11c759;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.FinanceOption_Input_Field
+{
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/** block ButtonGroup **/
+.ButtonGroup
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ButtonGroup_Button
+{
+  border: 1px solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ButtonGroup_Button:hover
+{
+  cursor: pointer;
+}
+
+.ButtonGroup_Button-selected
+{
+  color: #ffffff;
+  background-color: #11c759;
+}
+
+.ButtonGroup_Button_Caption
+{
+  font-size: 40px;
+}
+
+.ButtonGroup_Button_Content
+{}
