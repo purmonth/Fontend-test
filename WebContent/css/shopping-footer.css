@@ -1,5 +1,5 @@
 /********************/
-.Footer{
+.ShoppingFooter{
   height: 200px;
   width: 100%;
   color: white;
@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-.Footer_Logo{
+.ShoppingFooter_Logo{
   height: 15%;
   width: 100px;
   background: url(../icons/logo_DCBP.png) no-repeat center;
@@ -20,11 +20,11 @@
 
 
 
-.Footer_Word{
+.ShoppingFooter_Caption{
   font-size: 24px;
 }
 
-.Footer_Address{
+.ShoppingFooter_Address{
   font-size: 16px;
 }
 

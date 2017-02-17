@@ -20,3 +20,4 @@ while (j > 0){
 }
 
 
+document.getElementById('Hi').innerHTMl = 16;
