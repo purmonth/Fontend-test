@@ -1,10 +1,7 @@
-/****FinanceOption
-****/
-.FinanceOption{
-  
-  border: 1px dotted;
+/** block FinanceOption **/
+.FinanceOption
+{
   min-width: 450px;
-  float: left;
 }
 
 .FinanceOption_Header

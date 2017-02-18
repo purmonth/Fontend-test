@@ -8,8 +8,6 @@
 }
 
 
-/****PaymentCustomize
-****/
 .PaymentCustomize{
   width: 550px;
   float: left;
@@ -61,11 +59,9 @@
 }
 
 
-/****PaymentInfo
-****/
-.PaymentInfo{
-  
-  border: 1px dotted;
+/** block PaymentInfo **/
+.PaymentInfo
+{
   width: 550px;
 }
 
