@@ -1,8 +1,7 @@
-/** block **/
+/** block ItemCart**/
 .ItemCart
 {
-  min-width: 800px;
-  border: 1px dotted;
+  min-width: 700px;
 }
 
 /** block_element Header **/
@@ -28,9 +27,6 @@
 {
   width: 10%;
 }
-
-
-
 
 /** block_element Row **/
 .ItemCart_Row{
@@ -110,5 +106,3 @@
   font-size: 22px;
   text-align: right;
 }
-
-

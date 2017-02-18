@@ -1,23 +1,20 @@
-.ShoppingSummary_Header{
-  width: 70%;
-  font-size: 2em;
-  padding-left: 50px;
-  font-weight: bold;
-}
+/** block ShoppingSummary **/
 
-
-
-/****ShoppingSummary
-****/
-.ShoppingSummary{
+.ShoppingSummary
+{
   min-width: 350px;
-  float: right;
   font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+.ShoppingSummary_Header{
+  width: 70%;
+  font-size: 2em;
+  padding-left: 50px;
+  font-weight: bold;
+}
 
 .ShoppingSummary_Line{
   height: 1px;
