@@ -200,7 +200,7 @@
 .CarBlock_Detail_Heart{
     width: 9%;
     height: 16px;
-    background: url(../icons/full_heart.png) no-repeat;
+    background: url(../icons/heart_empty.png) no-repeat;
     background-size: auto 16px;
 }
 
