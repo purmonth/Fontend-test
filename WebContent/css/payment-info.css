@@ -20,7 +20,7 @@
 
 .PaymentCustomize_Grayblock{
   height: 150px;
-  margin:10 0 10 0;
+  margin:10px 0px;
   width: 100%;
   background-color: #f2f3f5;
   display: inline-flex;
@@ -102,7 +102,7 @@
   color: #000000;
   font-size: 20px;
   font-weight: bold;
-  margin: 10 0 5 0;
+  margin: 10px 0px 5px 0px;
 }
 
 .PaymentInfo_Input_Field

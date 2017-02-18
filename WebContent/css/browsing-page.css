@@ -116,7 +116,7 @@
     justify-content: left;
     align-items: center;
     text-align: center;
-    padding: 10 0;
+    padding: 10px 0px;
 }
 
 
@@ -143,7 +143,7 @@
 
 .Page_Find_Bar{
     height: 100px;
-    padding: 30 0 0 50;
+    padding: 30px 0px 0px 50px;
 }
 
 /**Page_Content
@@ -161,7 +161,7 @@
 .CarBlock{
     height: 300px;
     width: 330px;
-    margin: 10 5 10 5px;
+    margin: 10px 5px;
     background-color: white;
     border:darkgray solid thin;
     
@@ -267,7 +267,7 @@
     font-size: 14px;
 }
 .BrowsingPageFooter_List_Word{
-    padding:0 20;
+    padding:0px 20px;
 }
 
 .BrowsingPageFooter_Address{

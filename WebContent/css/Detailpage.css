@@ -228,14 +228,14 @@ body{
 
 
 .Page{
-    padding: 40 50 20 50;
+    padding: 40px 50px 20px 50px;
     width: 900px;
 }
 
 
 .Page_Title{
     width: 220px;
-    padding:  2 10;
+    padding:  2px 10px;
 }
 
 .Page_Title-skin{
@@ -282,7 +282,7 @@ body{
     height: 60px;
     width: 130px;
     float: left;
-    padding: 10 20 10 10;
+    padding: 10px 20px 10px 10px;
 }
 
 .Container_Img img{
