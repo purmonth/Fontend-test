@@ -3,19 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="JavaScript_practice.css">
-
-	
-
 </head>
 <body>
-<button onclick="myFunction1()">Sort Alphabetically</button>
-<button onclick="myFunction2()">Sort Numerically</button>
+	<script type="text/javascript">
+		function getParentInfo(){
+			myParentTitle = parent.document.title;
+			alert(muParentTitle);
+		}
 
-<p id="demo"></p>
+		function runDadMethod(curObject) {
+			parent.showInfo(curObject.name);
+		}
+	</script>
+	<form method="POST">
+		<input 
+			type="button" 
+			value="Get showInfo"
+			onclick="getParentInfo">
 
-<script src="JavaScript_practice.js">
+		<input 
+			type="button" 
+			name="childButton"
+			value="runDadMethod"
+			onclick="runDadMethod(this)">
 
-</script>
+
+	</form>
 </body>
 </html>
