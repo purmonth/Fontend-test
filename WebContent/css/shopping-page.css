@@ -94,7 +94,7 @@
   align-items: flex-start;
 }
 
-.ShoppingFooter{
+.ShoppingPageFooter{
   height: 200px;
   width: 100%;
   color: white;
@@ -106,18 +106,18 @@
   align-items: center;
 }
 
-.ShoppingFooter_Logo{
+.ShoppingPageFooter_Logo{
   height: 15%;
   width: 100px;
   background: url(../icons/logo_DCBP.png) no-repeat center;
   background-size: 100% 100%;
 }
 
-.ShoppingFooter_Caption{
+.ShoppingPageFooter_Caption{
   font-size: 24px;
 }
 
-.ShoppingFooter_Address{
+.ShoppingPageFooter_Address{
   font-size: 16px;
 }
 

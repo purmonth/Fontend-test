@@ -218,9 +218,9 @@
 
 
 
-/**Footer
+/**BrowsingPageFooter
 **/
-.Footer{
+.BrowsingPageFooter{
     color: white;
     text-align: center;
     height: 400px;
@@ -236,7 +236,7 @@
     font-size: 26px;
 }
 
-.Footer_Logo{
+.BrowsingPageFooter_Logo{
     width: 60%;
     height: 30px;
     background: url(../icons/logo_DCBP.png) center no-repeat;
@@ -244,36 +244,36 @@
 }
 
 
-.Footer_Word{
+.BrowsingPageFooter_Word{
     width: 60%;
     font-size: 30px;
 }
 
-.Footer_Button{
+.BrowsingPageFooter_Button{
     height: 50px;
 }
 
 
-.Footer_Button>img{
+.BrowsingPageFooter_Button>img{
     height: 40px;
     width: auto;
 }
 
-.Footer_List{
+.BrowsingPageFooter_List{
     width: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
     font-size: 14px;
 }
-.Footer_List_Word{
+.BrowsingPageFooter_List_Word{
     padding:0 20;
 }
 
-.Footer_Address{
+.BrowsingPageFooter_Address{
     font-size: 10px;
 }
 
-.Footer_List_Word-skin{
+.BrowsingPageFooter_List_Word-skin{
     border-left: 1px solid white;
 }
