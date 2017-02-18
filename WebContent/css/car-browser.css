@@ -1,0 +1,69 @@
+/** block CarBrowser **/
+.CarBrowser
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.CarBlock
+{
+  width: 330px;
+  height: 300px;
+  margin: 10px 5px;
+  background-color: white;
+  border: darkgray solid thin;
+}
+
+.CarBlock_Img
+{
+  width: 328px;
+  cursor: pointer;
+}
+
+.CarBlock_Desc
+ {
+  width: 100%;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.CarBlock_Desc_Caption
+{
+  width: 70%;
+}
+
+.CarBlock_Desc_Price
+{
+  width: 30%;
+  color: #e7211e;
+}
+
+.CarBlock_Desc_Favorite
+{
+  width: 9%;
+  height: 16px;
+  background: url(../icons/heart_empty.png) no-repeat;
+  background-size: auto 16px;
+}
+
+.CarBlock_Desc_Favorite-selected
+{
+  background: url(../icons/heart_full.png) no-repeat;
+  background-size: auto 16px;
+}
+
+.CarBlock_Desc_Mileage
+{
+  text-align: left;
+  width: 30%;
+}
+
+.CarBlock_Desc_Ship
+{
+  width: 50%;
+}
