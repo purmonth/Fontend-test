@@ -1,33 +1,18 @@
-<!DOCTYPE html>
+     <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 </head>
 <body>
-	<script type="text/javascript">
-		function getParentInfo(){
-			myParentTitle = parent.document.title;
-			alert(muParentTitle);
-		}
+	<p>Please inpur a numver between 5 and 10:</p>
 
-		function runDadMethod(curObject) {
-			parent.showInfo(curObject.name);
-		}
+	<input type="text" id="demo">
+	<button type="button" onclick="myFunction()">Test Input</button>
+	<p id = "message"></p>
+	<p id = "Hi"></p>
+	<script src="JavaScript_practice.js">
+		
 	</script>
-	<form method="POST">
-		<input 
-			type="button" 
-			value="Get showInfo"
-			onclick="getParentInfo">
-
-		<input 
-			type="button" 
-			name="childButton"
-			value="runDadMethod"
-			onclick="runDadMethod(this)">
-
-
-	</form>
 </body>
 </html>
