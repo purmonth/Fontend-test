@@ -26,6 +26,11 @@
     cursor: pointer;
 }
 
+.Content{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 /** page ShoppingPage **/
 .ShoppingPage
@@ -39,8 +44,7 @@
 .ShoppingPageFlow{
   height: 150px;
   background-color: #ebebeb;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom: solid 1px #747474;
   display: flex;
 }
 
@@ -51,16 +55,20 @@
   flex-grow: 1;
   justify-content: center;
   margin: 20px 0;
-  border-right: 1px solid #000000;
+  border-right: 1px solid #747474;
+  color: rgba(0,0,0,0.2);
 }
 
 .ShoppingPageFlow_Item_Caption{
+  font-family: 'Lora', serif;
   font-size: 26px;
   margin: auto;
+
+  
 }
 
 .ShoppingPageFlow_Item-selected{
-  color: #e7211e;
+  color: black;
   -webkit-animation: valo-animate-in-fade 200ms;
   -moz-animation: valo-animate-in-fade 200ms;
   animation: valo-animate-in-fade 200ms;
@@ -71,6 +79,7 @@
 {
   width: 70%;
   padding: 25px 0;
+
 }
 
 .ShoppingCart
@@ -95,30 +104,42 @@
 }
 
 .ShoppingPageFooter{
-  height: 200px;
+  height: 250px;
   width: 100%;
   color: white;
   text-align: center;
   background-image: url(../image/footer_bg.png);
+  background-size: 100% auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  font-family: 'Lora', serif;
 }
 
 .ShoppingPageFooter_Logo{
-  height: 15%;
-  width: 100px;
+  height:60px;
+  width: 180px;
   background: url(../icons/logo_DCBP.png) no-repeat center;
-  background-size: 100% 100%;
+  background-size: 100% auto;
+  padding-bottom: 20px;
 }
 
 .ShoppingPageFooter_Caption{
-  font-size: 24px;
+  padding-top: 10px;
+  height: 13px;
+}
+
+.ShoppingPageFooter_Caption>img{
+  height: 100%;
+  width: auto;
 }
 
 .ShoppingPageFooter_Address{
+  height: 40px;
   font-size: 16px;
+  letter-spacing: 2px;
+  padding-top: 50px;
 }
 
 /** misc modifier **/

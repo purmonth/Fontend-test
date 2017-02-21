@@ -1,16 +1,17 @@
-
-
-.PaymentInfo_Header{
-  width: 70%;
-  font-size: 2em;
-  padding-left: 50px;
-  font-weight: bold;
+.PaymentCustomize{
+  font-family: 'Lato', sans-serif;
+  min-width: 700px;
+  float: left;
+  padding: 20px 0 0 0 ;
 }
 
-
-.PaymentCustomize{
-  width: 550px;
-  float: left;
+.PaymentInfo_Header{
+  font-size: 36px;
+  padding-left: 50px; 
+  height: 80px;
+  display: flex;
+  align-items: center;
+  
 }
 
 .PaymentCustomize_Title{
@@ -20,17 +21,19 @@
 
 .PaymentCustomize_Grayblock{
   height: 150px;
-  margin:10px 0px;
+  margin:0 0 10px 0px;
   width: 100%;
   background-color: #f2f3f5;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+
 }
 
 
 
 .PaymentCustomize_Input{
+
   width:10%;
 }
 
@@ -39,11 +42,13 @@
 }
 
 .PaymentCustomize_Word_Title{
-  font-size: 22px;
+  font-size: 24px;
+  padding-bottom: 5px;
 }
 
 .PaymentCustomize_Word_Content{
-  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
   color: #7f7f7f;
 }
 
@@ -62,22 +67,16 @@
 /** block PaymentInfo **/
 .PaymentInfo
 {
-  width: 550px;
-}
-
-.PaymentInfo_Header
-{
-  font-size: 2em;
-  font-weight: bold;
-  padding-bottom: 10%;
+  padding-bottom: 30px;
 }
 
 .PaymentInfo_Line
 {
-  height: 2px;
-  margin-left: 10%; 
-  width: 80%;
-  background: darkgray;
+  width: 85%;
+  margin-left: 15%; 
+  height: 1px;
+  background: #747474;
+  margin-bottom: 30px;
 }
 
 
@@ -90,11 +89,11 @@
 
 .PaymentInfo_Input
 {
-  width: 80%;
+  width: 85%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin:3%  10%;
+  margin:3%  15%;
 }
 
 .PaymentInfo_Input_Caption
@@ -111,12 +110,12 @@
   width: 100%;
   font-size: 20px;
   padding-left: 10%;
-  border:1px solid darkgray;
+  border:1px solid #747474;
   border-radius: 5px;
 
 }
 
 .PaymentInfo_Input_Field-prompt
 {
-  color: #a0a0a0;
+  color: #747474;
 }

@@ -1,62 +1,72 @@
 /** block ItemCart**/
 .ItemCart
 {
+  
+  font-family: 'Lato', sans-serif;
   min-width: 700px;
 }
 
 /** block_element Header **/
 .ItemCart_Header
 {
-  border-bottom: 1px solid;
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0 0 0 ;
 }
 
 .ItemCart_Header_Caption
 {
   width: 55%;
-  font-size: 40px;
-  font-weight: bold;
-  padding-left: 5%;
+  font-size: 36px;
+  
 }
+
+.ItemCart_Line
+{
+  width: 100%;
+  height: 1px;
+  background: #747474;
+  margin: 15px 0;
+}
+
 
 .ItemCart_Header_Column
 {
+  font-size: 16px;
   width: 10%;
 }
 
 /** block_element Row **/
 .ItemCart_Row{
     width: 100%;
-    height: 120px;
+    height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    
 }
 
 
 .ItemCart_Row_Pointer
 {
-  width: 10%;
+  width: 5%;
   height: 30px;
   background: url("../icons/pointer.png") no-repeat;
   background-size: auto 20px;
-  background-position: center;
+  background-position: left;
 }
 
 .ItemCart_Row_Caption
 {
-  width: 50%;
+  width: 45%;
   font-size: 22px;
-  font-weight: bold;
 }
 
 .ItemCart_Row_Delivery
 {
+  font-size: 16px;
   width:  20%;
   text-align: right;
 }
@@ -65,15 +75,15 @@
 {
   width: 10%;
   height: 30px;
-  background: url("../icons/trash_can.png") no-repeat;
+  margin: 0 0 0 10px;
+  background: url("../icons/trash_can.png") no-repeat center;
   background-size: auto 30px;
-  background-position: center;
   cursor: pointer;
 }
 
 .ItemCart_Row_UnitPrice
 {
-  width: 10%;
+  width: 15%;
   text-align: right;
 }
 
@@ -82,7 +92,6 @@
 /** block_element Footer **/
 .ItemCart_Footer
 {
-  border-top: 1px solid;
   width: 100%;
   height: 80px;
   display: flex;
@@ -93,16 +102,16 @@
 .ItemCart_Footer_Caption
 {
   width: 55%;
-  font-size: 25px;
-  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
   color: #d3d3d3;
-  padding-left: 5%;
+  
 }
 
 .ItemCart_Footer_TotalPrice
 {
   width: 15%;
   color: #11c759;
-  font-size: 22px;
+  font-size: 20px;
   text-align: right;
 }
