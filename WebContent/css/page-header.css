@@ -26,3 +26,51 @@
   background-size: auto 100%;
   cursor: pointer;
 }
+
+.PageHeader_MenuPage
+{
+  position: relative;
+  top: 30px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  width: 250px;
+  height: 500px;
+  background: linear-gradient(to right bottom, #f7312e, #c50000);
+  border-radius: 5px;
+  align-self: flex-start;
+  z-index: 1;
+  box-shadow: -6px 6px 12px rgba(20%, 20%, 40%, 0.4);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.PageHeader_MenuPage_Cart
+{
+  width: 65%;
+  height: 10%;
+  background: url(../icons/menu_cart.png) left no-repeat;
+  background-size: auto 75%;
+  font-size: 14px;
+}
+
+.PageHeader_MenuPage_Menu
+{
+  width: 25%;
+  height: 10%;
+  background: url(../icons/menu_icon.png) right no-repeat;
+  background-size: auto 55%;
+}
+
+.PageHeader_MenuPage_List
+{
+  height: 5%;
+  width: 100%;
+}
+
+.PageHeader_MenuPage_Language
+{
+  width: 50%;
+}
