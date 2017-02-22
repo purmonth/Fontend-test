@@ -20,8 +20,8 @@
 
 .PageHeader_Menu
 {
-  width: 5%;
-  height: 30%;
+  width: 48px;
+  height: 30px;
   background: url(../icons/menu_icon.png) no-repeat;
   background-size: auto 100%;
   cursor: pointer;
@@ -29,13 +29,14 @@
 
 .PageHeader_MenuPage
 {
+  visibility: hidden;
   position: relative;
-  top: 30px;
+  top: 20px;
+  left: 110px;
   color: white;
   font-size: 18px;
   text-align: center;
   width: 250px;
-  height: 500px;
   background: linear-gradient(to right bottom, #f7312e, #c50000);
   border-radius: 5px;
   align-self: flex-start;
@@ -45,12 +46,21 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.PageHeader_MenuPage-selected
+{
+  visibility: visible;
+  -webkit-animation: valo-animate-in-fade 300ms;
+  -moz-animation: valo-animate-in-fade 300ms;
+  animation: valo-animate-in-fade 300ms;
 }
 
 .PageHeader_MenuPage_Cart
 {
   width: 65%;
-  height: 10%;
+  height: 40px;
   background: url(../icons/menu_cart.png) left no-repeat;
   background-size: auto 75%;
   font-size: 14px;
@@ -58,16 +68,17 @@
 
 .PageHeader_MenuPage_Menu
 {
-  width: 25%;
-  height: 10%;
+  width: 90%;
+  height: 40px;
   background: url(../icons/menu_icon.png) right no-repeat;
-  background-size: auto 55%;
+  background-size: auto 22px;
 }
 
 .PageHeader_MenuPage_List
 {
-  height: 5%;
+  height: 40px;
   width: 100%;
+  text-align: center;
 }
 
 .PageHeader_MenuPage_Language
