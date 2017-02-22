@@ -1,6 +1,7 @@
 /** block CarBrowser **/
 .CarBrowser
 {
+  max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -17,6 +18,7 @@
 .CarBlock_Img
 {
   width: 328px;
+  height: 246px;
   cursor: pointer;
 }
 
