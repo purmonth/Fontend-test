@@ -9,10 +9,11 @@
 .CarBlock
 {
   width: 330px;
-  height: 300px;
+  height: 320px;
   margin: 10px 5px;
   background-color: white;
   border: darkgray solid thin;
+  transition-delay: 2s;
 }
 
 .CarBlock_Img
@@ -31,24 +32,34 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
+  padding-top: 10px;
+  
 }
 
 .CarBlock_Desc_Caption
 {
-  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 65%;
+  margin-left:5% ;
+  padding-bottom: 5px;
 }
 
 .CarBlock_Desc_Price
 {
-  width: 30%;
+  text-align: right;
+  width: 25%;
   color: #e7211e;
+  padding-right:5%;
+  padding-bottom: 5px;
 }
 
 .CarBlock_Desc_Favorite
 {
-  width: 9%;
+  width: 6%;
   height: 16px;
+  margin-left: 5%;
   background: url(../icons/heart_empty.png) no-repeat;
   background-size: auto 16px;
 }
@@ -61,11 +72,13 @@
 
 .CarBlock_Desc_Mileage
 {
-  text-align: left;
-  width: 30%;
+  width: 35%;
+  padding-left: 4%;
 }
 
 .CarBlock_Desc_Ship
 {
-  width: 50%;
+  text-align: right;
+  width: 45%;
+  padding-right: 5%;
 }

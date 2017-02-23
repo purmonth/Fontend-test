@@ -1,0 +1,101 @@
+
+.PageFind{
+  height: 150px;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.PageFind_SearchBar
+{
+  height: 70px;
+  min-width: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0,0,0,0.3);
+}
+
+.PageFind_SearchBar_Img
+{
+  width: 80px;
+  height: 100%;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(100%,100%,100%,1);
+}
+
+.PageFind_SearchBar_Img>img{
+    width: auto;
+    height: 60%;
+}
+
+
+
+.PageFind_SearchBar_Field
+{
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  border: none;
+  background: white;
+}
+
+.PageFind_PricingDisplay{
+  min-width: 500px;
+  height: 30px;
+  display: flex;
+  font-size: 18px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+
+}
+
+.PageFind_PricingDisplay_Caption{
+  width: 150px;
+  margin: 0 10px;
+
+}
+
+.PageFind_PricingDisplay_Block{
+  padding:  0 10px;
+  border:1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  color: rgba(0,0,0,0.3);
+}
+
+.PageFind_PricingDisplay_Block-selected{
+  background: #e7211e;
+  border:1px solid #e7211e;
+  border-radius: 3px;
+  color: white;
+}
+
+
+.PageFind_Sort{
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.PageFind_Sort_List{
+  width: 200px;
+}
+
+.PageFind_Sort_Menu{
+  width: 40px;
+  height: 30px;
+}
+
+.PageFind_Sort_Menu>img{
+  width: auto;
+  height: 100%;
+}

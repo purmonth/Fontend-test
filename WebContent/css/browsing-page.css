@@ -24,10 +24,10 @@
     color: white;
     text-align: center;
     height: 400px;
-    width: 80%;
-    position: relative;
-    left: 200;
-    background-image: url(../image/footer_bg2.png);
+    width: 100%;
+    
+    background: url(../image/footer_bg2.png) no-repeat;
+    background-size:100% 100%; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -41,22 +41,18 @@
     height: 30px;
     background: url(../icons/logo_DCBP.png) center no-repeat;
     background-size: auto  100%;
+    margin-top: 80px;
 }
 
 
-.BrowsingPageFooter_Word{
+.BrowsingPageFooter_Caption{
     width: 60%;
-    font-size: 30px;
+    height: 10px;
 }
 
-.BrowsingPageFooter_Button{
-    height: 50px;
-}
-
-
-.BrowsingPageFooter_Button>img{
-    height: 40px;
-    width: auto;
+.BrowsingPageFooter_Caption>img{
+  width: auto;
+  height: 100%;
 }
 
 .BrowsingPageFooter_List{

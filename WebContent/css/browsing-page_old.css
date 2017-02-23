@@ -86,26 +86,6 @@
 /**Sidebar_Plus
 **/
 
-.PlusList_Row{
-    height: 3%;
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.PlusList_Row_Word{
-    width: 60%;
-}
-
-.PlusList_Row_Img{
-    width: 20%;
-    height: 100%;
-    background: url(../icons/plus.png) no-repeat center;
-    background-size: auto 60%;
-}
-
-
 
 /**Sidebar_Arrow
 **/
