@@ -8,46 +8,52 @@
 /** block BrowsingPageSidebar **/
 .BrowsingPageSidebar
 {
-  width: 200px;
+  width: 250px;
   min-height: 600px;
   font-size: 16px;
-  font-weight : bold;
   float: left;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 0 10px;
   font-weight: bold;
+}
+
+.BrowsingPageSidebar_Line{
+  width: 90%;
+  margin-left: 5%;
+  height: 1px;
+  background: rgba(0,0,0,0.3);
+  margin: 35px 0;
 }
 
 /** block BrowsingPageFooter **/
 .BrowsingPageFooter{
-    color: white;
-    text-align: center;
-    height: 400px;
-    width: 100%;
-    
-    background: url(../image/footer_bg2.png) no-repeat;
-    background-size:100% 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; 
-    font-size: 26px;
+  color: rgba(100%,100%,100%,0.7);
+  text-align: center;
+  height: 400px;
+  width: 88%;
+  background: url(../image/footer_bg2.png) no-repeat;
+  background-size:100% 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; 
+  font-size: 26px;
 }
 
 .BrowsingPageFooter_Logo{
-    width: 60%;
-    height: 30px;
-    background: url(../icons/logo_DCBP.png) center no-repeat;
-    background-size: auto  100%;
-    margin-top: 80px;
+  width: 60%;
+  height: 30px;
+  background: url(../icons/logo_DCBP.png) center no-repeat;
+  background-size: auto  100%;
+  margin-top: 80px;
 }
 
 
 .BrowsingPageFooter_Caption{
-    width: 60%;
-    height: 10px;
+  width: 60%;
+  height: 10px;
 }
 
 .BrowsingPageFooter_Caption>img{
@@ -56,22 +62,26 @@
 }
 
 .BrowsingPageFooter_List{
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
 }
 .BrowsingPageFooter_List_Word{
-    padding:0px 20px;
+  font-family: 'Raleway', sans-serif;
+  padding:0px 20px;
+  letter-spacing: 2px;
 }
 
 .BrowsingPageFooter_Address{
-    font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 
 .BrowsingPageFooter_List_Word-skin{
-    border-left: 1px solid white;
+  border-left: 1.5px solid rgba(100%,100%,100%,0.4);
 }
 
 /** misc modifier **/

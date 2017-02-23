@@ -8,24 +8,25 @@
 
 .CarBlock
 {
-  width: 330px;
-  height: 320px;
-  margin: 10px 5px;
+  width: 300px;
+  height: 290px;
+  margin: 10px 20px 10px 0px ;
   background-color: white;
-  border: darkgray solid thin;
-  transition-delay: 2s;
+  border: rgba(0,0,0,0.2) solid 1px;
+  border-radius: 5px;
 }
 
 .CarBlock_Img
 {
-  width: 328px;
-  height: 246px;
+  width: 300px;
+  height: 220px;
   cursor: pointer;
 }
 
 .CarBlock_Desc
  {
   width: 100%;
+  margin-top: 5px;
   color: black;
   font-size: 14px;
   display: flex;
@@ -38,21 +39,28 @@
 
 .CarBlock_Desc_Caption
 {
+
+  font-family: 'Roboto', san-serif;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   width: 65%;
   margin-left:5% ;
-  padding-bottom: 5px;
+  padding-bottom: 7px;
+  font-weight: bolder;
+  font-size: 15px;
 }
 
 .CarBlock_Desc_Price
 {
+  font-family: 'Roboto', sans-serif;
   text-align: right;
   width: 25%;
   color: #e7211e;
   padding-right:5%;
-  padding-bottom: 5px;
+  padding-bottom: 7px;
+  font-size: 17px;
+  opacity: 0.8;
 }
 
 .CarBlock_Desc_Favorite
@@ -72,13 +80,18 @@
 
 .CarBlock_Desc_Mileage
 {
+  font-family: 'Roboto', sans-serif;
   width: 35%;
-  padding-left: 4%;
+  color:rgba(0,0,0,0.5);
 }
 
 .CarBlock_Desc_Ship
 {
+  font-family: 'Raleway', sans-serif;
   text-align: right;
   width: 45%;
   padding-right: 5%;
+  color: rgba(0,0,0,0.5);
+  letter-spacing: 0.5px;
+  font-size: 13px;
 }

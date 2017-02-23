@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 30px 0px;
+  padding: 0 0 20px 0;
 }
 
 /** Header **/
@@ -21,14 +21,16 @@
 {
   width: 100%;
   display: flex;
+  align-items: center;
+  padding-bottom: 10px;
 }
 
 .CarSelectorOption_Header_Icon
 {
   width: 30px;
-  height: 30px;
+  height: 40px;
   background: url(../icons/arrow.png) no-repeat center;
-  background-size: auto 20px;
+  background-size: auto 40%;
 }
 
 .CarSelectorOption_Header_Icon-selected
@@ -42,9 +44,10 @@
 
 .CarSelectorOption_Header_Caption
 {
-
   color: #000000;
-  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-left: 10px; 
 }
 
 /** Item **/
@@ -55,18 +58,19 @@
   -moz-box-sizing : border-box;
   box-sizing : border-box;
   display: flex;
-  font-size: 16px;
-  padding-left: 30px;
-  padding-right: 20px;
+  font-size: 15px;
+  padding-right: 40px;
 }
 
 .CarSelectorOption_Item_Caption
 {
+  font-family: 'Lora', serif;
+  height: 40px;
   overflow: hidden;
   text-overflow: ellipsis;
   width: 80%;
   color: rgba(0,0,0,0.5);
-  padding: 10px 0;
+  margin-left: 60px;
 }
 
 .CarSelectorOption_Item_Icon

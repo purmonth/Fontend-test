@@ -7,7 +7,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .PageHeader_Logo
@@ -24,6 +23,7 @@
 {
   width: 48px;
   height: 30px;
+  margin: 50px;
   background: url(../icons/menu_icon.png) no-repeat;
   background-size: auto 100%;
   cursor: pointer;
@@ -33,7 +33,7 @@
 {
   visibility: hidden;
   position: absolute;
-  right: 0;
+  right: 50;
   color: white;
   font-size: 18px;
   text-align: center;
@@ -87,7 +87,6 @@
 {
   height: 40px;
   width: 100%;
-
 }
 
 .PageHeader_MenuPage_Line{
