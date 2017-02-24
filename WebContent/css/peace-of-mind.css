@@ -1,0 +1,46 @@
+
+/**fourth-index
+**/
+.PeaceOfMind{
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.PeaceOfMindBlock{
+    width: 450px;
+    padding: 25px;
+}
+
+
+
+
+.PeaceOfMindBlock_Word{
+    width: 270px;
+    float: left;
+}
+
+.PeaceOfMindBlock_Content{
+    color: rgba(0,0,0,0.4);
+    font-family: 'Raleway', sans-serif;
+}
+
+.PeaceOfMindBlock_Caption{
+    font-size: 20px;
+}
+
+.PeaceOfMindBlock_Value{
+	font-size: 20px;
+	color: #e7211e;
+}
+
+.PeaceOfMindBlock_Img{
+    height: 60px;
+    width: 130px;
+    float: left;
+    padding: 10px 20px 10px 10px;
+}
+
+.PeaceOfMindBlock_Img img{
+    height: 100%;
+    float: right;
+}

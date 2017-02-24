@@ -1,0 +1,42 @@
+
+/**second-index
+**/
+.Inspection{
+
+}
+
+.Inspection_Container{
+    
+    display: flex;
+    
+}
+
+
+.Inspection_Container_Img{
+    height: 600px;
+    width: 500px;
+    background: url(../icons/detail_car.png) center no-repeat;
+    background-size: auto 100%; 
+}
+
+.Inspection_Container_Block{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Inspection_Block{
+    width: 250px;
+    
+}
+
+.Inspection_Block_Content{
+    color: rgba(0,0,0,0.4);
+    font-family: 'Raleway', sans-serif;
+}
+
+.Inspection_Block_Title{
+    font-size: 20px;
+    font-weight: bold;
+}

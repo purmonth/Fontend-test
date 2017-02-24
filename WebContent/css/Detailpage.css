@@ -1,82 +1,51 @@
-body{
-    width: 1300px;
-}
-
 /********************/
 
-.Header{
-    height: 850;
-    width: 1300;
+.DetailpageHeader{
+    height: 850px;
     color: white;
+
 }
 
 .absolute{
-    width: 1300;
+    width: 100%;
     height: 850;
     position: absolute;
+    background: radial-gradient(rgba(100%,100%,100%,0),rgba(0,0,0,0.0),rgba(0,0,0,0.8),rgba(0,0,0,1));
 }
 
-
-.Header>img{
+.DetailpageHeader>img{
     height: 100%;
     width: 100%;
 }
 
-.Header_Nav{
-    height:80;
-    width: 100%;
-    border-bottom: solid 1px darkgray;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-
-.Header_Nav_Logo{
-    width: 50%;
-    height: 100%;
-    background:url(../icons/logo_logo.png) no-repeat center; 
-    background-size: 80% auto;
-    cursor:  pointer;
-}
-
-
-.Header_Nav_Menu{
-    width:15%;
-    height: 100%;
-    background: url(../icons/menu_icon.png) no-repeat center;
-    background-size: 20% auto;
-    cursor:  pointer;
-}
-
-
-.Header_Top{
+.DetailpageHeader_Top{
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.Header_Top_BackSearch{
+.DetailpageHeader_Top_BackSearch{
+
     width: 45%;
 }
 
-.Header_Top_Views{
+.DetailpageHeader_Top_Views{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 45%;
 }
 
-.Header_Top_Views>img{
+.DetailpageHeader_Top_Views>img{
     height: 30px;
     width: auto;
     padding-right: 20px;
 }
 
-.Header_Arrow{
+.DetailpageHeader_Arrow{
     height: 60%;
     width: 100%;
     display: flex;
@@ -84,30 +53,27 @@ body{
     align-items: center;
 }
 
-.Header_Arrow img{
+.DetailpageHeader_Arrow img{
     height: 100px;
     cursor:  pointer;
 }
 
-.Header_Arrow_Left{
+.DetailpageHeader_Arrow_Left{
     width: 45%;
     transform: rotate(-180deg);
     display: flex;
     align-items: center;
-
     justify-content: flex-end;
-
 }
 
-.Header_Arrow_Right{
+.DetailpageHeader_Arrow_Right{
     display: flex;
     align-items: center;
-
     justify-content: flex-end;
     width: 45%;
 }
 
-.CarDetail{
+.DetailpageHeader_CarDetail{
     margin: 0 5%; 
     width: 60%;
     display: flex;
@@ -115,127 +81,46 @@ body{
     cursor: pointer;
 }
 
-.CarDetail img{
+.DetailpageHeader_CarDetail_Row{
+    font-family: 'Roboto';
+    width: 30%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+.DetailpageHeader_CarDetail_Row>img{
     height: 30px;
     width: auto;
-    padding-right: 20px;
+    padding-right:  20px;
 }
 
-.CarDetail_Location{
-    width: 30%;
-}
 
-.CarDetail_Gallery{
-    width: 30%;
-}
-
-.CarDetail_CarName{
+.DetailpageHeader_CarDetail_CarName{
+    font-family: 'Playfair Display SC', serif;
     width: 100%;
-    font-size: 40px;
-}
-
-
-
-/***BuyNow
-***/
-.BuyNow{
-    margin: 0 0 0 70%;
-    height: 500px;
-    width: 400px;
-    
-    box-shadow:0px 0px 6px 6px rgba(20%,20%,40%,0.4);
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-
-.BuyNow_TotalPrice{
-    height: 100px;
-    background-color: #e7211e;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.BuyNow_TotalPrice_Logo{
-    width: 25%;
-}
-
-.BuyNow_TotalPrice_Logo>img{
-    height: 20px;
-}
-
-.BuyNow_TotalPrice_Price{
-    width: 55%;
     font-size: 50px;
-    text-align: right;
 }
 
 
-.BuyNow_Row{
-    display: flex;
-    justify-content: center;
-    padding: 2% 5%;
-}
-
-.BuyNow_Row_Caption{
-    width: 50%;
-}
-
-.BuyNow_Row_Value{
-    width: 30%;
-    text-align: right;
-}
-
-.RedPrice{
-    font-size: 40px;
-    color:#e7211e;
-}
-
-.BuyNow_Button{
-    margin: 0 10%;
-    background-color: #e7211e;
-    color: white;
-    width: 80%;
-    height: 50;
-    text-align: center;
-    font-size: 24px;
-    border-radius: 5px; 
-    cursor: pointer;
-}
-
-.BuyNow_Annotation{
-    font-size: 16px;
-    text-align: center;
-}
 
 
-.line{
-    height: 1px;
-    width: 80%;
-    margin: 1% 10%;
-    background: #747474;
-}
 
 /********************/
-.Content{
-    width: 900px;
-}
-
 
 .Page{
-    padding: 40px 50px 20px 50px;
-    width: 900px;
+    padding: 50px 50px 50px 150px;
+    width: 1000px;
 }
 
 
 .Page_Title{
     width: 220px;
-    padding:  2px 10px;
+    padding:  3px 10px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
 }
 
 .Page_Title-skin{
@@ -247,218 +132,92 @@ body{
 
 .Page_HeaderBlock{
     width: 100%;
-    height: 100px;
-    padding-bottom: 30px;
+   
 }
 
 .Page_HeaderBlock_Title{
-    font-size: 32px; 
-    font-weight: bold;
+    font-size: 48px; 
+    font-family: 'Playfair Display', serif;
+    margin: 10px 0;
+    letter-spacing: 1px;
 }
 
 .Page_HeaderBlock_Content{
-    color: darkgray;
-    margin: 0 0 10% 0;
-}
-
-
-.Container_Block{
-    height: 150px;
-    width: 240px;
-    float: left;
-}
-
-.Container_Block_Content{
-    color: darkgray;
-    
-}
-
-.Container_Block_Title{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.Container_Img{
-    height: 60px;
-    width: 130px;
-    float: left;
-    padding: 10px 20px 10px 10px;
-}
-
-.Container_Img img{
-    height: 100%;
-    float: right;
-}
-
-
-
-/**first-index
-**/
-.Overview{
-    height: 300px;
-}
-
-
-/**second-index
-**/
-.Inspection{
-
-    height: 900px;
-}
-
-.Inspection_Container{
-    height: 700px;
-    padding-top: 100px;
-    display: inline-flex;
-    justify-content: center;
-}
-
-.Inspection_Container_Img img{
-    height: 600px;
-    padding: 10px;
-}
-
-.Inspection_Container_Img{
-    height: 600px;
-    width: 100%;
-    background: url(../icons/detail_car.png) no-repeat;
-    background-size: auto 100%; 
-}
-
-.Inspection_Container_Block{
-    width: 200px;
-}
-
-/**third-index
-**/
-.Insurance{
-    height: 800px;
-}
-
-
-.Insurance_Block{
-    height: 150px;
-    width: 400px;
-    padding: 25px;
-    float: left;
-}
-
-
-
-
-/**fourth-index
-**/
-.PeaceOfMind{
-    height: 1300px;
-}
-
-.PeaceOfMind_Block{
-    height: 210px;
-    width: 400px;
-    padding: 25px;
-    float: left;
-}
-
-
-
-/**fifth-index
-**/
-.BeforeBuy{
-    height: 600px;
-}
-
-.BeforeBuy_Seller{
-    height: 100px;
-    width: 180px;
-    padding-right: 30px;
-    padding-top: 10px;
-    text-align: right;
-    float: left;
-    
-}
-
-
-
-.BeforeBuy_Seller_Name{
-    font-size: 34px;
-    font-weight: bold;
-}
-
-.BeforeBuy_Seller_Location{
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0,0,0,0.5);
+    margin: 0 0 100px 0;
+    font-weight: bolder;
     font-size: 18px;
-    color: darkgray;
 }
 
-.BeforeBuy_Comment{
-    width: 690px;
-    float: right;
-    font-size: 38px;
-    color: darkgray;
-}
+
+
+
 
 
 /**Footer
 **/
-.Footer{
+.DetailpageFooter{
     color: white;
     text-align: center;
     height: 800px;
-    background-image: url(../image/footer_bg2.png);
+    background: url(../image/footer_bg2.png) no-repeat;
+    background-size:100% 100%; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     align-content: center; 
     font-size: 26px;
+    margin-top: 10px; 
 }
 
-.Footer_Logo{
-    width: 10%;
-    height: 10%;
-    background: url(../icons/logo_DCBP.png) no-repeat center;
-    background-size: 100% auto;
+.DetailpageFooter_Logo{
+    width: 60%;
+    height: 30px;
+    background: url(../icons/logo_DCBP.png) center no-repeat;
+    background-size: auto  100%;
+    margin-top: 180px;
 }
 
-.Footer_Word{
+.DetailpageFooter_Word{
+    font-family: 'Playfair Display', serif;
     width: 60%;
     font-size: 60px;
-}
-
-.Footer_Button{
-    height: 50px;
+    letter-spacing: 1px;
 }
 
 
-.Footer_Button>img{
-    height: 40px;
-    width: auto;
-    cursor: pointer;
-}
-
-.Footer_List{
+.DetailpageFooter_List{
     width: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
     font-size: 14px;
 }
-.Footer_List_Word{
-    width: 14%;
+.DetailpageFooter_List_Word{
+    font-family: 'Raleway', sans-serif;
+    padding:0px 20px;
+    letter-spacing: 2px;
+    color: rgba(100%,100%,100%,0.7);
 }
 
-.Footer_Address{
-    font-size: 10px;
+.DetailpageFooter_Address{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
-.Footer_List_Word-skin{
-    border-left: 1px solid white;
+.DetailpageFooter_List_Word-skin{
+    border-left: 1.5px solid rgba(100%,100%,100%,0.4);
 }
 
 /*******************/
 
-.red-bar img{
-    padding-top: 10px;
-    width: 50;
-    height: 3px;
-    clear: both;
+
+
+.Detailpage_Line{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
 }
