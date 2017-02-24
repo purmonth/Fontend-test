@@ -52,7 +52,7 @@
 
 .PageHeader_MenuPage-selected
 {
-  visibility: visible;
+  visibility: hidden;
   -webkit-animation: valo-animate-in-fade 300ms;
   -moz-animation: valo-animate-in-fade 300ms;
   animation: valo-animate-in-fade 300ms;

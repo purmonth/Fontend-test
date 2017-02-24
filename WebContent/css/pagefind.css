@@ -1,4 +1,6 @@
 
+
+
 .PageFind{
   height: 150px;
   padding-top: 50px;
@@ -16,6 +18,7 @@
   display: flex;
   align-items: center;
   border: 2px solid rgba(0,0,0,0.3);
+  margin-right: 50px;
 }
 
 .PageFind_SearchBar_Img
@@ -41,13 +44,14 @@
   border: none;
   background: white;
   margin-left: 10px;
+
 }
 
 .PageFind_PricingDisplay{
   font-family: 'Lato', sans-serif;
   min-width: 500px;
   font-size: 16px;
-  margin: 0 0 20 0 ;
+  margin: 0 0 20px 0 ;
   display: flex;
   align-items: center;
 }
@@ -64,6 +68,7 @@
   border-radius: 3px;
   color: rgba(0,0,0,0.3);
   font-weight: bold;
+  cursor: pointer;
 }
 
 .PageFind_PricingDisplay_Block-selected{
@@ -81,7 +86,7 @@
   display: flex;
   align-items: center;
   font-size: 18px;
-  margin: 0 20 20 0 ;
+  margin: 0 70px 20px 30px ;
 }
 
 .PageFind_Sort_List{
@@ -91,6 +96,7 @@
 .PageFind_Sort_Menu{
   width: 40px;
   height: 25px;
+  cursor: pointer;
 }
 
 .PageFind_Sort_Menu>img{
