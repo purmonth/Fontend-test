@@ -111,14 +111,14 @@
 /********************/
 
 .Page{
-    padding: 50px 50px 50px 150px;
+    padding: 100px 50px 100px 150px;
     width: 1000px;
 }
 
 
 .Page_Title{
-    width: 220px;
-    padding:  3px 10px;
+    text-transform: uppercase;
+    padding:  6px 25px;
     font-family: 'Playfair Display', serif;
     letter-spacing: 3px;
 }

@@ -3,7 +3,6 @@
 .Insurance{
     display: flex;
 	flex-wrap: wrap;
-
 }
 
 
@@ -11,46 +10,46 @@
 
 .InsuranceBlock{
     display: flex;
-    width: 420px;
-    padding: 30px;
-    float: left;
+    justify-content: space-between;
+    width: 450px;
+    height: 200px;
+    padding: 0 30px 30px 0;
 }
 
 
 
 .InsuranceBlock_Img{
-    height: 60px;
-    width: 130px;
-    padding: 10px 20px 10px 10px;
-    
-
+    height: 50px;
+    width: 180px;
+    text-align: right;
+    margin-right: 40px;
 }
 
 .InsuranceBlock_Img img{
     height: 100%;
     width: auto;
-    float: right;
 }
 
 
 .InsuranceBlock_RedBar{
     width: 50px;
     height: 3px;
-    float: right;
     background: #e7211e  no-repeat;
-    clear: both;
+    margin-top:15px; 
+    margin-left: 130px;
+
 }
 
-
-
 .InsuranceBlock_Word{
-    width: 290px;
-    
+    width: 340px;
+    padding-top: 20px;
 }
 
 .InsuranceBlock_Title{
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Playfair Display SC', serif;
+    padding-bottom: 15px;
 }
 
 .InsuranceBlock_Content{

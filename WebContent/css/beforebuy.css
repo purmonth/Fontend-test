@@ -3,11 +3,11 @@
 .BeforeBuy{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .BeforeBuy_Seller{
-    width: 250px;
+    width: 180px;
     padding-right: 30px;
     padding-top: 10px;
     text-align: right;
@@ -33,5 +33,5 @@
     font-size: 30px;
     opacity: 0.8;
     font-weight: 200;
-
+    padding-left: 50px;
 }

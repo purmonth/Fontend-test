@@ -1,5 +1,6 @@
 /**first-index
 **/
 .Overview{
-    
+    display: flex;
+	flex-wrap: wrap;
 }

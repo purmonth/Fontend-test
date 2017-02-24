@@ -2,13 +2,14 @@
 /**second-index
 **/
 .Inspection{
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .Inspection_Container{
     
     display: flex;
-    
+
 }
 
 
@@ -27,7 +28,7 @@
 }
 
 .Inspection_Block{
-    width: 250px;
+    width: 270px;
     
 }
 
@@ -39,4 +40,6 @@
 .Inspection_Block_Title{
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Playfair Display SC', serif;
+    padding-bottom: 15px;
 }

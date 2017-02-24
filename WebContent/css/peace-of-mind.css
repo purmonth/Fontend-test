@@ -8,6 +8,7 @@
 
 .PeaceOfMindBlock{
     width: 450px;
+    height: 200px;
     padding: 25px;
 }
 
@@ -26,21 +27,27 @@
 
 .PeaceOfMindBlock_Caption{
     font-size: 20px;
+    font-family: 'Playfair Display SC', serif;
 }
 
 .PeaceOfMindBlock_Value{
 	font-size: 20px;
 	color: #e7211e;
+	padding-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .PeaceOfMindBlock_Img{
-    height: 60px;
+    height: 100%;
     width: 130px;
     float: left;
-    padding: 10px 20px 10px 10px;
+    padding: 00px 40px 10px 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .PeaceOfMindBlock_Img img{
-    height: 100%;
-    float: right;
+    height: 35%;
+    width: auto;
+    
 }
