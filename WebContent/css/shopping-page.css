@@ -7,6 +7,12 @@
 }
 
 /** page ShoppingPage **/
+
+.DivStyle
+{
+  display: initial;
+}
+
 .ShoppingPage
 {
   width: 100%;
