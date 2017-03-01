@@ -1,0 +1,29 @@
+.BuyingProcess {
+    height: 1200px;
+    color: black;
+    background-image: url(../image/bg_2.png);   
+}
+
+
+.BuyingProcess>img{
+    padding: 0 0 0 24% ;
+    width: 76%;
+    height: 100%;
+}
+
+.BuyingProcess_WordBlock{
+    height: 1000px;
+    position: absolute;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10% 0 0 10%;
+}
+
+
+
+.BuyingProcess_WordBlock_CarChart>img{
+    height: auto;
+    width: 120%;
+}

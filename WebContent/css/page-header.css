@@ -7,6 +7,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .PageHeader_Logo
@@ -19,6 +21,22 @@
   margin:50px;
 }
 
+.PageHeader_SeeCar{
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7211e;
+  cursor: pointer;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  margin-left: 150px
+}
+
+
+
+
 .PageHeader_Menu
 {
   width: 48px;
@@ -26,6 +44,7 @@
   background: url(../icons/menu_icon.png) no-repeat;
   background-size: auto 100%;
   cursor: pointer;
+  margin-right: 60px;
 }
 
 .PageHeader_MenuPage
@@ -47,11 +66,12 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin-right: 60px;
 }
 
 .PageHeader_MenuPage-selected
 {
-  visibility: visible;
+  visibility: hidden;
   -webkit-animation: valo-animate-in-fade 300ms;
   -moz-animation: valo-animate-in-fade 300ms;
   animation: valo-animate-in-fade 300ms;

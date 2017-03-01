@@ -1,0 +1,64 @@
+.Inspection{
+    height: 1100px;
+    background-image: url(../image/bg_3.png) ;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.Inspection_Img {
+    background: url(../image/car_3.png) center no-repeat;
+    height: 100%;
+    width: 600px;
+    background-size: 100% auto;
+}
+
+.InspectionWord{
+    max-width: 500px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.InspectionWord_List{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+}
+
+
+
+.InspectionWord_List_Caption{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 4px;
+}
+
+
+.InspectionWord_List_Arrow{
+    padding-left: 10px;
+    height: 20px;
+    width: 20px;
+    background: url(../icons/red_arrow.png) no-repeat center;
+    background-size: auto 60%;
+    margin:4px 0 0 4px; 
+}
+
+.InspectionWord_List_Detail{
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    opacity: 0.7;
+    letter-spacing: 1px;
+    margin-bottom: 15px; 
+}
+    

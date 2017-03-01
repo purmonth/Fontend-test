@@ -1,0 +1,48 @@
+.Registration{
+    height: 900px;
+    width: 100%;
+    background-image: url(../image/bg_5.png);
+    background-size: 100% 100%; 
+    text-align: center;
+    
+}
+
+.Registration_Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+
+
+
+
+.Registration_Detail{
+    padding: 0 30%; 
+    color: black;
+}
+
+.Registration_FindCar {
+    height: 70px;
+    width: 400px;
+    background: #e7211e ;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.RedCar_Img{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background: url(../image/car_4.png) no-repeat center;
+    background-size: 100% auto;
+}
+

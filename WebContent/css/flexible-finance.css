@@ -1,0 +1,47 @@
+.FlexibleFinance{
+    color: white;
+    height: 900px;
+    background-image: url(../image/bg_4.png);
+    background-size: 100% 100%;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+.Fourth_Index_FlexibleFinance{
+    width: 400px;
+    height: 80%;
+    padding-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.FlexibleFinance_Header_Detail{
+    font-size: 14px;
+}
+
+
+.FlexibleFinance_List{
+    display: flex;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+
+
+}
+
+.FlexibleFinance_List_Img{
+    width: 20px;
+    height: 10px;
+    background: url(../icons/see_car_btn.png) no-repeat center;
+    background-size: 15px 3px;
+    opacity: 0.5;
+    border-radius: 3px;
+    margin: 0 20px 0 0;
+}
+
+

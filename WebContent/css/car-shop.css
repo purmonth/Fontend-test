@@ -1,0 +1,47 @@
+.CarShop{
+    height: 1100px;
+    width: 100%;
+    padding: 10% 0 0 10%;
+    background-image: url(../image/bg_1.png);
+    background-size: 100% 100%;
+    color: white;
+}
+
+
+.CarShop_Block{
+    height: 150px;
+    width: 350px;
+    float: left;
+    padding: 25px;
+}
+
+.Carshop_Block_Detail{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.7;
+    width: 300px;
+    letter-spacing: 1px;
+}
+
+
+.CarShop_Block_Img{
+    height: 120px;
+    width: 3px;
+    float: left;
+    background: url(../icons/line.png) no-repeat;
+    background-size: auto 100%;
+    margin-right: 30px;
+}
+
+
+
+.CarShop_Block_Title{
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+
+
+

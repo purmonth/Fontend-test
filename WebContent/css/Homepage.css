@@ -1,0 +1,215 @@
+
+body{
+    background-color:black;
+}
+
+body img{
+    width: 100%;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+/******************************/
+
+
+
+/**Header
+**/
+
+.HomepageHeader{
+    width: 100%;
+    height: 700px;
+    background-image: url(../image/hero.png);
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+
+.HomepageHeader_Top {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+
+.HomepageHeader_Content{
+    height: 50%;
+}
+
+.HomepageHeader_Title{
+    font-size: 60px;
+    
+    font-family: 'Playfair Display', serif;
+}
+
+.HomepageHeader_Detail{
+    height: 10%;
+    letter-spacing: 2px;
+}
+
+.HomepageHeader_Search{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+/******************************/
+.SearchBar
+{
+  height: 70px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+.SearchBar_Img
+{
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: rgba(100%,100%,100%,0.3) url(../icons/magnifying_glass.png) center no-repeat;
+  background-size: auto 40%;
+}
+
+
+.SearchBar_Field
+{
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: rgba(100%,100%,100%,0.3);
+}
+
+
+
+
+.SearchBar_Go{
+    margin-left: 10px; 
+    width: 80px;
+    height: 70px;
+    background: #e7211e;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+/******************************/
+.HomepageContent_Header{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 300px;
+    padding: 0 40px 40px 0;
+}
+
+.HomepageContent_Subhead{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    letter-spacing: 6px;
+
+}
+
+
+.HomepageContent_Title{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 60px;
+    padding:0 0 30px 0;
+}
+
+
+.HomepageContent_Detail{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+
+
+
+
+/******************************/
+
+/**Footer
+**/
+.HomepageFooter{
+    color: white;
+    text-align: center;
+    height: 800px;
+    background: url(../image/footer_bg2.png) no-repeat;
+    background-size:100% 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center; 
+    font-size: 26px;
+    margin-top: 10px; 
+}
+
+.HomepageFooter_Logo{
+    width: 60%;
+    height: 30px;
+    background: url(../icons/logo_DCBP.png) center no-repeat;
+    background-size: auto  100%;
+    margin-top: 180px;
+}
+
+
+.HomepageFooter_Word{
+    font-family: 'Playfair Display', serif;
+    width: 60%;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+
+.HomepageFooter_List{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.HomepageFooter_List_Word{
+    font-family: 'Raleway', sans-serif;
+    padding:0px 20px;
+    letter-spacing: 2px;
+    color: rgba(100%,100%,100%,0.7);
+}
+
+.HomepageFooter_Address{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.HomepageFooter_List_Word-skin{
+    border-left: 1.5px solid rgba(100%,100%,100%,0.4);
+}
+
+
+/******************************/
+
