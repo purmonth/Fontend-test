@@ -11,7 +11,7 @@
 .InsuranceBlock{
     display: flex;
     justify-content: space-between;
-    width: 450px;
+    width: 400px;
     height: 200px;
     padding: 0 30px 30px 0;
 }
@@ -20,7 +20,7 @@
 
 .InsuranceBlock_Img{
     height: 50px;
-    width: 180px;
+    width: 130px;
     text-align: right;
     margin-right: 40px;
 }
@@ -32,7 +32,7 @@
 
 
 .InsuranceBlock_RedBar{
-    width: 50px;
+    width: 30px;
     height: 3px;
     background: #e7211e  no-repeat;
     margin-top:15px; 
@@ -41,7 +41,7 @@
 }
 
 .InsuranceBlock_Word{
-    width: 340px;
+    width: 320px;
     padding-top: 20px;
 }
 

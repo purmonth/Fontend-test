@@ -7,8 +7,8 @@
 }
 
 .PeaceOfMindBlock{
-    width: 450px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
     padding: 25px;
 }
 
@@ -16,7 +16,7 @@
 
 
 .PeaceOfMindBlock_Word{
-    width: 270px;
+    width: 220px;
     float: left;
 }
 
@@ -39,7 +39,7 @@
 
 .PeaceOfMindBlock_Img{
     height: 100%;
-    width: 130px;
+    width: 110px;
     float: left;
     padding: 00px 40px 10px 10px;
     display: flex;
@@ -47,7 +47,7 @@
 }
 
 .PeaceOfMindBlock_Img img{
-    height: 35%;
+    height: 30%;
     width: auto;
     
 }
