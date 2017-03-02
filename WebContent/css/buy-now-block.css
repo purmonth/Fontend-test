@@ -1,0 +1,91 @@
+/*** block BuyNowBlock ***/
+.BuyNowBlock {
+  width: 400px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+  top: 200px;
+  right: 0px;
+  z-index: 10; background-color : white;
+  box-shadow: -6px 6px 6px rgba(20%, 20%, 40%, 0.4);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+}
+
+/*** block-element BuyNowBlock_Header ***/
+.BuyNowBlock_Header {
+  height: 100px;
+  background-color: #e7211e;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.BuyNowBlock_Header_Caption {
+  width: 110px;
+  background: url(../icons/logo_DCBP.png) top no-repeat;
+  background-size: auto 20px;
+  padding-top: 20px;
+}
+
+.BuyNowBlock_Header_Value {
+  width: 55%;
+  font-size: 50px;
+  text-align: right;
+}
+
+/*** block-element BuyNowBlock_Row ***/
+.BuyNowBlock_Row {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 5%;
+}
+
+.BuyNowBlock_Row_Caption {
+  width: 50%;
+}
+
+.BuyNowBlock_Row_Value {
+  width: 30%;
+  text-align: right;
+}
+
+.BuyNowBlock_Row_Value-emphasize {
+  font-size: 40px;
+  color: #e7211e;
+}
+
+/*** element ***/
+.BuyNowBlock_Line {
+  height: 1px;
+  width: 80%;
+  margin: 1% 10%;
+  background: #747474;
+}
+
+.BuyNowBlock_Button {
+  margin: 0 10%;
+  background-color: #e7211e;
+  color: white;
+  width: 80%;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.BuyNowBlock_Annotation {
+  font-size: 16px;
+  text-align: center;
+}
