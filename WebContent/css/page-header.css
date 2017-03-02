@@ -7,8 +7,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-
 }
 
 .PageHeader_Logo
@@ -49,6 +47,7 @@
 
 .PageHeader_MenuPage
 {
+  visibility: hidden;
   margin-top:5px; 
   position: absolute;
   right: 0;
@@ -73,7 +72,7 @@
 
 .PageHeader_MenuPage-selected
 {
-  
+  visibility: visible;
   -webkit-animation: valo-animate-in-fade 300ms;
   -moz-animation: valo-animate-in-fade 300ms;
   animation: valo-animate-in-fade 300ms;
