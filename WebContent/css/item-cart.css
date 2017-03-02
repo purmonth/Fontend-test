@@ -15,12 +15,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 0 0 0 ;
+
 }
 
 .ItemCart_Header_Caption
 {
   width: 55%;
   font-size: 36px;
+  opacity: 0.9;
   
 }
 

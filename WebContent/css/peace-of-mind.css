@@ -18,6 +18,8 @@
 .PeaceOfMindBlock_Word{
     width: 220px;
     float: left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .PeaceOfMindBlock_Content{
@@ -41,13 +43,21 @@
     height: 100%;
     width: 110px;
     float: left;
-    padding: 00px 40px 10px 10px;
+    padding: 0 40px 10px 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 
 .PeaceOfMindBlock_Img img{
     height: 30%;
     width: auto;
     
+}
+
+
+.PeaceOfMind_Block_RedBar{
+    height: 70;
+    width: ;
 }

@@ -1,12 +1,15 @@
 /** block PageHeader **/
 .PageHeader
 {
+  position: absolute;
   width: 100%;
   height: 80px;
   background-color: #e7211e;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
+  z-index: 15;
 }
 
 .PageHeader_Logo
@@ -58,7 +61,7 @@
   background: linear-gradient(to right bottom, rgba(205,10,0,1),rgba(205,10,0,1), rgba(205,10,0,0.9));
   border-radius: 5px;
   align-self: flex-start;
-  z-index: 1;
+  z-index: 15;
   box-shadow: -6px 6px 12px rgba(20%, 20%, 40%, 0.4);
   display: flex;
   flex-wrap: wrap;
@@ -72,7 +75,7 @@
 
 .PageHeader_MenuPage-selected
 {
-  visibility: visible;
+  visibility: hidden;
   -webkit-animation: valo-animate-in-fade 300ms;
   -moz-animation: valo-animate-in-fade 300ms;
   animation: valo-animate-in-fade 300ms;
@@ -117,8 +120,11 @@
   height: 2px;
   background: black;
   opacity: 0.1;
-  margin:0px 0 0px 0;
+  
 }
+
+
+
 
 .PageHeader_MenuPage_Language
 {

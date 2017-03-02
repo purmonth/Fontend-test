@@ -3,6 +3,7 @@
 .DetailpageHeader{
     height: 850px;
     color: white;
+
 }
 
 
@@ -12,11 +13,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
 }
 
 .DetailpageHeader_Top_BackSearch{
-
+    
     width: 45%;
 }
 
@@ -59,6 +61,8 @@
     align-items: center;
     justify-content: flex-end;
     width: 45%;
+    position: relative;
+    z-index: -1;
 }
 
 .DetailpageHeader_CarDetail{
@@ -76,7 +80,10 @@
     align-items: center;
     font-size: 20px;
     letter-spacing: 1px;
+    font-weight: 100;
 }
+
+
 
 
 .DetailpageHeader_CarDetail_Row>img{
@@ -87,7 +94,7 @@
 
 
 .DetailpageHeader_CarDetail_CarName{
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Playfair Display', serif;
     width: 100%;
     font-size: 50px;
 }
@@ -97,19 +104,21 @@
     height: 850px;
     width: 100%;
     position: relative;
-    z-index: 4;
+    top: 80px;
+    z-index: 15;
 }
 
 
 
 
 .Detailpage_Mask{
-    width: 100%;
+    width: 130%;
     height: 850px;
     position: relative;
+    left: -20px;
     z-index: 3;
     top: -850px;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2),rgba(100%,100%,100%,0),rgba(0,0,0,0.2),rgba(0,0,0,0.4),rgba(0,0,0,0.8));
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2),rgba(100%,100%,100%,0),rgba(0,0,0,0.2),rgba(0,0,0,0.7),rgba(0,0,0,0.8));
 }
 
 
