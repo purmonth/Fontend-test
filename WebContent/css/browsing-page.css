@@ -1,6 +1,13 @@
 .Content{
-  width: 1560px;
+  width: 1840px;
 }
+
+@media only screen and (max-width: 1830px) {
+    .Content {
+        width: 1530px;
+    }
+}
+
 
 @media only screen and (max-width: 1550px) {
     .Content {
@@ -16,6 +23,11 @@
 
 
 /** page BrowsingPage **/
+
+.PageHeader{
+  position: relative !important;
+}
+
 .DivStyle
 {
   display: initial;
@@ -53,7 +65,8 @@
   color: rgba(100%,100%,100%,0.7);
   text-align: center;
   height: 400px;
-  width: 88%;
+  min-width: 1000px;
+  margin-left: 13%;
   background: url(../image/footer_bg2.png) no-repeat;
   background-size:100% 100%; 
   display: flex;

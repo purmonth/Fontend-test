@@ -43,6 +43,11 @@
   text-align: right;
 }
 
+.ShoppinfSummary_Row_Value-700i{
+  font-weight: bolder;
+  font-style: italic;
+}
+
 
 .ShoppingSummary_Price-skin{
   font-size: 30px;

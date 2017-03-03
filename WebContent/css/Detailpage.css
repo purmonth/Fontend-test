@@ -1,3 +1,7 @@
+body{
+    min-width: 1250px;
+}
+
 /********************/
 
 .DetailpageHeader{
@@ -17,9 +21,16 @@
     font-weight: 300;
 }
 
+.PageHeader{
+    background-color: rgba(0,0,0,0) !important;
+}
+
 .DetailpageHeader_Top_BackSearch{
-    
     width: 45%;
+}
+
+.DetailpageHeader_Top_BackSearch>a{
+    cursor: pointer;
 }
 
 .DetailpageHeader_Top_Views{
@@ -90,6 +101,10 @@
     height: 30px;
     width: auto;
     padding-right:  20px;
+}
+
+.DetailpageHeader_CarDetail_Row>a{
+    font-weight: normal;
 }
 
 

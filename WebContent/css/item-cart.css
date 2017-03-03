@@ -110,6 +110,10 @@
   
 }
 
+.ItemCart_Footer_Caption>a{
+  text-decoration: underline;
+}
+
 .ItemCart_Footer_TotalPrice
 {
   width: 15%;

@@ -1,24 +1,25 @@
 .BuyingProcess {
     height: 1200px;
     color: black;
-    background-image: url(../image/bg_2.png);   
+    background-image: url(../image/bg_2.png);  
+    
 }
 
 
 .BuyingProcess>img{
-    padding: 0 0 0 24% ;
-    width: 76%;
+    float: right;
+    width: auto;
     height: 100%;
 }
 
 .BuyingProcess_WordBlock{
-    height: 1000px;
+    height: 100%;
     position: absolute;
-    width: 60%;
+    width: 900px;
     display: flex;
-    flex-direction: column;
-    
-    padding: 10% 0 0 10%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 150px 0 0 150px;
 }
 
 

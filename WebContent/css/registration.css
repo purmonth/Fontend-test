@@ -4,7 +4,9 @@
     background-image: url(../image/bg_5.png);
     background-size: 100% 100%; 
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+
 }
 
 .Registration_Content{
@@ -12,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 565px;
 }
 
 
@@ -36,12 +38,15 @@
     align-items: center;
     justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 70px;
 }
 
 .RedCar_Img{
     position: absolute;
-    height: 400px;
-    width: 100%;
+    top: 5750px;
+    height: 450px;
+    width: 1350px;
+    z-index: 5;
     background: url(../image/car_4.png) no-repeat center;
     background-size: 100% auto;
 }

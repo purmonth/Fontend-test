@@ -27,4 +27,5 @@
     background: url(../icons/plus.png) no-repeat center;
     background-size: auto 55%;
     cursor: pointer;
+    filter: blur(0.4px);
 }

@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-  z-index: 15;
+  z-index: 20;
 }
 
 .PageHeader_Logo
@@ -50,7 +50,7 @@
 
 .PageHeader_MenuPage
 {
-  visibility: hidden;
+  /*visibility: hidden;*/
   margin-top:5px; 
   position: absolute;
   right: 0;
@@ -58,10 +58,10 @@
   font-size: 18px;
   text-align: center;
   width: 300px;
-  background: linear-gradient(to right bottom, rgba(205,10,0,1),rgba(205,10,0,1), rgba(205,10,0,0.9));
+  background: linear-gradient(to right bottom, rgba(255,10,0,1), rgba(159,2,2,0.97));
   border-radius: 5px;
   align-self: flex-start;
-  z-index: 15;
+  z-index: 20;
   box-shadow: -6px 6px 12px rgba(20%, 20%, 40%, 0.4);
   display: flex;
   flex-wrap: wrap;
@@ -108,19 +108,28 @@
 
 .PageHeader_MenuPage_List
 {
-  height: 40px;
+  padding: 15px 0;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-shadow: 0 0 1px rgba(100%,100%,100%,0.5);
 }
 
-.PageHeader_MenuPage_Line{
+.PageHeader_MenuPage_TopLine{
   width: 100%;
   height: 2px;
   background: black;
   opacity: 0.1;
-  
+  margin-bottom: 35px;
+}
+
+.PageHEader_MenuPage_BottomLine{
+  width: 100%;
+  height: 2px;
+  background: black;
+  opacity: 0.1;
+  margin-top: 35px;
 }
 
 
@@ -128,9 +137,24 @@
 
 .PageHeader_MenuPage_Language
 {
+  font-family: 'Lora', serif;
   height: 60px;
-  width: 50%;
+  width: 49%;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 14px;
+}
+
+.PageHeader_MenuPage_LanguageLine{
+  height: 60px;
+  width: 2px;
+  background: black;
+  opacity: 0.1;
+
+}
+
+
+.PageHeader_MenuPage_Language-selected{
+  color: rgba(100%,100%,100%,0.6);
 }
