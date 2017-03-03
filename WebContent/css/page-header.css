@@ -1,7 +1,7 @@
 /** block PageHeader **/
 .PageHeader
 {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 80px;
   background-color: #e7211e;

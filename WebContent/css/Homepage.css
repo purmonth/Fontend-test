@@ -9,6 +9,7 @@
 **/
 
 .PageHeader{
+  position: absolute !important;
   background: none !important;
   border-bottom: 2px solid rgba(100%,100%,100%,0.1) !important;
 }

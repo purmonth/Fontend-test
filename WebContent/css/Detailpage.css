@@ -22,6 +22,7 @@
 }
 
 .PageHeader{
+    position: absolute !important;
     background-color: rgba(0,0,0,0) !important;
 }
 
@@ -154,7 +155,6 @@
 
 .Detailpage_BlurImage{
     position: absolute;
-    top: 0;
     filter: blur(10px);
     height: 850px;
     width: 100%;
