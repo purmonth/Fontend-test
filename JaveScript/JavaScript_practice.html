@@ -12,18 +12,50 @@
 </head>
 <body>
 
+	<form>
+		<h3>My search form</h3>
+		<hr>
+		<p>
+			Find:
+			<input type="text" name="tfield" size="40">
+			<br>
+			<input type="radio">
+			simple search
+			<br>
+			<input type="radio">
+			extented search
+			<br>
+			<p>
+				<input type="button" name="bsearch" value="Search" onclick="fsearch(this.form)">
+				&nbsp;&nbsp;
+				<input type="button" name="boptions" value="More options" onclick="foptions(this.form)">
+				<br><br><br>
+			</p>
+		</p>
+	</form>
+
 
 <script type="text/javascript">
+
 var binaryString=""
 x = 9
 binaryString = getBinary(x)
 document.write("The number " + x + "in binary form is : ")
-document.writeln(binaryString)
+document.writeln(binaryString+"<br>")
 x = 255
-binaryString = gitBinary(x)
-document.write("The numver " + x + "in binary fotm is : ")
-document.writeln(binaryString)
+binaryString = getBinary(x)
+document.write("The number " + x + "in binary form is : ")
+document.writeln(binaryString+"<br>")
 document.writeln("The variable x is still equal to : " + x)
+
+var currTime = new Date;
+myClock = new Clock(currTime.getHours(), currTime.getMinutes());
+myClock.displayTime ();
+
+
+
+
+
 </script>
 </body>
 </html>
