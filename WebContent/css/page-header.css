@@ -75,7 +75,7 @@
 
 .PageHeader_MenuPage-selected
 {
-  visibility: hidden;
+  visibility: visible;
   -webkit-animation: valo-animate-in-fade 300ms;
   -moz-animation: valo-animate-in-fade 300ms;
   animation: valo-animate-in-fade 300ms;
@@ -83,23 +83,23 @@
 
 .PageHeader_MenuPage_Cart
 {
-  width: 65%;
+  background: url(../icons/menu_cart.png) no-repeat left center;
+  background-size: auto 37%;
+  width: 140px;
   height: 70px;
   font-size: 14px;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: left;
+  margin-right: 60px;
 }
 
-.PageHeader_MenuPage_Cart>img{
-  width: auto;
-  height: 37%;
-  padding-right: 10px;
-}
+
 
 .PageHeader_MenuPage_Menu
 {
-  width: 48px;
+  width: 50px;
   height: 25px;
   background: url(../icons/menu_icon.png) right no-repeat;
   background-size: auto 100%;

@@ -1,12 +1,11 @@
-body{
-    min-width: 1250px;
-}
+
 
 /********************/
 
 .DetailpageHeader{
     height: 850px;
     color: white;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
