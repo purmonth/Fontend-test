@@ -1,6 +1,5 @@
 /** block PageHeader **/
-.PageHeader
-{
+.PageHeader {
   position: relative;
   width: 100%;
   height: 80px;
@@ -12,17 +11,16 @@
   z-index: 20;
 }
 
-.PageHeader_Logo
-{
+.PageHeader_Logo {
   width: 600px;
   height: 30%;
   background: url(../icons/header_logo.png) no-repeat;
   background-size: auto 100%;
   cursor: pointer;
-  margin:50px;
+  margin: 50px;
 }
 
-.PageHeader_SeeCar{
+.PageHeader_SeeCar {
   width: 200px;
   height: 40px;
   display: flex;
@@ -35,11 +33,7 @@
   margin-left: 150px
 }
 
-
-
-
-.PageHeader_Menu
-{
+.PageHeader_Menu {
   width: 48px;
   height: 25px;
   background: url(../icons/menu_icon.png) no-repeat;
@@ -48,17 +42,17 @@
   margin-right: 60px;
 }
 
-.PageHeader_MenuPage
-{
+/** block-element PageHeader_MenuPage **/
+.PageHeader_MenuPage {
   /*visibility: hidden;*/
-  margin-top:5px; 
+  margin-top: 5px;
   position: absolute;
   right: 0;
   color: white;
   font-size: 18px;
   text-align: center;
   width: 300px;
-  background: linear-gradient(to right bottom, rgba(255,10,0,1), rgba(159,2,2,0.97));
+  background: linear-gradient(to right bottom, rgba(255, 10, 0, 1), rgba(159, 2, 2, 0.97));
   border-radius: 5px;
   align-self: flex-start;
   z-index: 20;
@@ -73,16 +67,14 @@
   font-weight: 100;
 }
 
-.PageHeader_MenuPage-selected
-{
+.PageHeader_MenuPage-selected {
   visibility: visible;
   -webkit-animation: valo-animate-in-fade 300ms;
   -moz-animation: valo-animate-in-fade 300ms;
   animation: valo-animate-in-fade 300ms;
 }
 
-.PageHeader_MenuPage_Cart
-{
+.PageHeader_MenuPage_Cart {
   background: url(../icons/menu_cart.png) no-repeat left center;
   background-size: auto 37%;
   width: 140px;
@@ -95,10 +87,7 @@
   margin-right: 60px;
 }
 
-
-
-.PageHeader_MenuPage_Menu
-{
+.PageHeader_MenuPage_Menu {
   width: 50px;
   height: 25px;
   background: url(../icons/menu_icon.png) right no-repeat;
@@ -106,17 +95,16 @@
   cursor: pointer;
 }
 
-.PageHeader_MenuPage_List
-{
+.PageHeader_MenuPage_List {
   padding: 15px 0;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-shadow: 0 0 1px rgba(100%,100%,100%,0.5);
+  text-shadow: 0 0 1px rgba(100%, 100%, 100%, 0.5);
 }
 
-.PageHeader_MenuPage_TopLine{
+.PageHeader_MenuPage_TopLine {
   width: 100%;
   height: 2px;
   background: black;
@@ -124,7 +112,7 @@
   margin-bottom: 35px;
 }
 
-.PageHEader_MenuPage_BottomLine{
+.PageHeader_MenuPage_BottomLine {
   width: 100%;
   height: 2px;
   background: black;
@@ -132,11 +120,7 @@
   margin-top: 35px;
 }
 
-
-
-
-.PageHeader_MenuPage_Language
-{
+.PageHeader_MenuPage_Language {
   font-family: 'Lora', serif;
   height: 60px;
   width: 49%;
@@ -146,15 +130,13 @@
   font-size: 14px;
 }
 
-.PageHeader_MenuPage_LanguageLine{
+.PageHeader_MenuPage_LanguageLine {
   height: 60px;
   width: 2px;
   background: black;
   opacity: 0.1;
-
 }
 
-
-.PageHeader_MenuPage_Language-selected{
-  color: rgba(100%,100%,100%,0.6);
+.PageHeader_MenuPage_Language-selected {
+  color: rgba(100%, 100%, 100%, 0.6);
 }
