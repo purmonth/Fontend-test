@@ -21,6 +21,9 @@
     }
 }
 
+.Pageheader{
+  position: relative !important;
+}
 
 /** page BrowsingPage **/
 .DivStyle
