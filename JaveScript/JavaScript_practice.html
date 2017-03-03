@@ -3,16 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+
+<script src="./JavaScript_practice.js">
+
+
+</script>
+
 </head>
 <body>
-	<p>Please inpur a numver between 5 and 10:</p>
 
-	<input type="text" id="demo">
-	<button type="button" onclick="myFunction()">Test Input</button>
-	<p id = "message"></p>
-	<p id = "Hi"></p>
-	<script src="JavaScript_practice.js">
-		
-	</script>
+
+<script type="text/javascript">
+var binaryString=""
+x = 9
+binaryString = getBinary(x)
+document.write("The number " + x + "in binary form is : ")
+document.writeln(binaryString)
+x = 255
+binaryString = gitBinary(x)
+document.write("The numver " + x + "in binary fotm is : ")
+document.writeln(binaryString)
+document.writeln("The variable x is still equal to : " + x)
+</script>
 </body>
 </html>
