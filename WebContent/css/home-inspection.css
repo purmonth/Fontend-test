@@ -1,27 +1,35 @@
 .Inspection{
-    height: 1100px;
-    background-image: url(../image/bg_3.png) ;
-    background-size: 100% 100%;
+    height: 1081px;
+    min-width: 1450px;
+    background: url(../image/bg_1.2_3.jpg) no-repeat;
+    background-size:100% auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
+.Inspection_Content{
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;   
+}
 
 .Inspection_Img {
-    background: url(../image/car_3.png) center no-repeat;
-    height: 100%;
-    width: 600px;
+    background: url(../icons/car_3.png) center no-repeat;
+    height: 900px;
+    width: 450px;
     background-size: 100% auto;
 
 }
 
 .InspectionWord{
-    max-width: 500px;
+    width: 450px;
     color: white;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 100px;
 }
 
 
@@ -43,17 +51,18 @@
     font-family: 'Playfair Display', serif;
     letter-spacing: 4px;
     font-weight: 200;
+    margin-left: 35px;
 }
 
 
 .InspectionWord_List_Arrow{
-    padding-left: 10px;
     height: 20px;
-    width: 20px;
-    background: url(../icons/red_arrow.png) no-repeat center;
+    width: 15px;
+    background: url(../icons/red_arrow.png) no-repeat left;
     background-size: auto 60%;
-    margin:4px 0 0 4px; 
-    filter: blur(0.6px);
+    display: flex;
+    align-items: center;
+   
 }
 
 .InspectionWord_List_Detail{
@@ -63,6 +72,6 @@
     opacity: 0.7;
     letter-spacing: 1px;
     font-weight: 100;
-    margin-bottom: 15px; 
+    margin: 0 0 15px 50px; 
 }
     

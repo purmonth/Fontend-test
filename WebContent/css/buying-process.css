@@ -1,30 +1,31 @@
 .BuyingProcess {
-    height: 1200px;
-    color: black;
-    background-image: url(../image/bg_2.png);  
+    position: relative;
     
+    height: 1081px;
+    min-width: 1450px;
+    color: black;
+    background: url(../image/bg_1.2_2.jpg) no-repeat;  
+    background-size:100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 
-.BuyingProcess>img{
-    float: right;
-    width: auto;
-    height: 100%;
-}
 
 .BuyingProcess_WordBlock{
     height: 100%;
-    position: absolute;
+    
     width: 900px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 150px 0 0 150px;
 }
 
 
 
 .BuyingProcess_WordBlock_CarChart>img{
     height: auto;
-    width: 120%;
+    width: 100%;
 }

@@ -1,28 +1,37 @@
 .FlexibleFinance{
     color: white;
-    height: 900px;
-    background-image: url(../image/bg_4.png);
-    background-size: 100% 100%;
+    height: 1081px;
+    min-width: 1450px;
+    background: url(../image/bg_1.2_4.jpg) no-repeat ;
+    background-size:100% auto;
     font-size: 20px;
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 
 
 
 
 .Fourth_Index_FlexibleFinance{
-    width: 400px;
-    height: 80%;
-    padding-left: 20%;
+    width: 900px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     
 }
 
 .FlexibleFinance_Header_Detail{
     font-size: 14px;
 
+}
+
+.FlexibleFinance_Img{
+    width: 900px;
+    height: 400px;
+    background:url(../icons/financing_chart.png) no-repeat;
+    background-size: 100% auto; 
 }
 
 

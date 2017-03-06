@@ -40,3 +40,16 @@ function fsearch (aForm){
 function foptions (aForm){
     alert("Sorry, no options available");
 }
+
+
+function checkFields(){
+    var num = document.form1.elements.length
+    var validFlag = true
+    for(var i = 0;i < num;i ++){
+        if((document.form1.elements[i].value == null || document.form1.elements[i].value == "") && (typeof document.form1.elements[i] != 'submit' || typeof document.form1.elements[i] != 'reset')){
+            validFlag = false
+            alert("The" + document.form1.elements[i].name+"field is blank.Please enter a value.")
+
+    }
+        }
+}

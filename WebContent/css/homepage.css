@@ -1,5 +1,7 @@
 
-
+body{
+  background-color: black;
+}
 
 /******************************/
 
@@ -27,6 +29,16 @@
 
 
 
+.HomepageHeader_Content{
+  height: 600px;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .HomepageHeader_Title{
   width: 100%;
   font-size: 60px;
@@ -49,12 +61,6 @@
   
 }
 
-.HomepageHeader_Content{
-  height: 620px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 /******************************/
 .SearchBar
@@ -137,8 +143,9 @@
   display: flex;
   flex-direction: column;
   float: left;
-  height: 300px;
-  padding: 0 40px 40px 0;
+  height: 250px;
+  width: 900px;
+  padding: 100px 40px 40px 0;
 }
 
 .HomepageContent_Subhead{
@@ -245,6 +252,35 @@
 
 
 /******************************/
+.Homepage_Content_RedDown{
+  width: 100%;
+  height: 40px;
+  position: relative;
+  background:url(../icons/red_down_double_arrow.png) no-repeat center;
+  background-size: auto 95%;
+  align-self: flex-end;
+  margin-bottom: 40px;
+  opacity: 0.5;
+  -webkit-animation-name: RedDown;
+  -webkit-animation-duration: 1s;
 
+  animation-name: RedDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; 
+  animation-iteration-count: infinite; 
+
+}
+
+@-webkit-keyframes RedDown{
+  0%{top:0;}
+  50%{top:10px;}
+  100%{top: 0;}
+}
+
+@keyframes RedDown{
+  0%{top:0;}
+  50%{top:10px;}
+  100%{top: 0;}
+}
 
 
