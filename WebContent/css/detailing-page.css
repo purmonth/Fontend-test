@@ -152,7 +152,7 @@
     rgba(0, 0, 0, 0.8));
 }
 
-/********************/
+/** block PageContent **/
 .Page {
   padding: 100px 50px 100px 150px;
   width: 900px;
@@ -191,8 +191,6 @@
   font-size: 18px;
 }
 
-
-/*******************/
 .DetailingPage_Line {
   height: 1px;
   width: 100%;
