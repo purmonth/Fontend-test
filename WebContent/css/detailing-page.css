@@ -199,8 +199,15 @@
   font-size: 18px;
 }
 
-/**Footer
-**/
+
+/*******************/
+.DetailingPage_Line {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/** block DetailingPageFooter **/
 .DetailingPageFooter {
   color: white;
   text-align: center;
@@ -254,11 +261,4 @@
 
 .DetailingPageFooter_List_Word-skin {
   border-left: 1.5px solid rgba(100%, 100%, 100%, 0.4);
-}
-
-/*******************/
-.DetailingPage_Line {
-  height: 1px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
 }
