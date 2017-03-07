@@ -15,6 +15,9 @@
   background-color: white;
   border: rgba(0, 0, 0, 0.2) solid 1px;
   border-radius: 5px;
+  -webkit-animation: valo-animate-in-fade 600ms;
+  -moz-animation: valo-animate-in-fade 600ms;
+  animation: valo-animate-in-fade 600ms;
 }
 
 .CarBlock_Img {
