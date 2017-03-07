@@ -1,8 +1,7 @@
 .BuyingProcess {
     position: relative;
-    
-    height: 1081px;
-    min-width: 1450px;
+    height: 1138px;
+    min-width: 950px;
     color: black;
     background: url(../image/bg_1.2_2.jpg) no-repeat;  
     background-size:100% auto;
@@ -16,14 +15,16 @@
 
 .BuyingProcess_WordBlock{
     height: 100%;
-    
     width: 900px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    flex-direction: column;
 }
 
-
+.BuyingProcess_WordBlock_CarChart{
+    margin: 100px 0 260px 0;
+}
 
 .BuyingProcess_WordBlock_CarChart>img{
     height: auto;

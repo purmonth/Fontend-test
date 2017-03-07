@@ -8,6 +8,7 @@
     justify-content: center;
 }
 
+
 .Inspection_Content{
     height: 100%;
     width: 1000px;
@@ -29,7 +30,7 @@
     color: white;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
+    margin:0 0  100px 100px;
 }
 
 

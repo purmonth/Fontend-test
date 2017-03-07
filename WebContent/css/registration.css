@@ -43,8 +43,8 @@
 
 .RedCar_Img{
     position: absolute;
-    top: 5600px;
-    height: 450px;
+    top: 5850px;
+    height: 550px;
     width: 1350px;
     z-index: 5;
     background: url(../image/car_4.png) no-repeat center;

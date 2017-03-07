@@ -1,6 +1,7 @@
 
 body{
   background-color: black;
+  min-width: 1450px;
 }
 
 /******************************/
@@ -17,10 +18,10 @@ body{
 }
 
 .HomepageHeader{
-  width: 100%;
-  height: 700px;
+  min-width: 1450px;
+  height: 950px;
   background-image: url(../image/hero.png);
-  background-size: 100% 100%;
+  background-size: auto 100%;
   color: white;
   text-align: center;
   
@@ -30,19 +31,20 @@ body{
 
 
 .HomepageHeader_Content{
-  height: 600px;
+  height: 850px;
   padding-top: 100px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  
 }
 
 .HomepageHeader_Title{
   width: 100%;
   font-size: 60px;
   font-family: 'Playfair Display', serif;
+  padding-top: 100px;
 }
 
 .HomepageHeader_Detail{
@@ -51,14 +53,14 @@ body{
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   opacity: 0.6;
-  padding: 30px 0;
+  padding: 10px 0 30px 0;
 }
 
 .HomepageHeader_Search{
   width: 100%;
   display: flex;
   justify-content: center;
-  
+  margin-bottom: 300px;
 }
 
 
@@ -106,20 +108,29 @@ body{
 
 ::-webkit-input-placeholder { /* Chrome */
   color: rgba(100%,100%,100%,0.7);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.7px;
 
 }
 :-ms-input-placeholder { /* IE 10+ */
   color: rgba(100%,100%,100%,0.7);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.7px;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: rgba(100%,100%,100%,0.7);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.7px;
 }
 :-moz-placeholder { /* Firefox 4 - 18 */
   color: rgba(100%,100%,100%,0.7);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.7px;
+
 }
 
 .SearchBar_Go{
@@ -127,13 +138,14 @@ body{
   width: 80px;
   height: 70px;
   background: #e7211e;
-  font-size: 28px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
   letter-spacing: 1px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
 }
 
 
@@ -143,9 +155,8 @@ body{
   display: flex;
   flex-direction: column;
   float: left;
-  height: 250px;
   width: 900px;
-  padding: 100px 40px 40px 0;
+  padding: 150px 0px 0 0;
 }
 
 .HomepageContent_Subhead{
@@ -165,7 +176,7 @@ body{
   line-height: 60px;
   padding:10px 0 30px 0;
   font-weight: 500;
-  width: 100%;
+  width: 800px;
 }
 
 .HomepageContent_Title>a{
@@ -258,12 +269,10 @@ body{
   position: relative;
   background:url(../icons/red_down_double_arrow.png) no-repeat center;
   background-size: auto 95%;
-  align-self: flex-end;
-  margin-bottom: 40px;
   opacity: 0.5;
   -webkit-animation-name: RedDown;
   -webkit-animation-duration: 1s;
-
+  cursor: pointer;
   animation-name: RedDown;
   animation-duration: 1s;
   animation-timing-function: ease-in-out; 

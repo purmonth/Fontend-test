@@ -30,7 +30,8 @@
   cursor: pointer;
   border-radius: 3px;
   letter-spacing: 2px;
-  margin-left: 150px
+  margin-left: 150px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .PageHeader_Menu {
@@ -63,7 +64,7 @@
   align-items: center;
   cursor: pointer;
   margin-right: 48px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
 }
 
@@ -85,6 +86,8 @@
   justify-content: center;
   text-align: left;
   margin-right: 60px;
+  font-weight: 200;
+  line-height: 15px;
 }
 
 .PageHeader_MenuPage_Menu {
@@ -102,6 +105,7 @@
   align-items: center;
   justify-content: center;
   text-shadow: 0 0 1px rgba(100%, 100%, 100%, 0.5);
+  
 }
 
 .PageHeader_MenuPage_TopLine {
@@ -121,7 +125,7 @@
 }
 
 .PageHeader_MenuPage_Language {
-  font-family: 'Lora', serif;
+
   height: 60px;
   width: 49%;
   display: flex;

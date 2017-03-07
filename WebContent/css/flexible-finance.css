@@ -13,13 +13,13 @@
 
 
 
-.Fourth_Index_FlexibleFinance{
+.FlexibleFinance_Content{
     width: 900px;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    
+    flex-direction: column;
 }
 
 .FlexibleFinance_Header_Detail{
@@ -32,6 +32,7 @@
     height: 400px;
     background:url(../icons/financing_chart.png) no-repeat;
     background-size: 100% auto; 
+    margin:100px 0 150px 0;
 }
 
 

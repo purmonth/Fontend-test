@@ -8,12 +8,18 @@
     justify-content: center;
 }
 
+
 .CarShop_Content{
     width: 900px;
+    height: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CarShop_Cluster{
+    padding: 60px 0 230px 0;
 }
 
 .CarShop_Block{
