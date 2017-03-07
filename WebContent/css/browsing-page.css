@@ -1,45 +1,37 @@
-.Content{
+.Content {
   width: 1840px;
 }
 
 @media only screen and (max-width: 1830px) {
-    .Content {
-        width: 1530px;
-    }
+  .Content {
+    width: 1530px;
+  }
 }
 
-
 @media only screen and (max-width: 1550px) {
-    .Content {
-        width: 1250px;
-    }
+  .Content {
+    width: 1250px;
+  }
 }
 
 @media only screen and (max-width: 1230px) {
-    .Content {
-        width: 930px;
-    }
-}
-
-.Pageheader{
-  position: relative !important;
+  .Content {
+    width: 930px;
+  }
 }
 
 /** page BrowsingPage **/
-.DivStyle
-{
+.DivStyle {
   display: initial;
 }
 
-.BrowsingPage
-{
+.BrowsingPage {
   width: 100%;
   text-align: center;
 }
 
 /** block BrowsingPageSidebar **/
-.BrowsingPageSidebar
-{
+.BrowsingPageSidebar {
   width: 250px;
   min-height: 600px;
   font-size: 16px;
@@ -50,52 +42,51 @@
   font-weight: bold;
 }
 
-.BrowsingPageSidebar_Line{
+.BrowsingPageSidebar_Line {
   width: 90%;
   margin-left: 5%;
   height: 1px;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
   margin: 35px 0;
 }
 
 /** block BrowsingPageFooter **/
-.BrowsingPageFooter{
-  color: rgba(100%,100%,100%,0.7);
+.BrowsingPageFooter {
+  color: rgba(100%, 100%, 100%, 0.7);
   text-align: center;
   height: 400px;
   min-width: 1000px;
   margin-left: 13%;
   background: url(../image/footer_bg2.png) no-repeat;
-  background-size:100% 100%; 
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  align-content: center; 
+  align-content: center;
   font-size: 26px;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
-.BrowsingPageFooter_Logo{
+.BrowsingPageFooter_Logo {
   width: 60%;
   height: 30px;
   background: url(../icons/logo_DCBP.png) center no-repeat;
-  background-size: auto  100%;
+  background-size: auto 100%;
   margin-top: 80px;
 }
 
-
-.BrowsingPageFooter_Caption{
+.BrowsingPageFooter_Caption {
   width: 60%;
   height: 10px;
 }
 
-.BrowsingPageFooter_Caption>img{
+.BrowsingPageFooter_Caption>img {
   width: auto;
   height: 100%;
 }
 
-.BrowsingPageFooter_List{
+.BrowsingPageFooter_List {
   width: 100%;
   text-align: center;
   display: flex;
@@ -103,24 +94,23 @@
   font-size: 14px;
 }
 
-.BrowsingPageFooter_List_Word{
+.BrowsingPageFooter_List_Word {
   font-family: 'Raleway', sans-serif;
-  padding:0px 20px;
+  padding: 0px 20px;
   letter-spacing: 2px;
 }
 
-.BrowsingPageFooter_Address{
+.BrowsingPageFooter_Address {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   letter-spacing: 2px;
 }
 
-.BrowsingPageFooter_List_Word-skin{
-  border-left: 1.5px solid rgba(100%,100%,100%,0.4);
+.BrowsingPageFooter_List_Word-skin {
+  border-left: 1.5px solid rgba(100%, 100%, 100%, 0.4);
 }
 
 /** misc modifier **/
-.dev
-{
+.dev {
   border: 1px dotted;
 }
