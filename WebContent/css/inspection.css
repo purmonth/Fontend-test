@@ -16,7 +16,7 @@
 .Inspection_Container_Img{
     height: 600px;
     width: 300px;
-    background: url(../icons/detail_car.png) center no-repeat;
+    background: url(../icons/inspection_detail_car.png) center no-repeat;
     background-size: auto 100%; 
 }
 
@@ -39,7 +39,7 @@
 
 .Inspection_Block_Title{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: 'Playfair Display SC', serif;
     padding-bottom: 15px;
 }
