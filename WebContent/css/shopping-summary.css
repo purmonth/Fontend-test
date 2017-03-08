@@ -1,62 +1,53 @@
 /** block ShoppingSummary **/
-
-.ShoppingSummary
-{
-  margin-left: 100px; 
-  font-family: 'Lato', sans-serif;
+.ShoppingSummary {
   min-width: 350px;
+  margin-left: 100px;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
+  color: #000000;
 }
 
-.ShoppingSummary_Header{
+.ShoppingSummary_Header {
   font-size: 36px;
   height: 80px;
-  padding:20 0 50px 0;
+  padding: 20 0 50px 0;
   display: flex;
   align-items: center;
 }
 
-.ShoppingSummary_Line{
+.ShoppingSummary_Line {
   height: 1px;
   width: 100%;
   background: #747474;
   margin: 20px 0;
 }
 
-
-.ShoppingSummary_Row{
+/** block_element ShoppingSummary_Row **/
+.ShoppingSummary_Row {
   align-items: center;
   padding: 10px 0;
   display: flex;
   justify-content: center;
 }
 
-.ShoppingSummary_Row_Caption{
+.ShoppingSummary_Row_Caption {
   font-family: 'Raleway', sans-serif;
   width: 50%;
   text-align: left;
-
 }
 
-.ShoppingSummary_Row_Value{
+.ShoppingSummary_Row_Value {
   width: 50%;
   text-align: right;
+  font-weight: 700;
 }
 
-.ShoppinfSummary_Row_Value-700i{
-  font-weight: bolder;
-  font-style: italic;
-}
-
-
-.ShoppingSummary_Price-skin{
+.ShoppingSummary_Row_Value-emphasize {
   font-size: 30px;
-  
   color: #11c759;
 }
 
-.ShoppingSummary_Button
-{
+.ShoppingSummary_Button {
   width: 110%;
   height: 60px;
   border-radius: 5px;
@@ -66,8 +57,7 @@
   left: -20px;
 }
 
-.ShoppingSummary_Button_Caption
-{
+.ShoppingSummary_Button_Caption {
   width: 100%;
   height: 100%;
   font-size: 30px;
