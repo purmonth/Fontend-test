@@ -251,6 +251,21 @@ body{
   color: rgba(100%,100%,100%,0.7);
 }
 
+
+.HomepageFooter_List_Word a:link,a:visited{
+  text-decoration: none;
+  color: rgba(100%,100%,100%,0.7);
+}
+
+
+
+.HomepageFooter_List_Word a:hover,a:active{
+  text-decoration: underline;
+}
+
+
+
+
 .HomepageFooter_Address{
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
@@ -262,22 +277,30 @@ body{
 }
 
 
+
+
 /******************************/
 .Homepage_Content_RedDown{
-  width: 100%;
+  width: 50px;
   height: 40px;
   position: relative;
-  background:url(../icons/red_down_double_arrow.png) no-repeat center;
-  background-size: auto 95%;
+  
   opacity: 0.5;
   -webkit-animation-name: RedDown;
   -webkit-animation-duration: 1s;
-  cursor: pointer;
+  background:url(../icons/red_down_double_arrow.png) no-repeat center;
+  background-size: auto 95%;
   animation-name: RedDown;
   animation-duration: 1s;
   animation-timing-function: ease-in-out; 
   animation-iteration-count: infinite; 
+}
 
+.Homepage_Content_RedDown a{
+  display:  block;
+  position: absolute;
+  height: 40px;
+  width: 100%;
 }
 
 @-webkit-keyframes RedDown{

@@ -244,6 +244,20 @@
   color: rgba(100%, 100%, 100%, 0.7);
 }
 
+.DetailingPageFooter_List_Word a:link,a:visited{
+  text-decoration: none;
+  color: rgba(100%,100%,100%,0.7);
+}
+
+
+
+.DetailingPageFooter_List_Word a:hover,a:active{
+  text-decoration: underline;
+}
+
+
+
+
 .DetailingPageFooter_Address {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;

@@ -100,6 +100,21 @@
   letter-spacing: 2px;
 }
 
+
+.BrowsingPageFooter_List_Word a:link,a:visited{
+  text-decoration: none;
+  color: rgba(100%,100%,100%,0.7);
+}
+
+
+
+.BrowsingPageFooter_List_Word a:hover,a:active{
+  text-decoration: underline;
+}
+
+
+
+
 .BrowsingPageFooter_Address {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
