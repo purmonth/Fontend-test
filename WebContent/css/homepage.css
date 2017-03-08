@@ -18,10 +18,10 @@ body{
 }
 
 .HomepageHeader{
-  min-width: 1450px;
-  height: 950px;
+  min-width: 1622px;
+  height: 900px;
   background-image: url(../image/hero.png);
-  background-size: auto 100%;
+  background-size: 100% auto;
   color: white;
   text-align: center;
   

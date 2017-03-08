@@ -1,0 +1,215 @@
+body{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px;
+	width: 1600px;
+}
+/********************/
+.Header{
+	width: 100%;
+	height: 150px;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Header_Logo{
+	height: 60%;
+	width: 400px;
+	background: url(../icons/logo.png) no-repeat center;
+	background-size: auto 100%;
+}
+
+.Header_Membership{
+	height: 60%;
+	width: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.Header_Membership_Img{
+	height: 100%;
+}
+
+.Header_Membership_Name{
+
+}
+
+.Header_Membership_Arrow{
+	height: 15px;
+	width: 30px;
+	background: url(../icons/triangle_1.png) no-repeat center;
+	background-size: auto 80%;
+}
+
+
+
+/********************/
+.Content{
+	
+	width: 100%;
+}
+
+.SideBar{
+	width: 300px;
+	height: 1600px;
+	background: rgba(0,0,0,0.8);
+	float: left;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+
+/*********************/
+.Membership{
+	height: 200px;
+	width: 100%;
+	display: flex;
+}
+
+
+.Membership_Img{
+	height: 100px;
+	width: 110px;
+}
+
+.Membership_Img>img{
+	height: 100%;
+	width: auto;
+}
+
+.Membership_Word{
+	
+	
+}
+
+
+.Membarship_Caption{
+	display: flex;
+	align-items: center;
+}
+
+.Membership_Detail{
+	height: 30px;
+	display: flex;
+	align-items: center;
+
+	background: url(../icons/triangle_3.png) no-repeat right;
+}
+
+
+
+/**********************/
+
+.SideBar_Row{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	
+}
+
+.SideBar_Row_Img{
+	width: 100px;
+}
+
+.SideBar_Row_Caption{
+	
+}
+
+.SideBar_Row_Detail{
+	
+}
+
+.SideBar_Time{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+/********************/
+
+
+.Index{
+	height: 1600px;	
+	padding: 0 100px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.Index_Caption{
+	width: 100%;
+	height: 100px;
+}
+
+.Index_GreenLine{
+	width: 100%;
+	height: 10px;
+}
+
+.Index_Detail{
+	width: 100%;
+	height: 100px;
+}
+
+.Index_Chart{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*****/
+.ChartOff{
+	height: 200px;
+	width: 300px;
+	margin: 5px;
+	border: 1px solid black;
+	color: rgba(0,0,0,0.6);
+}
+
+.ChartOff_Caption{
+
+}
+
+.ChartOff_Detail{
+	width: 70%;
+}
+
+.ChartOff_Img{
+	width: 100%;
+	height: 80px;
+	background: url(../icons/chart_dragdrop.png) center no-repeat;
+	background-size: auto 100%; 
+}
+
+.ChartOff_Remind{
+	text-align: center;
+}
+
+
+/*****/
+.ChartOn{
+	height: 200px;
+	width: 300px;
+	margin: 5px;
+	border:1px solid black;
+	color: rgba(0,0,0,0.6);
+}
+
+.ChartOn_Caption{
+
+}
+
+.ChartOn_Detail{
+
+}
+
+.ChartOn_File{
+
+}
+
+.ChartOn_Update{
+
+}
+/********************/
