@@ -96,7 +96,7 @@
 
 .DetailingPageHero_Overlay_Loc {
   position: absolute;
-  bottom: 150px;
+  bottom: 120px;
   height: 30px;
   background: url(../icons/detailing-hero_location_pin.png) no-repeat center left;
   background-size: auto 30px;
@@ -107,9 +107,23 @@
   letter-spacing: 1px;
 }
 
+.DetailingPageHero_Overlay_Gal {
+  position: absolute;
+  bottom: 120px;
+  height: 30px;
+  left: 250px;
+  background: url(../icons/detailing-page_04_gallery_icon.png) no-repeat center left;
+  background-size: auto 30px;
+  padding-left: 40px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
 .DetailingPageHero_Overlay_Desc {
   position: absolute;
-  bottom: 80px;  
+  bottom: 50px;  
   width: 100%;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
