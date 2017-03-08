@@ -53,7 +53,66 @@
   width: 90%;
   position: absolute;
   z-index: 15;
-  border: 1px solid;
+}
+
+.DetailingPageHero_Overlay_Back {
+  position: absolute;
+  top: 100px;  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.DetailingPageHero_Overlay_Arrow {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  width: 40px;
+  height: 100px;
+  background: url(../icons/detailing-hero_slide_arrow.png) no-repeat center;
+  background-size: auto 100px;
+  cursor: pointer;
+}
+
+.DetailingPageHero_Overlay_Arrow-revert {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  left:0;
+}
+
+.DetailingPageHero_Overlay_Views {
+  position: absolute;
+  top: 100px;
+  height: 30px;
+  right: 0;
+  height: 30px;
+  background: url(../icons/detailing-hero_views.png) no-repeat center left;
+  background-size: auto 30px;
+  padding-left: 40px;
+}
+
+.DetailingPageHero_Overlay_Loc {
+  position: absolute;
+  bottom: 150px;
+  height: 30px;
+  background: url(../icons/detailing-hero_location_pin.png) no-repeat center left;
+  background-size: auto 30px;
+  padding-left: 40px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.DetailingPageHero_Overlay_Desc {
+  position: absolute;
+  bottom: 80px;  
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
 }
 
 /** block PageContent **/
@@ -148,17 +207,14 @@
   color: rgba(100%, 100%, 100%, 0.7);
 }
 
-.DetailingPageFooter_List_Word a:link,a:visited{
+.DetailingPageFooter_List_Word a:link, a:visited {
   text-decoration: none;
-  color: rgba(100%,100%,100%,0.7);
+  color: rgba(100%, 100%, 100%, 0.7);
 }
 
-
-
-.DetailingPageFooter_List_Word a:hover,a:active{
+.DetailingPageFooter_List_Word a:hover, a:active {
   text-decoration: underline;
 }
-
 
 .DetailingPageFooter_Address {
   font-family: 'Raleway', sans-serif;

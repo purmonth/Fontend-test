@@ -7,7 +7,8 @@
   position: fixed;
   top: 400px;
   right: 80px;
-  z-index: 10; background-color : white;
+  z-index: 16;
+  background-color: white;
   box-shadow: -6px 6px 6px rgba(20%, 20%, 40%, 0.4);
   font-size: 18px;
   display: flex;
@@ -44,13 +45,11 @@
 
 /*** block-element BuyNowBlock_Row ***/
 .BuyNowBlock_Row {
-  color: rgba(0,0,0,0.8);
+  color: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px 10px;
-
-
 }
 
 .BuyNowBlock_Row_Caption {
@@ -72,7 +71,7 @@
   height: 1px;
   width: 80%;
   margin: 0 40px;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .BuyNowBlock_Button {
@@ -93,10 +92,10 @@
   font-size: 16px;
   text-align: center;
   padding: 20px;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
-.BuyNowBlock_Space{
+.BuyNowBlock_Space {
   height: 15px;
   width: 100%;
 }
