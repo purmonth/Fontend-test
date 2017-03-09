@@ -8,9 +8,8 @@
 }
 
 .ShoppingSummary_Header {
+  padding: 20px 0 50px 0;
   font-size: 36px;
-  height: 80px;
-  padding: 20 0 50px 0;
   display: flex;
   align-items: center;
 }
@@ -31,8 +30,8 @@
 }
 
 .ShoppingSummary_Row_Caption {
-  font-family: 'Raleway', sans-serif;
   width: 50%;
+  font-family: 'Raleway', sans-serif;
   text-align: left;
 }
 

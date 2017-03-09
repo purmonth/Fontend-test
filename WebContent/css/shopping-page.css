@@ -14,6 +14,11 @@
   text-align: center;
 }
 
+.Container {
+  width: 100%;
+  text-align: center;
+}
+
 /** block ShoppingPageFlow **/
 .ShoppingPageFlow {
   height: 150px;
