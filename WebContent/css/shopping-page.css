@@ -19,6 +19,11 @@
   text-align: center;
 }
 
+/** block  PayWindow **/
+.PayWindow_Content {
+  width: 100%;
+}
+
 /** block ShoppingPageFlow **/
 .ShoppingPageFlow {
   height: 150px;
