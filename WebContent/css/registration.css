@@ -1,11 +1,12 @@
 .Registration{
-    height: 900px;
+    height: 1080px;
     width: 100%;
-    background-image: url(../image/bg_5.png);
+    background: linear-gradient(#000000,#1e1e1e);
     background-size: 100% 100%; 
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content: center;
+    color: white
 
 }
 
@@ -13,41 +14,55 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: 565px;
+    width: 20%;
+    margin-left: 20%;
+    
 }
 
 
+.Registration_Car{
+    height: 800px;
+    width: 60%;
+    background:url(../icons/homepage_car.png) no-repeat right;
+    background-size: auto 100%;
+    position: relative;
+    top: -50px;
+}
 
 
 
 .Registration_Detail{
-    padding: 0 30%; 
-    color: black;
+    width: 400px;   
+    font-family: 'Raleway', sans-serif;
+    
 }
 
-.Registration_FindCar {
-    height: 70px;
-    width: 400px;
-    background: #e7211e ;
-    font-size: 24px;
+.Registration_SeeCar {
+    height: 60px;
+    width: 350px;
+    background: url(../icons/homepage_button.png) no-repeat 5px 0px; 
+    background-size: auto 100%;
+    font-size: 26px;
     color: white;
     border-radius: 10px;
     letter-spacing: 3px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding-left: 80px;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 70px;
+    cursor: pointer;
+    margin: 20px 0 50px 0;
 }
 
 .RedCar_Img{
     position: absolute;
-    top: 5850px;
+    top: 5890px;
     height: 550px;
-    width: 1350px;
+    left: 0px;
+    min-width: 100%;
     z-index: 5;
-    background: url(../image/car_4.png) no-repeat center;
-    background-size: 100% auto;
+    background: url(../image/car_4.png) no-repeat left;
+    background-size: auto 100%;
 }
 
