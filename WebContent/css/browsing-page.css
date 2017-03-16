@@ -282,3 +282,41 @@
 .dev {
   border: 1px dotted;
 }
+
+
+
+/******************************/
+.Browsingpage_Content_RedDown{
+  width: 50px;
+  height: 40px;
+  position: relative;
+  
+  opacity: 0.5;
+  -webkit-animation-name: RedDown;
+  -webkit-animation-duration: 1s;
+  background:url(../icons/red_down_double_arrow.png) no-repeat center;
+  background-size: auto 95%;
+  animation-name: RedDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; 
+  animation-iteration-count: infinite; 
+}
+
+.Browsingpage_Content_RedDown a{
+  display:  block;
+  position: absolute;
+  height: 40px;
+  width: 100%;
+}
+
+@-webkit-keyframes RedDown{
+  0%{top:0;}
+  50%{top:10px;}
+  100%{top: 0;}
+}
+
+@keyframes RedDown{
+  0%{top:0;}
+  50%{top:10px;}
+  100%{top: 0;}
+}
