@@ -20,9 +20,6 @@
   animation: valo-animate-in-fade 600ms;
 }
 
-
-
-
 .CarBlock_Img {
   width: 280px;
   height: 200px;
@@ -30,11 +27,9 @@
   transition: all .2s ease-in-out;
 }
 
-
-.CarBlock_Img:hover{
+.CarBlock_Img:hover {
   transform: scale(1.05);
 }
-
 
 .CarBlock_Desc {
   width: 100%;
@@ -77,10 +72,7 @@
   background: url(../icons/heart_empty.png) no-repeat;
   background-size: auto 16px;
   cursor: pointer;
-
 }
-
-
 
 .CarBlock_Desc_Favorite-selected {
   background: url(../icons/heart_full.png) no-repeat;
