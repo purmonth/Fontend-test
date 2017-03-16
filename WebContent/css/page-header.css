@@ -2,6 +2,7 @@
 .PageHeader {
   position: relative;
   width: 100%;
+  min-width: 1000px;
   height: 80px;
   background-color: #e7211e;
   display: flex;
@@ -21,6 +22,8 @@
 }
 
 .PageHeader_SeeCar {
+  position: absolute;
+  right: 200px;
   width: 200px;
   height: 40px;
   display: flex;

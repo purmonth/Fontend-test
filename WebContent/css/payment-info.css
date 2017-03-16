@@ -78,7 +78,7 @@
 .PaymentInfo_Row {
   padding: 20px 0 5px 0;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .PaymentInfo_Input {
@@ -92,7 +92,7 @@
 .PaymentInfo_Input_Caption {
   color: #000000;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   margin: 10px 0px 5px 0px;
 }
 

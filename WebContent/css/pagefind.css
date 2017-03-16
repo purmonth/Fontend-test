@@ -59,7 +59,7 @@
 .PageFind_PricingDisplay_Caption{
   width: 130px;
   padding:0 30px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .PageFind_PricingDisplay_Block{
@@ -67,7 +67,7 @@
   border:1px solid rgba(0,0,0,0.3);
   border-radius: 3px;
   color: rgba(0,0,0,0.3);
-  font-weight: bold;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -76,7 +76,7 @@
   border:1px solid #e7211e;
   border-radius: 3px;
   color: white;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 

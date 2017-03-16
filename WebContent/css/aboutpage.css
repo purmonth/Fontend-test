@@ -1,0 +1,179 @@
+
+body{
+  background-color: black;
+  min-width: 1450px;
+}
+
+/******************************/
+.PageHeader{
+  position: absolute !important;
+  background: none !important;
+  border-bottom: 2px solid rgba(100%,100%,100%,0.1) !important;
+}
+
+/******************************/
+
+.AboutpageContent_Header{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 900px;
+  padding: 150px 0px 0 0;
+}
+
+.AboutpageContent_Subhead{
+  font-family: 'Playfair+Display+SC', serif;
+  font-size: 18px;
+  letter-spacing: 6px;
+  font-weight: 200;
+  padding-left: 5px;
+  opacity: 0.5;
+  width: 100%;
+}
+
+
+.AboutpageContent_Title{
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  line-height: 60px;
+  padding:10px 0 30px 0;
+  font-weight: 500;
+}
+
+.AboutpageContent_Title>a{
+  color:#e7211e;
+}
+
+
+.AboutpageContent_Detail{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  opacity: 0.7;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+
+.AboutpageContent_RedLine{
+  height: 4px;
+  width: 100%;
+  background: #e7211e;
+  filter: blur(0.5px);
+
+}
+
+/******************************/
+
+/**Footer
+**/
+.AboutpageFooter{
+  color: white;
+  text-align: center;
+  height: 1000px;
+  background: url(../image/footer_bg2.png) no-repeat;
+  background-size:100% 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; 
+  font-size: 26px;
+  
+}
+
+.AboutpageFooter_Logo{
+  width: 60%;
+  height: 30px;
+  background: url(../icons/logo_DCBP.png) center no-repeat;
+  background-size: auto  100%;
+  margin-top: 180px;
+}
+
+
+.AboutpageFooter_Word{
+  font-family: 'Playfair Display', serif;
+  width: 60%;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+
+
+.AboutpageFooter_List{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+.AboutpageFooter_List_Word{
+  font-family: 'Raleway', sans-serif;
+  padding:0px 20px;
+  letter-spacing: 2px;
+  color: rgba(100%,100%,100%,0.7);
+}
+
+
+.AboutpageFooter_List_Word a:link,a:visited{
+  text-decoration: none;
+  color: rgba(100%,100%,100%,0.7);
+}
+
+
+
+.AboutpageFooter_List_Word a:hover,a:active{
+  text-decoration: underline;
+}
+
+
+
+
+.AboutpageFooter_Address{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.AboutpageFooter_List_Word-skin{
+  border-left: 1.5px solid rgba(100%,100%,100%,0.4);
+}
+
+
+
+
+/******************************/
+.Aboutpage_Content_RedDown{
+  width: 50px;
+  height: 40px;
+  position: relative;
+  
+  opacity: 0.5;
+  -webkit-animation-name: RedDown;
+  -webkit-animation-duration: 1s;
+  background:url(../icons/red_down_double_arrow.png) no-repeat center;
+  background-size: auto 95%;
+  animation-name: RedDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out; 
+  animation-iteration-count: infinite; 
+}
+
+.Aboutpage_Content_RedDown a{
+  display:  block;
+  position: absolute;
+  height: 40px;
+  width: 100%;
+}
+
+@-webkit-keyframes RedDown{
+  0%{top:0;}
+  50%{top:10px;}
+  100%{top: 0;}
+}
+
+@keyframes RedDown{
+  0%{top:0;}
+  50%{top:10px;}
+  100%{top: 0;}
+}
+
+

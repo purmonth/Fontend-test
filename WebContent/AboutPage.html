@@ -2,33 +2,30 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>DBPC Homepage</title>
-        <link type="text/css" rel="stylesheet" href="css/homepage.css">
+        <title>DBPC Aboutpage</title>
+        <link type="text/css" rel="stylesheet" href="css/aboutpage.css">
         <link rel="stylesheet" type="text/css" href="css/page-header.css">
         <link rel="stylesheet" type="text/css" href="css/car-shop.css">
         <link rel="stylesheet" type="text/css" href="css/buying-process.css">
         <link rel="stylesheet" type="text/css" href="css/home-inspection.css">
         <link rel="stylesheet" type="text/css" href="css/flexible-finance.css">
         <link rel="stylesheet" type="text/css" href="css/registration.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato|Lora|Open+Sans|Oswald|Playfair+Display:200,400|Playfair+Display+SC:200|Roboto|Source+Sans+Pro" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Lato:400i|Lora|Open+Sans:300|Oswald|Playfair+Display:200,400|Playfair+Display+SC:200|Raleway:200|Roboto:100,400|Source+Sans+Pro:100" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/DCBP.js"></script>
     </head>
-    <body>
-    
-
-
-
+    <body style="margin:0px;">
     <div class="PageHeader">
         <div class="PageHeader_Logo">
             
         </div>
         <div class="PageHeader_SeeCar">
-            SEE CARS
+            <a href="Browsingpage.html#Content">SEE CARS</a>
         </div>
 
         <div class="PageHeader_MenuPage PageHeader_MenuPage-selected">
             <div class="PageHeader_MenuPage_Cart">
-                Shopping<br>Cart
+                <a href="ShoppingPage.html#Home">Shopping<br>Cart</a>
             </div>
             <div class="PageHeader_MenuPage_Menu"></div>
            
@@ -36,22 +33,24 @@
                 
             </div>
             <div class="PageHeader_MenuPage_List">
-                <div class="PageHeader_MenuPage_List_Caption">Home</div>
+                <div class="PageHeader_MenuPage_List_Caption">
+                    <a href="Browsingpage.html#Home">Home</a>
+                </div>
             </div>
             <div class="PageHeader_MenuPage_List">
-                Browse Cars
+                <a href="Aboutpage.html#Browse_Cars">Browse Cars</a>
             </div>
             <div class="PageHeader_MenuPage_List">
                 Compare
             </div>
             <div class="PageHeader_MenuPage_List">
-                One-Stop Shop
+                <a href="Aboutpage.html#One_Stop_Shop">The One-Stop Shop</a>
             </div>
             <div class="PageHeader_MenuPage_List">
-                Buying Process
+                <a href="Aboutpage.html#Buying_Process">Buying Process</a>
             </div>
             <div class="PageHeader_MenuPage_List">
-                Finance
+                <a href="Aboutpage.html#Finance">Finance</a>
             </div>
             <div class="PageHeader_MenuPage_List">
                 Delivery
@@ -75,56 +74,28 @@
 
 
 
-
-
-
-
-
-    <div class="HomepageHeader" id="Home">
-        <div class="HomepageHeader_Content">
-            <div class="HomepageHeader_Title">
-                INTERNATIONAL<br>SHIPPING&amp;FINANCING
-            </div>
-            <div class="HomepageHeader_Detail">
-                Buy any car from anywhere,without dealership or banks.
-            </div>
-            <div class="HomepageHeader_Search">
-                <div class="SearchBar">
-                    <div class="SearchBar_Img">  
-                    </div>
-                    <input type="text" class="SearchBar_Field" tabindex="0" placeholder="Search for make, model, and body type">
-                </div>
-                <div class="SearchBar_Go">
-                    GO
-                </div>
-            </div>
-            <div class="Homepage_Content_RedDown">
-                <a href="#Browse_Cars"></a>
-            </div>
-        </div>
-    </div>
-
-
-
         <div class="Content">
+
             <div class="CarShop" id="Browse_Cars">
                 <div class="CarShop_Content" >
-                    <div class="HomepageContent_Header" >
-                        <div class="HomepageContent_Subhead">
+                    <div class="AboutpageContent_Header" >
+                        <div class="AboutpageContent_Subhead">
                             INTRODUTION
                         </div>
-                        <div class="HomepageContent_Title">
+                        <div class="AboutpageContent_Title">
                             ONE-STOP
                             <a>CAR SHOP</a>
                         </div>
-                        <div class="HomepageContent_Detail">
+                        <div class="AboutpageContent_Detail">
                             Lorwm ipsum vestibulum sociosqu velit<br>ultrices cras senectus dolor quam cubilia<br>mattis libero quam, nunc habitant ut
                         </div>
                     </div>
+
                     <div class="CarShop_Cluster">
                         <div class="CarShop_Block">
                             <div class="CarShop_Block_Img">
-                            </div>   
+                            </div>
+                            
                             <div class="CarShop_Block_Title">
                                 Massive<br>Car Selection
                             </div>
@@ -133,9 +104,11 @@
                                 from USA &amp; Germany
                             </div>
                         </div>
+                        
                         <div class="CarShop_Block">
                             <div class="CarShop_Block_Img">
                             </div>
+                            
                             <div class="CarShop_Block_Title">
                                 Door-to-Door<br>Service
                             </div>
@@ -143,6 +116,7 @@
                                 Completelyhassle-free.from oversea shipping &amp; handling to local registration
                             </div>
                         </div>
+                        
                         <div class="CarShop_Block">
                             <div class="CarShop_Block_Img">
                             </div>
@@ -155,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="Homepage_Content_RedDown">
+                    <div class="Aboutpage_Content_RedDown">
                         <a href="#Buying_Process"></a>
                     </div>
                 </div>
@@ -164,90 +138,152 @@
 
             <div class="BuyingProcess" id="Buying_Process">
                 <div class="BuyingProcess_WordBlock">
-                    <div class="HomepageContent_Header">
-                        <div class="HomepageContent_Subhead">
+                    <div class="AboutpageContent_Header">
+                        <div class="AboutpageContent_Subhead">
                             ORVERVIEW
                         </div>
-                        <div class="HomepageContent_Title">
+                        <div class="AboutpageContent_Title">
                             INTERNATIONAL
                             <a>BUYING PROCESS</a>
                         </div>
-                        <div class="HomepageContent_Detail">
+                        <div class="AboutpageContent_Detail">
                             Transparent workflow to show you how it all works Lorem ipsum vestibulum sociosqy velit ultrices cras senectus dolor quam cubilia mattis libero quam.nunc habitant ut felis ut sem sit senectus netus ante quis.
                         </div>
                     </div>
+
+
+
+
+
+
+
                     <div class="BuyingProcess_WordBlock_CarChart">
                         <img src="icons/process_chart_2.png">
                     </div>
-                    <div class="Homepage_Content_RedDown">
+                    <div class="Aboutpage_Content_RedDown">
                         <a href="#One_Stop_Shop"></a>
                     </div>
                 </div>
+                
             </div>
                 
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <div class="Inspection" id="One_Stop_Shop">
                 <div class="Inspection_Content">
                     <div class="Inspection_Img">
+                       
                     </div>
                     <div class="InspectionWord">
-                        <div class="HomepageContent_Header">
-                            <div class="HomepageContent_Subhead">
+
+                        <div class="AboutpageContent_Header">
+                            <div class="AboutpageContent_Subhead">
                                 SAFETY
                             </div>
-                            <div class="HomepageContent_Title">
+                            <div class="AboutpageContent_Title">
                                 360-PT <a>INSPECTION</a>
                             </div>
-                        </div>     
+                            
+                        </div>
+
+
+
+
+
+
+
+                    
                          <div class="InspectionWord_List">
-                            <div class="InspectionWord_List_Arrow">  
+                            <div class="InspectionWord_List_Arrow">
+                                
                             </div>
+
                             <div class="InspectionWord_List_Caption">
                                 Engine
                            </div>
+                           
                         </div>
                         <div class="InspectionWord_List_Detail">
-                            A process that shows how much wu care senectus dolor quam cubilia mattis libero quam.nunc  habitant ut felis sem sit senectus netus ante quis.curabitur sodales bibendum sodales rhoncus euismod stiam curae in
-                        </div>
+                                A process that shows how much wu care senectus dolor quam cubilia mattis libero quam.nunc  habitant ut felis sem sit senectus netus ante quis.curabitur sodales bibendum sodales rhoncus euismod stiam curae in
+                            </div>
                         <div class="InspectionWord_List">
                             <div class="InspectionWord_List_Arrow">
+                                
                             </div>
+
                             <div class="InspectionWord_List_Caption">
                                 Road Test
                             </div>
+                           
                         </div>
                         <div class="InspectionWord_List">
                             <div class="InspectionWord_List_Arrow">
+                                
                             </div>
+
                             <div class="InspectionWord_List_Caption">
                                 Interior
                             </div>
+                           
                         </div>
                         <div class="InspectionWord_List">
                             <div class="InspectionWord_List_Arrow">
+                                
                             </div>
+
                             <div class="InspectionWord_List_Caption">
                                 Exterior
                             </div>
+                           
                         </div>
                         <div class="InspectionWord_List">
                             <div class="InspectionWord_List_Arrow">
+
                             </div>
                             <div class="InspectionWord_List_Caption">
                                 Underbody
                             </div>
+                            
                         </div>
                         <div class="InspectionWord_List">
                             <div class="InspectionWord_List_Arrow">
+                                
                             </div>
+
                             <div class="InspectionWord_List_Caption">
                                 Tires &amp; Brakes
                             </div>
+                           
                         </div>
+
                     </div>
-                    <div class="Homepage_Content_RedDown">
+                    <div class="Aboutpage_Content_RedDown">
                         <a href="#Finance"></a>
+
                     </div>
+
+
                 </div>
             </div>
                 
@@ -258,73 +294,113 @@
 
             <div class="FlexibleFinance" id="Finance">
                 <div class="FlexibleFinance_Content">
-                    <div class="HomepageContent_Header">
-                        <div class="HomepageContent_Subhead">
+
+
+                    <div class="AboutpageContent_Header">
+                        <div class="AboutpageContent_Subhead">
                             AFFORDABILITY
                         </div>
-                        <div class="HomepageContent_Title">
+                        <div class="AboutpageContent_Title">
                             <a>FLEXIBLE</a>
                             FINANCING
                         </div>
-                        <div class="HomepageContent_Detail">
+                        <div class="AboutpageContent_Detail">
                             Lorem ipsum vestibulum sociosqu velit ultrices cras senectus dolor quam subilia mattis libero quam. nunc habitant ut felis sem sit senectus netus ante quis surabitur sodales ibbendum sodales rhoncus euismod etiam curaei.
                         </div>
                     </div>
                     <div class="FlexibleFinance_Img">
                     </div>
-                    <div class="Homepage_Content_RedDown">
-                        <a href="#Registration_Delivery"></a>
-                    </div>
+
                 </div>
+                
             </div>
+
 
             <div class="Registration" id="Registration_Delivery">
                 <div class="Registration_Content">
-                    <div class="HomepageContent_Subhead">
+                    
+                    <div class="AboutpageContent_Subhead">
                         FINALIZE
                     </div>
-                    <div class="HomepageContent_Title">
-                        REGISTRATION <a>&amp;</a> DELIVERY
+                    <div class="AboutpageContent_Title">
+                        REGISTRATION <a>&amp; DELIVERY</a>
                     </div>
-                    <div class="HomepageContent_Detail Registration_Detail">
-                        Choose your own terms of payment rem ipsum vestibulum sociosqu velit cras senectus dolor quam cubilia mattis libero quam. nunc habitant ut felis sum sit senectus netus ante quis.curabitur
+                    <div class="Registration_SeeCar">
+                    SEE CARS
                     </div>
-                    <div class="Registration_FindCar">
-                        FIND YOUR NEXT CAR
+                    <div class="AboutpageContent_Detail Registration_Detail">
+                        Choose your own terms of payment rem ipsum vestibulum sociosqu velit cras senectus dolor quam cubilia mattis libero quam.
                     </div>
+                    
+                    
+                </div>
+                <div class="Registration_Car">
                 </div>
                 <div class="RedCar_Img">
+                    
                 </div>
+
             </div>
+
         </div>
         
-        <div class="HomepageFooter">
-            <div class="HomepageFooter_Logo">  
+        
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+        <div class="AboutpageFooter">
+            <div class="AboutpageFooter_Logo">
+               
             </div>
-            <div class="HomepageFooter_Word">
+            <div class="AboutpageFooter_Word">
                 Be the lucky one! <br>Win a new car throught our fresh mobile app!
             </div>
-            <div class="HomepageFooter_List">
-                <div class="HomepageFooter_List_Word">
-                    <a href="#Home">Home</a>
+
+            <div class="AboutpageFooter_List">
+                
+                <div class="AboutpageFooter_List_Word">
+                    <a href="Browsingpage.html#Home">Home</a>
                 </div>
-                <div class="HomepageFooter_List_Word HomepageFooter_List_Word-skin">
+
+                <div class="AboutpageFooter_List_Word AboutpageFooter_List_Word-skin">
                     <a href="#Browse_Cars">Browse Cars</a>
                 </div>
-                <div class="HomepageFooter_List_Word HomepageFooter_List_Word-skin">
+                
+                <div class="AboutpageFooter_List_Word AboutpageFooter_List_Word-skin">
                     <a href="#One_Stop_Shop">The One-Stop Shop</a>
                 </div>
-                <div class="HomepageFooter_List_Word HomepageFooter_List_Word-skin">
+                
+                <div class="AboutpageFooter_List_Word AboutpageFooter_List_Word-skin">
                     <a href="#Buying_Process">Buying Process</a>
                 </div>
-                <div class="HomepageFooter_List_Word HomepageFooter_List_Word-skin">
+                
+                <div class="AboutpageFooter_List_Word AboutpageFooter_List_Word-skin">
                     <a href="#Finance">Finance</a>
                 </div>
-                <div class="HomepageFooter_List_Word HomepageFooter_List_Word-skin">
+                
+                <div class="AboutpageFooter_List_Word AboutpageFooter_List_Word-skin">
                     <a href="#Registration_Delivery">Registration &amp; Delivery</a>
                 </div>
+                
             </div>
-            <div class="HomepageFooter_Address">
+            <div class="AboutpageFooter_Address">
                 @ 2016 DCBP ALL rights reserved.
             </div>            
         </div>
