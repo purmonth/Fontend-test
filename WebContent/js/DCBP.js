@@ -1,0 +1,36 @@
+$(document).ready(function(){
+	$(".PageHeader_MenuPage_Menu").click(function(){
+		$(".PageHeader_MenuPage").hide();
+	});
+	$(".PageHeader_Menu").click(function(){
+		$(".PageHeader_MenuPage").show();
+	});
+	$(".CarBlock_Desc_Favorite").click(function(){
+		$(this).toggleClass("CarBlock_Desc_Favorite-selected");
+	});
+	$(".PageFind_PricingDisplay_Block").click(function(){
+		$(".PageFind_PricingDisplay_Block").removeClass("PageFind_PricingDisplay_Block-selected");
+		$(this).toggleClass("PageFind_PricingDisplay_Block-selected");
+	});
+	$(".PageFind_PricingDisplay_Block").click(function(){
+		$(".PageFind_PricingDisplay_Block").removeClass("PageFind_PricingDisplay_Block-selected");
+		$(this).toggleClass("PageFind_PricingDisplay_Block-selected");
+	});
+	$(".PageHeader_MenuPage_Language").click(function(){
+		$(".PageHeader_MenuPage_Language").removeClass("PageHeader_MenuPage_Language-selected");
+		$(this).toggleClass("PageHeader_MenuPage_Language-selected");
+	});
+	$(".ButtonGroup_Button").click(function(){
+		$(".ButtonGroup_Button").removeClass("ButtonGroup_Button-selected");
+		$(this).toggleClass("ButtonGroup_Button-selected");
+	});
+	$(".ShoppingPageFlow_Item").click(function(){
+		$(".ShoppingPageFlow_Item").removeClass("ShoppingPageFlow_Item-selected")
+		$(this).toggleClass("ShoppingPageFlow_Item-selected")
+	});
+	$(".ItemCart_Row_Trash").click(function(){
+		$(this).parent().hide();
+	});
+});
+
+

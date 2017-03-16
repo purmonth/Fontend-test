@@ -1,3 +1,156 @@
+
+.PageHeader{
+  position: absolute !important;
+  background: none !important;
+  border-bottom: 2px solid rgba(100%,100%,100%,0.1) !important;
+}
+
+.BrowsingpageHeader{
+  min-width: 1450px;
+  height: 820px;
+  background-image: url(../image/hero.png);
+  background-size: 100% auto;
+  color: white;
+  text-align: center;
+  
+  
+}
+
+.BrowsingpageHeader a:link,a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.BrowsingpageHeader a:hover,a:active{
+  text-decoration: underline;
+}
+
+
+
+.BrowsingpageHeader_Content{
+  height: 850px;
+
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.BrowsingpageHeader_Title{
+  width: 100%;
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  padding-top: 0px;
+}
+
+.BrowsingpageHeader_Detail{
+  width: 100%;
+  letter-spacing: 2px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  opacity: 0.6;
+  padding: 10px 0 30px 0;
+}
+
+.BrowsingpageHeader_Search{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+
+/******************************/
+.SearchBar
+{
+  
+  height: 70px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+.SearchBar_Img
+{
+  
+  width: 70px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: rgba(100%,100%,100%,0.2) url(../icons/magnifying_glass.png) center no-repeat;
+  background-size: auto 40%;
+}
+
+
+.SearchBar_Field
+{
+  
+  width: 370px;
+  height: 100%;
+  font-size: 18px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: rgba(100%,100%,100%,0.2);
+  color:rgba(100%,100%,100%,0.7);
+  padding-left: 10px; 
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: rgba(100%,100%,100%,0.7);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.7px;
+
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(100%,100%,100%,0.7);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.7px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(100%,100%,100%,0.7);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.7px;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: rgba(100%,100%,100%,0.7);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.7px;
+
+}
+
+.SearchBar_Go{
+  margin-left: 10px; 
+  width: 80px;
+  height: 70px;
+  background: #e7211e;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
+
+
+/****************/
 .Content {
   width: 1840px;
 }

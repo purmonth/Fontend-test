@@ -34,6 +34,19 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.PageHeader a:link,a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.PageHeader a:hover,a:active{
+  text-decoration: underline;
+}
+
+
+
 .PageHeader_Menu {
   width: 48px;
   height: 25px;
@@ -132,6 +145,7 @@
   align-items: center;
   justify-content: center;
   font-size: 14px;
+  color: rgba(100%, 100%, 100%, 0.6);
 }
 
 .PageHeader_MenuPage_LanguageLine {
@@ -142,5 +156,5 @@
 }
 
 .PageHeader_MenuPage_Language-selected {
-  color: rgba(100%, 100%, 100%, 0.6);
+  color: rgba(100%, 100%, 100%, 1);
 }

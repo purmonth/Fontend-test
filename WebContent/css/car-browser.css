@@ -20,11 +20,23 @@
   animation: valo-animate-in-fade 600ms;
 }
 
+
+.CarBlock_Mask{
+  background-color: 
+}
+
 .CarBlock_Img {
   width: 280px;
   height: 200px;
   cursor: pointer;
+  transition: all .2s ease-in-out;
 }
+
+
+.CarBlock_Img:hover{
+  transform: scale(1.05);
+}
+
 
 .CarBlock_Desc {
   width: 100%;
@@ -32,7 +44,6 @@
   font-size: 14px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
   padding-top: 5px;
 }
@@ -42,8 +53,8 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  width: 65%;
-  margin-left: 5%;
+  width: 180px;
+  margin-left: 15px;
   padding-bottom: 7px;
   font-weight: bolder;
   font-size: 15px;
@@ -52,21 +63,25 @@
 .CarBlock_Desc_Price {
   font-family: 'Roboto', sans-serif;
   text-align: right;
-  width: 25%;
+  width: 70px;
   color: #e7211e;
-  padding-right: 5%;
+  padding-right: 15px;
   padding-bottom: 7px;
   font-size: 17px;
   opacity: 0.8;
 }
 
 .CarBlock_Desc_Favorite {
-  width: 6%;
+  width: 20px;
   height: 16px;
-  margin-left: 5%;
+  margin-left: 15px;
   background: url(../icons/heart_empty.png) no-repeat;
   background-size: auto 16px;
+  cursor: pointer;
+
 }
+
+
 
 .CarBlock_Desc_Favorite-selected {
   background: url(../icons/heart_full.png) no-repeat;
@@ -75,15 +90,16 @@
 
 .CarBlock_Desc_Mileage {
   font-family: 'Roboto', sans-serif;
-  width: 35%;
+  width: 40px;
+  padding-left: 10px;
   color: rgba(0, 0, 0, 0.5);
 }
 
 .CarBlock_Desc_Ship {
   font-family: 'Raleway', sans-serif;
   text-align: right;
-  width: 45%;
-  padding-right: 5%;
+  width: 100px;
+  padding-left: 55px;
   color: rgba(0, 0, 0, 0.5);
   letter-spacing: 0.5px;
   font-size: 13px;

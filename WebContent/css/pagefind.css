@@ -102,4 +102,10 @@
 .PageFind_Sort_Menu>img{
   width: auto;
   height: 100%;
+  transition:.5s;
 }
+
+.PageFind_Sort_Menu>img:hover{
+  transform: scale(1.2);
+}
+
