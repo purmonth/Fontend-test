@@ -37,18 +37,14 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.PageHeader a:link,a:visited{
+.PageHeader a:link, a:visited {
   text-decoration: none;
   color: white;
 }
 
-
-
-.PageHeader a:hover,a:active{
+.PageHeader a:hover, a:active {
   text-decoration: underline;
 }
-
-
 
 .PageHeader_Menu {
   width: 48px;
@@ -69,7 +65,8 @@
   font-size: 18px;
   text-align: center;
   width: 300px;
-  background: linear-gradient(to right bottom, rgba(255, 10, 0, 1), rgba(159, 2, 2, 0.97));
+  background: linear-gradient(to right bottom, rgba(255, 10, 0, 1),
+    rgba(159, 2, 2, 0.97));
   border-radius: 5px;
   align-self: flex-start;
   z-index: 20;
@@ -121,7 +118,6 @@
   align-items: center;
   justify-content: center;
   text-shadow: 0 0 1px rgba(100%, 100%, 100%, 0.5);
-  
 }
 
 .PageHeader_MenuPage_TopLine {
@@ -141,7 +137,6 @@
 }
 
 .PageHeader_MenuPage_Language {
-
   height: 60px;
   width: 49%;
   display: flex;
