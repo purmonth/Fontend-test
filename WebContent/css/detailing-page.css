@@ -3,14 +3,19 @@
   display: initial;
 }
 
+.DetailingPage {
+  width: 100%;
+  text-align: center;
+}
+
+/** override PageHeader **/
 .PageHeader {
   position: absolute !important;
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
-.DetailingPage {
-  width: 100%;
-  text-align: center;
+.DetailingPage .PageHeader_SeeCar {
+  display: none;
 }
 
 /** block DetailingPageHero **/
