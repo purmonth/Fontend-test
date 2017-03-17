@@ -1,3 +1,14 @@
+/** page BrowsingPage **/
+.DivStyle {
+  display: initial;
+}
+
+.BrowsingPage {
+  width: 100%;
+  text-align: center;
+}
+
+/** override PageHeader **/
 .PageHeader {
   position: absolute !important;
   top: 0;
@@ -5,7 +16,8 @@
   border-bottom: 2px solid rgba(100%, 100%, 100%, 0.1) !important;
 }
 
-.BrowsingpageHeader {
+/** block BrowsingPageHeader **/
+.BrowsingPageHeader {
   min-width: 1450px;
   height: 820px;
   background-image: url(../image/hero.png);
@@ -14,16 +26,16 @@
   text-align: center;
 }
 
-.BrowsingpageHeader a:link, a:visited {
+.BrowsingPageHeader a:link, a:visited {
   text-decoration: none;
   color: white;
 }
 
-.BrowsingpageHeader a:hover, a:active {
+.BrowsingPageHeader a:hover, a:active {
   text-decoration: underline;
 }
 
-.BrowsingpageHeader_Content {
+.BrowsingPageHeader_Content {
   height: 850px;
   padding-top: 100px;
   display: flex;
@@ -32,14 +44,14 @@
   justify-content: center;
 }
 
-.BrowsingpageHeader_Title {
+.BrowsingPageHeader_Title {
   width: 100%;
   font-size: 60px;
   font-family: 'Playfair Display', serif;
   padding-top: 0px;
 }
 
-.BrowsingpageHeader_Detail {
+.BrowsingPageHeader_Detail {
   width: 100%;
   letter-spacing: 2px;
   font-family: 'Raleway', sans-serif;
@@ -48,48 +60,71 @@
   padding: 10px 0 30px 0;
 }
 
-.BrowsingpageHeader_Search {
+.BrowsingPageHeader_Search {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 150px;
 }
 
-/******************************/
-.Browsingpage_Content_RedDown {
+/** element BrowsingPage_NextStep **/
+.BrowsingPage_NextStep {
   width: 50px;
   height: 40px;
   position: relative;
   opacity: 0.5;
-  -webkit-animation-name: RedDown;
+  -webkit-animation-name: NextStepArrow;
   -webkit-animation-duration: 1s;
   background: url(../icons/red_down_double_arrow.png) no-repeat center;
   background-size: auto 95%;
-  animation-name: RedDown;
+  animation-name: NextStepArrow;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
-.Browsingpage_Content_RedDown a {
+.BrowsingPage_NextStep a {
   display: block;
   position: absolute;
   height: 40px;
   width: 100%;
 }
 
-@-webkit-keyframes RedDown{
+@-webkit-keyframes NextStepArrow{
   0%{top:0;}
   50%{top:10px;}
   100%{top: 0;}
 }
 
-@keyframes RedDown{
+@keyframes NextStepArrow{
   0%{top:0;}
   50%{top:10px;}
   100%{top: 0;}
 }
-/******************************/
+
+/** block BrowsingPageContent **/
+.BrowsingPageContent {
+  width: 1840px;
+}
+
+@media only screen and (max-width: 1830px) {
+  .BrowsingPageContent {
+    width: 1530px;
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .BrowsingPageContent {
+    width: 1250px;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .BrowsingPageContent {
+    width: 930px;
+  }
+}
+
 .SearchBar {
   height: 70px;
   width: 450px;
@@ -165,39 +200,6 @@
   letter-spacing: 1px;
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
-}
-
-/****************/
-.Content {
-  width: 1840px;
-}
-
-@media only screen and (max-width: 1830px) {
-  .Content {
-    width: 1530px;
-  }
-}
-
-@media only screen and (max-width: 1550px) {
-  .Content {
-    width: 1250px;
-  }
-}
-
-@media only screen and (max-width: 1230px) {
-  .Content {
-    width: 930px;
-  }
-}
-
-/** page BrowsingPage **/
-.DivStyle {
-  display: initial;
-}
-
-.BrowsingPage {
-  width: 100%;
-  text-align: center;
 }
 
 /** block BrowsingPageSidebar **/
