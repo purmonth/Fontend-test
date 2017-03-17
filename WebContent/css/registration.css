@@ -24,7 +24,7 @@
 .Registration_Car{
     height: 800px;
     width: 60%;
-    background:url(../icons/homepage_car.png) no-repeat right;
+    background:url(../image/car_registration_1.png) no-repeat right;
     background-size: auto 100%;
     position: relative;
     top: -50px;
@@ -62,7 +62,7 @@
     left: 0px;
     min-width: 100%;
     z-index: 5;
-    background: url(../image/car_registration.png) no-repeat left;
+    background: url(../image/car_registration_2.png) no-repeat left;
     background-size: auto 100%;
 }
 
