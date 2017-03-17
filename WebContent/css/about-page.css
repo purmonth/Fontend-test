@@ -1,7 +1,13 @@
 /** page AboutPage **/
-body {
-  background-color: black;
+.DivStyle {
+  display: initial;
+}
+
+.AboutPage {
+  width: 100%;
   min-width: 1450px;
+  text-align: center;
+  background-color: black;
 }
 
 /** override PageHeader **/
