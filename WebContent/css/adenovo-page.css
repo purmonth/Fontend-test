@@ -1,5 +1,10 @@
+body{
+  margin: 0px;
+  background-color: #e5e5e5;
+}
+
 .PageHeader{
-  background-color: white !important;
+  background-color:  #e5e5e5 !important;
 }
 
 .PageHeader_Logo{
@@ -17,14 +22,124 @@
 }
 /*****************************************/
 
+
+.Content{
+  width: 100%;
+  height: 1900px;
+  display: flex;
+  justify-content: center;
+  background: url(../icons/box.png) center no-repeat;
+  background-size: 100% 125%;
+  background-position: 0px -150px;
+}
+
+.Content_Box{
+  
+  width: 1160px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 0;
+
+}
+
+.Content_Block{
+  width: 400px;
+  padding: 0 20px;
+}
+
+.Content_Space{
+  height: 15px;
+  width: 100%;
+}
+
+.Content_Title{
+  width: 100%;
+  height: 50px;
+  background-color: #26306f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px;
+}
+
+.Content_Chart{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Content_Caption{
+  color: rgba(0,0,0,0.5);
+  padding: 5px 0;
+}
+
+.Content_Detail{
+  padding: 5px 0; 
+}
+
+
+.Content_Supplement{
+  width: 100%;
+  color: rgba(0,0,0,0.5);
+}
+/*****************************************/
+.Introduce_Supplement{
+  width: 100%;
+  padding: 60px 0 20px 0;
+  color: rgba(0,0,0,0.6);
+}
+
+.Introduce_Logo{
+  width: 100%;
+  height: 100px;
+  background: url(../icons/adenovo_logo.png) no-repeat center;
+  background-size: auto 100%;
+}
+
+.Introduce_Title{
+  width: 100%;
+  margin: 20px 0 0 0;
+  font-size: 30px;
+}
+
+.Introduce_GreenLine{
+  width: 100%;
+  height: 3px;
+  margin: 20px 0;
+  background: url(../icons/greenline_1.png) no-repeat center;
+  background-size: auto 100%;
+}
+
+.Introduce_Detail{
+  width: 80%;
+  padding: 0 10% 60px 10%;
+  color: rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
 /*****/
+.Index_Chart{
+  width: 100%;
+  margin: 50px 0;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .ChartOff{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   height: 250px;
   width: 250px;
-  margin: 0 20px 20px 0;
+  margin: 0 0 20px 0;
   padding: 25px;
   background: url(../icons/chart_dashbox.png) no-repeat;
   background-size: 100% 100%;
@@ -33,7 +148,6 @@
 }
 
 .Chart_Caption{
-  width: 70%;
   font-size: 40px;
 }
 
@@ -61,14 +175,13 @@
   width: 250px;
   margin: 0 20px 20px 0 ;
   padding: 25px;
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   align-items: center;
   color: rgba(0,0,0,0.6);
   background: url(../icons/chart_greenbox.jpg);
   background-size: 100% 100%;
   color: white;
-  
 }
 
 
