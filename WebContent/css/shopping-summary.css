@@ -2,14 +2,15 @@
 .ShoppingSummary {
   min-width: 350px;
   margin-left: 100px;
-  font-family: 'Lato', sans-serif;
   font-size: 18px;
-  color: #000000;
+  color: white;
+  background-color:  #222957;
 }
 
 .ShoppingSummary_Header {
-  padding: 20px 0 50px 0;
-  font-size: 36px;
+  font-family: 'Lora', serif;
+  padding: 20px 0 0px 0;
+  font-size: 28px;
   display: flex;
   align-items: center;
 }
@@ -23,44 +24,46 @@
 
 /** block_element ShoppingSummary_Row **/
 .ShoppingSummary_Row {
+  width: 80%;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px 10%;
   display: flex;
   justify-content: center;
 }
 
 .ShoppingSummary_Row_Caption {
   width: 50%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(100%,100%,100%,0.5);
   text-align: left;
 }
 
 .ShoppingSummary_Row_Value {
   width: 50%;
   text-align: right;
-  font-weight: 700;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
 }
 
 .ShoppingSummary_Row_Value-emphasize {
   font-size: 30px;
-  color: #11c759;
+  color: #ffffff;
 }
 
 .ShoppingSummary_Button {
-  width: 110%;
+  width: 100%;
   height: 60px;
   border-radius: 5px;
   cursor: pointer;
   padding-top: 10px;
   position: relative;
-  left: -20px;
+  
 }
 
 .ShoppingSummary_Button_Caption {
   width: 100%;
   height: 100%;
   font-size: 30px;
-  border-radius: 5px;
   color: #ffffff;
   background: #11c759;
   display: flex;

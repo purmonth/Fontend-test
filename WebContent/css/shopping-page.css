@@ -1,3 +1,36 @@
+body{
+  margin: 0px;
+  /*
+  background-color: white;
+  */
+  background-color: #e5e5e5;
+  
+  min-width: 1670px;
+}
+
+
+
+.PageHeader{
+  background-color: #e5e5e5  !important;
+}
+/**
+#e5e5e5
+#222957
+**/
+.PageHeader_Logo{
+  background: url(../icons/blue_logo.png) no-repeat  !important;
+  background-size: auto 100% !important;
+}
+
+.PageHeader_Menu{
+  background: url(../icons/menu_gray.png) no-repeat !important;
+  background-size: auto 100% !important;
+}
+
+.PageHeader_MenuPage-selected{
+  visibility: hidden !important;
+}
+
 /** page ShoppingPage **/
 .Content {
   display: flex;
@@ -27,19 +60,20 @@
 /** block ShoppingPageFlow **/
 .ShoppingPageFlow {
   height: 150px;
-  background-color: #ebebeb;
-  border-bottom: solid 1px #747474;
+  justify-content: center;
   display: flex;
 }
 
 .ShoppingPageFlow_Item {
+  height: 70px;
+  width: 400px;
   cursor: pointer;
   display: flex;
-  flex-grow: 1;
   justify-content: center;
-  margin: 20px 0;
-  border-right: 1px solid #747474;
+  margin: 20px 5px;
+  border: 1px solid rgba(0,0,0,0.2);
   color: rgba(0, 0, 0, 0.2);
+  
 }
 
 .ShoppingPageFlow_Item_Caption {
@@ -49,10 +83,12 @@
 }
 
 .ShoppingPageFlow_Item-selected {
-  color: black;
+  color: white;
+  background-color: #222957;
   -webkit-animation: valo-animate-in-fade 200ms;
   -moz-animation: valo-animate-in-fade 200ms;
   animation: valo-animate-in-fade 200ms;
+  box-shadow:0px 0px 22px rgba(0,0,0,0.4);
 }
 
 .ShoppingPageFlow_Stage {
