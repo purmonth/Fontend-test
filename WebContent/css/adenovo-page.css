@@ -1,12 +1,20 @@
 body{
   margin: 0px;
+  /*
+  background-color: white;
+  */
   background-color: #e5e5e5;
+  
+  min-width: 1670px;
+
 }
 
 .PageHeader{
-  background-color:  #e5e5e5 !important;
+  background-color: #e5e5e5  !important;
 }
-
+/**
+#e5e5e5
+**/
 .PageHeader_Logo{
   background: url(../icons/blue_logo.png) no-repeat  !important;
   background-size: auto 100% !important;
@@ -25,7 +33,7 @@ body{
 
 .Content{
   width: 100%;
-  height: 1900px;
+  height: 2250px;
   display: flex;
   justify-content: center;
   background: url(../icons/box.png) center no-repeat;
@@ -33,9 +41,18 @@ body{
   background-position: 0px -150px;
 }
 
+.Content_Background{
+  height: 900px;
+  min-width: 1670px;
+  position: absolute;
+  z-index: -1;
+  background: url(../image/bg_adenovo_image.jpg) center no-repeat;
+  background-size: 100% auto;
+  opacity: 0.15;
+}
+
 .Content_Box{
-  
-  width: 1160px;
+  width: 1220px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -44,39 +61,44 @@ body{
 }
 
 .Content_Block{
-  width: 400px;
-  padding: 0 20px;
+  width: 520px;
+  padding: 0 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
-.Content_Space{
-  height: 15px;
-  width: 100%;
-}
+
 
 .Content_Title{
   width: 100%;
-  height: 50px;
-  background-color: #26306f;
+  height: 65px;
+  background:  #26306f ;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 5px;
+  box-shadow:0px 0px 22px rgba(0,0,0,0.4);
+  font-family: 'Raleway', serif;
+  font-size: 22px;
+  font-weight: 100;
 }
 
 .Content_Chart{
   width: 100%;
   display: flex;
   justify-content: center;
+
 }
 
 .Content_Caption{
-  color: rgba(0,0,0,0.5);
-  padding: 5px 0;
+  color: rgba(0,0,0,0.4);
+  padding: 10px 0;
+  font-size: 16px;
 }
 
 .Content_Detail{
-  padding: 5px 0; 
+  padding: 10px 0; 
+  font-size: 18px;
 }
 
 
@@ -84,38 +106,49 @@ body{
   width: 100%;
   color: rgba(0,0,0,0.5);
 }
+
+.Content_Space{
+  height: 30px;
+  width: 100%;
+}
+
 /*****************************************/
 .Introduce_Supplement{
   width: 100%;
-  padding: 60px 0 20px 0;
+  padding: 100px 0 40px 0;
   color: rgba(0,0,0,0.6);
 }
 
 .Introduce_Logo{
   width: 100%;
-  height: 100px;
+  height: 130px;
   background: url(../icons/adenovo_logo.png) no-repeat center;
   background-size: auto 100%;
 }
 
 .Introduce_Title{
   width: 100%;
-  margin: 20px 0 0 0;
+  margin: 40px 0 0 0;
   font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
 
 .Introduce_GreenLine{
   width: 100%;
   height: 3px;
-  margin: 20px 0;
+  margin: 30px 0;
   background: url(../icons/greenline_1.png) no-repeat center;
   background-size: auto 100%;
 }
 
 .Introduce_Detail{
-  width: 80%;
-  padding: 0 10% 60px 10%;
+  width: 90%;
+  padding: 0 5% 60px 5%;
   color: rgba(0,0,0,0.6);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 
@@ -125,8 +158,8 @@ body{
 
 /*****/
 .Index_Chart{
-  width: 100%;
-  margin: 50px 0;
+  width: 90%;
+  padding: 0 5%;
   text-align: left;
   display: flex;
   flex-wrap: wrap;
@@ -137,9 +170,9 @@ body{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  height: 250px;
-  width: 250px;
-  margin: 0 0 20px 0;
+  height: 300px;
+  width: 300px;
+  margin: 10px 0;
   padding: 25px;
   background: url(../icons/chart_dashbox.png) no-repeat;
   background-size: 100% 100%;
@@ -148,7 +181,9 @@ body{
 }
 
 .Chart_Caption{
-  font-size: 40px;
+  font-size: 47px;
+  font-family: 'Lora', serif;
+  flex-grow: 2;
 }
 
 .Chart_Detail{
@@ -156,6 +191,9 @@ body{
   height: 20px;
   font-weight: 700;
   font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 
@@ -171,9 +209,9 @@ body{
 
 /*****/
 .ChartOn{
-  height: 250px;
-  width: 250px;
-  margin: 0 20px 20px 0 ;
+  height: 300px;
+  width: 300px;
+  margin: 10px  0;
   padding: 25px;
   display: none;
   flex-wrap: wrap;
@@ -188,7 +226,10 @@ body{
 
 .Chart_FileName{
   width: 100%;
-  padding-top: 10px;
+  padding-top: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
 
 .Chart_Cancel{
@@ -202,8 +243,9 @@ body{
 }
 
 .Chart_UpdateWord{
-  font-size: 24px;
-  width: 65%;
+  font-size: 18px;
+  width: 75%;
+  letter-spacing: 2px;
   height: 60px;
   display: flex;
   align-items: flex-end;
@@ -212,17 +254,21 @@ body{
 
 .Chart_UpdateImg{
   height: 55px;
-  width: 35%;
+  width: 25%;
   background: url(../icons/chart_update_success.png) right no-repeat;
   background-size: auto 100%;
   display: flex;
   align-items: flex-end;
-  
-  
 }
 /********************/
+.Chart_Middlespace{
+  margin: 10px 20px ; 
+}
 
-
+.Chart_Space{
+  height: 50px;
+  width: 900px;
+}
 
 
 /*****************************************/
