@@ -77,14 +77,14 @@ body{
 }
 
 .ShoppingPageFlow_Item_Caption {
-  font-family: 'Lora', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 26px;
   margin: auto;
 }
 
 .ShoppingPageFlow_Item-selected {
   color: white;
-  background-color: #222957;
+  background: linear-gradient(to bottom,#27316f,#20254b);
   -webkit-animation: valo-animate-in-fade 200ms;
   -moz-animation: valo-animate-in-fade 200ms;
   animation: valo-animate-in-fade 200ms;
@@ -92,7 +92,7 @@ body{
 }
 
 .ShoppingPageFlow_Stage {
-  width: 70%;
+  width: 1220px;
   padding: 25px 0;
 }
 

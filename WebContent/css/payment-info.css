@@ -1,110 +1,120 @@
 .PaymentCustomize {
-  font-family: 'Lato', sans-serif;
-  min-width: 700px;
+  min-width: 800px;
   float: left;
-  padding: 20px 0 0 0;
+  
 }
 
-.PaymentCustomize_Title {
-  padding-bottom: 40px;
-}
 
-.PaymentCustomize_Grayblock {
-  height: 150px;
-  margin: 0 0 10px 0px;
-  width: 100%;
-  background-color: #f2f3f5;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.PaymentCustomize_Grayblock-white {
-  background-color: white;
-}
-
-.PaymentCustomize_Input {
-  width: 10%;
-}
-
-.PaymentCustomize_Word {
-  width: 50%;
-}
-
-.PaymentCustomize_Word_Title {
-  font-size: 24px;
-  padding-bottom: 5px;
-}
-
-.PaymentCustomize_Word_Content {
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
-  color: #7f7f7f;
-}
-
-.PaymentCustomize_Img {
-  width: 30%;
-}
-
-.PaymentCustomize_Img img {
-  height: 25px;
-  width: auto;
-  float: right;
-}
 
 /** block PaymentInfo **/
 .PaymentInfo {
   min-width: 750px;
   padding-bottom: 30px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.PaymentInfo_Header {
-  font-size: 36px;
-  margin-left: 15%;
-  height: 80px;
+.PaymentInfo_Header{
+  width: 100%;
   display: flex;
   align-items: center;
+  height: 80px;
+  padding:20px 0 30px 50px  ;
 }
 
-.PaymentInfo_Line {
-  width: 85%;
-  margin-left: 15%;
-  height: 1px;
-  background: #747474;
-  margin-bottom: 30px;
+.PaymentInfo_Header_Word
+{
+  opacity: 0.9;
+  color: #394173;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
 }
 
-.PaymentInfo_Row {
-  padding: 20px 0 5px 0;
+.PaymentInfo_Header_Line{
+  height: 20px;
+  width: 1px;
+  background-color: rgba(0,0,0,0.7);
+  margin: 0 25px;
+  filter: blur(0.4px);
+}
+
+.PaymentInfo_Header_Supplement{
   font-size: 20px;
-  font-weight: 700;
+  opacity: 0.7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
+
+
 
 .PaymentInfo_Input {
-  width: 85%;
+  width: 42%;
+  padding-left: 50px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin: 3% 15%;
+  
 }
 
 .PaymentInfo_Input_Caption {
-  color: #000000;
+  color: rgba(0,0,0,0.5);
   font-size: 20px;
   font-weight: 700;
-  margin: 10px 0px 5px 0px;
+  margin: 20px 0px;
 }
 
 .PaymentInfo_Input_Field {
-  height: 60px;
+  height: 80px;
   width: 100%;
-  font-size: 20px;
+  font-size: 26px;
   padding-left: 10%;
-  border: 1px solid #747474;
+  border: 1px solid rgba(0,0,0,0.2);
   border-radius: 5px;
 }
 
 .PaymentInfo_Input_Field-prompt {
   color: #747474;
 }
+
+
+.PaymentInfo_Button{
+  width: 90%;
+  height: 80px;
+  font-size: 26px;
+  color: white;
+  margin: 50px 0 0 50px;
+  background: #11c759;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.PaymentInfo_Supplement{
+  width: 90%;
+  height: 30px;
+  margin: 20px 0 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.PaymentInfo_Supplement_Word{
+  color: rgba(0,0,0,0.5);
+}
+
+
+.PaymentInfo_Supplement_ECpay{
+  height: 30px;
+  width: 100px;
+  align-items: center;
+  text-align: right;
+  
+  background: url(../icons/ec_pay.png) no-repeat right;
+  background-size: auto 100%;
+}
+
+
+

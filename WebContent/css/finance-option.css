@@ -1,38 +1,57 @@
 /** block FinanceOption **/
 .FinanceOption
 {
-  min-width: 700px;
+  min-width: 800px;
 }
 
-.FinanceOption_Header
-{
-  height: 80px;
+.FinanceOption_Header{
+  width: 100%;
   display: flex;
   align-items: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 36px;
-  padding:20px 0 30px 0  ;
+  height: 80px;
+  padding:20px 0 30px 50px  ;
 }
 
-.FinanceOption_Line
+.FinanceOption_Header_Word
 {
-  height: 1px;
-  width: 100%;
-  background: #747474;
+  opacity: 0.9;
+  color: #394173;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
 }
+
+.FinanceOption_Header_Line{
+  height: 20px;
+  width: 1px;
+  background-color: rgba(0,0,0,0.7);
+  margin: 0 25px;
+  filter: blur(0.4px);
+}
+
+.FinanceOption_Header_Supplement{
+  font-size: 20px;
+  opacity: 0.7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+
 
 
 .FinanceOption_Row
 {
-  padding:5% 0;
+  padding:5% 120px;
   font-size: 20px;
+  letter-spacing: 1px;
 }
 
 
 .FinanceOption_Input
 {
-  height: 70px;
-  width: 100%;
+  height: 90px;
+  width: 600px;
+  padding: 0 120px;
   display: flex;
   align-items: center;
   border-radius: 15px;
@@ -40,16 +59,20 @@
 
 .FinanceOption_Input_Caption
 {
-  width: 10%;
+  width: 8%;
   height: 100%;
   font-size: 30px;
   color: #ffffff;
-  background-color: #222957;
+  background: linear-gradient(to bottom,#27316f,#20254b);
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  box-shadow:0px 0px 22px rgba(0,0,0,0.4);
+
 }
 
 .FinanceOption_Input_Field
@@ -58,23 +81,26 @@
   height: 100%;
   padding-left: 20px;
   font-size: 32px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /** block ButtonGroup **/
 .ButtonGroup
 {
-  width: 450px;
+  width: 550px;
+  padding-left: 120px;
   display: flex;
   justify-content: space-between;
 }
 
 .ButtonGroup_Button
 {
+  background-color: white;
+  color: rgba(0,0,0,0.7);
   border: 1px solid rgba(0,0,0,0.2);
   border-radius: 10px;
-  width: 100px;
+  width: 120px;
   height: 150px;
   display: flex;
   flex-direction: column;
@@ -91,7 +117,8 @@
 .ButtonGroup_Button-selected
 {
   color: #ffffff;
-  background-color: #222957;
+  background: linear-gradient(to bottom,#27316f,#20254b);
+  box-shadow:0px 0px 22px rgba(0,0,0,0.4);
 }
 
 .ButtonGroup_Button_Caption
@@ -100,5 +127,9 @@
   font-size: 40px;
 }
 
-.ButtonGroup_Button_Content
-{}
+.ButtonGroup_Button_Content{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
