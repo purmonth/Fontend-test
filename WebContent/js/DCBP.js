@@ -31,6 +31,16 @@ $(document).ready(function(){
 	$(".ItemCart_Row_Trash").click(function(){
 		$(this).parent().hide();
 	});
+	$(".ItemCart_Row_Remove").click(function(){
+		$(this).parent().toggleClass("ItemCart_Row-removed");
+		$(this).hide();
+		$(this).siblings('.ItemCart_Row_Add').show();
+	});
+	$(".ItemCart_Row_Add").click(function(){
+		$(this).parent().toggleClass("ItemCart_Row-removed");
+		$(this).hide();
+		$(this).siblings('.ItemCart_Row_Remove').show();
+	});
 });
 
 

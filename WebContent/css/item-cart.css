@@ -45,12 +45,10 @@
 
 .ItemCart_Row-removed{
   background-color: rgb(221,221,221);
-  color: white;
+  
 }
 
-.ItemCart_Row-removed>.ItemCart_Row_Caption{
-  color: white;
-}
+
 
 
 .ItemCart_Row_Pointer {
@@ -63,22 +61,54 @@
 
 .ItemCart_Row_Caption {
   width: 45%;
-  font-size: 18px;
+  font-size: 16px;
   color: #303a6b;
 }
 
 .ItemCart_Row_Remove {
   font-size: 16px;
-  width: 25%;
-  text-align: right;
+  width: 10%;
+  padding-left: 15%;
+  text-align: center;
+  cursor: pointer;
+  display: initial;
 }
 
+.ItemCart_Row_Add{
+  display: none;
+  font-size: 16px;
+  width: 10%;
+  padding-left: 15%;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  animation-name: Add;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes Add{
+  0%{top:0;}
+  25%{top:5px;}
+  75%{top:-5px;}
+  100%{top: 0;}
+}
+
+
+
+@keyframes Add{
+  0%{top:0;}
+  25%{top:5px;}
+  75%{top:-5px;}
+  100%{top: 0;}
+}
 
 
 .ItemCart_Row_UnitPrice {
   width: 15%;
   text-align: right;
- 
+  color:rgba(0,0,0,0.6);
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   
