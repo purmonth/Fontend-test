@@ -18,6 +18,13 @@
   align-items: center;
 }
 
+.ShoppingSummary_Header-supplement {
+  height: initial;
+  padding: 10px 0 0 30px;
+  font-size: 16px;
+  color: rgba(100%, 100%, 100%, 0.2);
+}
+
 .ShoppingSummary_Header_Supplement {
   width: 300px;
   font-size: 16px;
@@ -33,7 +40,7 @@
 
 /** block_element ShoppingSummary_Row **/
 .ShoppingSummary_Row {
-  width: 80%;
+  /* width: 80%; */
   align-items: center;
   padding: 10px 10%;
   display: flex;
