@@ -77,8 +77,9 @@
 
 /** block ButtonGroup **/
 .ButtonGroup {
-  width: 550px;
+  /*width: 550px;*/
   padding-left: 120px;
+  padding-right: 130px;
   display: flex;
   justify-content: space-between;
 }
