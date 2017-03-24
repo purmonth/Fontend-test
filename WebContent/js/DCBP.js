@@ -41,6 +41,10 @@ $(document).ready(function(){
 		$(this).hide();
 		$(this).siblings('.ItemCart_Row_Remove').show();
 	});
+	$(".ItemCart_Row_UnitPrice").click(function(){
+		console.log($(this).text());
+		
+	});
 });
 
 

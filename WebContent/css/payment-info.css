@@ -57,6 +57,10 @@
   
 }
 
+.PaymentInso_Input-longway{
+  width: 90%;
+}
+
 .PaymentInfo_Input_Caption {
   color: rgba(0,0,0,0.5);
   font-size: 20px;
