@@ -1,69 +1,61 @@
 /** block FinanceOption **/
-.FinanceOption
-{
+.FinanceOption {
   min-width: 800px;
 }
 
-.FinanceOption_Header{
+.FinanceOption_Header {
   width: 100%;
   display: flex;
   align-items: center;
   height: 80px;
-  padding:20px 0 30px 50px  ;
+  padding: 20px 0 30px 50px;
 }
 
-.FinanceOption_Header_Word
-{
+.FinanceOption_Header_Caption {
   opacity: 0.9;
   color: #394173;
   font-family: 'Playfair Display', serif;
   font-size: 28px;
 }
 
-.FinanceOption_Header_Line{
+.FinanceOption_Header_Line {
   height: 20px;
   width: 1px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   margin: 0 25px;
   filter: blur(0.4px);
 }
 
-.FinanceOption_Header_Supplement{
+.FinanceOption_Header_Supplement {
   font-size: 20px;
   opacity: 0.7;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-
-
-
-
-.FinanceOption_Row
-{
-  padding:5% 120px;
+.FinanceOption_Row {
+  padding: 5% 120px;
   font-size: 20px;
   letter-spacing: 1px;
 }
 
-
-.FinanceOption_Input
-{
+.FinanceOption_Input  {
   height: 90px;
-  width: 600px;
-  padding: 0 120px;
+  /*width: 600px;
+  padding: 0 120px;*/
+  padding-right: 80px;
+  padding-left: 120px;
   display: flex;
   align-items: center;
   border-radius: 15px;
 }
 
-.FinanceOption_Input_Caption
-{
+.FinanceOption_Input_Caption {
   width: 8%;
   height: 100%;
   font-size: 30px;
   color: #ffffff;
-  background: linear-gradient(to bottom,#27316f,#20254b);
+  background: linear-gradient(to bottom, #27316f, #20254b);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,12 +63,10 @@
   border-bottom-left-radius: 5px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  box-shadow:0px 0px 22px rgba(0,0,0,0.4);
-
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.4);
 }
 
-.FinanceOption_Input_Field
-{
+.FinanceOption_Input_Field {
   width: 100%;
   height: 100%;
   padding-left: 20px;
@@ -86,19 +76,17 @@
 }
 
 /** block ButtonGroup **/
-.ButtonGroup
-{
+.ButtonGroup {
   width: 550px;
   padding-left: 120px;
   display: flex;
   justify-content: space-between;
 }
 
-.ButtonGroup_Button
-{
+.ButtonGroup_Button {
   background-color: white;
-  color: rgba(0,0,0,0.7);
-  border: 1px solid rgba(0,0,0,0.2);
+  color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   width: 120px;
   height: 150px;
@@ -106,30 +94,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
-.ButtonGroup_Button:hover
-{
+.ButtonGroup_Button:hover {
   cursor: pointer;
 }
 
-.ButtonGroup_Button-selected
-{
+.ButtonGroup_Button-selected {
   color: #ffffff;
-  background: linear-gradient(to bottom,#27316f,#20254b);
-  box-shadow:0px 0px 22px rgba(0,0,0,0.4);
+  background: linear-gradient(to bottom, #27316f, #20254b);
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.4);
 }
 
-.ButtonGroup_Button_Caption
-{
+.ButtonGroup_Button_Caption {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
 }
 
-.ButtonGroup_Button_Content{
+.ButtonGroup_Button_Content {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   padding-top: 10px;
 }
-
