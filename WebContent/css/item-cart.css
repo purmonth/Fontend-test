@@ -6,8 +6,8 @@
 
 /** block_element Header **/
 .ItemCart_Header {
-  width: 90%;
-  margin:0 5%;
+  /*width: 90%;*/
+  margin: 0 5%;
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
@@ -22,17 +22,15 @@
   font-family: 'Playfair Display', serif;
 }
 
-
 .ItemCart_Header_Column {
   font-size: 16px;
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 /** block_element Row **/
 .ItemCart_Row {
-  width: 90%;
+  /*width: 90%;*/
   padding: 0 5%;
   height: 80px;
   display: flex;
@@ -40,16 +38,11 @@
   align-items: center;
   background-color: white;
   margin: 5px 0;
-  
 }
 
-.ItemCart_Row-removed{
-  background-color: rgb(221,221,221);
-  
+.ItemCart_Row-removed {
+  background-color: rgb(221, 221, 221);
 }
-
-
-
 
 .ItemCart_Row_Pointer {
   width: 5%;
@@ -65,6 +58,22 @@
   color: #303a6b;
 }
 
+.ItemCart_Row_Button {
+  font-size: 16px;
+  width: 10%;
+  padding-left: 15%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ItemCart_Row_Button-selected {
+  position: relative;
+  animation-name: Add;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
 .ItemCart_Row_Remove {
   font-size: 16px;
   width: 10%;
@@ -74,7 +83,7 @@
   display: initial;
 }
 
-.ItemCart_Row_Add{
+.ItemCart_Row_Add {
   display: none;
   font-size: 16px;
   width: 10%;
@@ -95,8 +104,6 @@
   100%{top: 0;}
 }
 
-
-
 @keyframes Add{
   0%{top:0;}
   25%{top:5px;}
@@ -104,26 +111,23 @@
   100%{top: 0;}
 }
 
-
 .ItemCart_Row_UnitPrice {
   width: 15%;
   text-align: right;
-  color:rgba(0,0,0,0.6);
+  color: rgba(0, 0, 0, 0.6);
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
-  
 }
 
 /** block_element Footer **/
 .ItemCart_Footer {
-  width: 90%;
+  /*width: 90%;*/
   padding: 0 5%;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
-  
 }
 
 .ItemCart_Footer_Caption {
@@ -138,7 +142,7 @@
   text-decoration: underline;
 }
 
-.ItemCart_Footer_Total{
+.ItemCart_Footer_Total {
   width: 0%;
   font-style: none;
 }
