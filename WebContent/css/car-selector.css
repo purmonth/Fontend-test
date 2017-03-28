@@ -68,14 +68,24 @@
   font-family: 'Lora', serif;
   height: 40px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-overflow: ellipsis;
   width: 80%;
   color: rgba(0,0,0,0.5);
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 .CarSelectorOption_Item_Icon
 {
-  width: 20%;
+  width: 30px;
+  margin-left: 20px;
+  height: 40px;
   text-align: right;
+}
+
+.CarSelectorOption_Item_Icon-selected{
+  background: url(../icons/check.png) center no-repeat;
+  background-size: 100% auto;
 }

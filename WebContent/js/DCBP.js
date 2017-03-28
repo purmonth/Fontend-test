@@ -43,7 +43,11 @@ $(document).ready(function(){
 	});
 	$(".ItemCart_Row_UnitPrice").click(function(){
 		console.log($(this).text());
-		
+	});
+
+	$(".CarSelectorOption_Item_Caption").click(function(){
+		console.log("Hi");
+		$(this).siblings().toggleClass('CarSelectorOption_Item_Icon-selected');
 	});
 });
 
