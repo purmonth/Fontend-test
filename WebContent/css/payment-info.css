@@ -1,7 +1,6 @@
 .PaymentCustomize {
   min-width: 800px;
   float: left;
-  
 }
 
 
@@ -54,11 +53,10 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  
 }
 
-.PaymentInso_Input-longway{
-  width: 90%;
+.PaymentInfo_Input-longway{
+  width: 215% !important;
 }
 
 .PaymentInfo_Input_Caption {
@@ -78,7 +76,6 @@
 }
 
 .PaymentInfo_Input_Field-prompt {
-   
   color: #747474;
 }
 

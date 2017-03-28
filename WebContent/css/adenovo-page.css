@@ -16,8 +16,12 @@ body{
 #e5e5e5
 **/
 .PageHeader_Logo{
-  background: url(../icons/blue_logo.png) no-repeat  !important;
+  background: url(../icons/header_logo-blue.png) no-repeat  !important;
   background-size: auto 100% !important;
+}
+
+.PageHeader_SeeCar{
+  display: none !important;
 }
 
 .PageHeader_Menu{
@@ -26,7 +30,7 @@ body{
 }
 
 .PageHeader_MenuPage-selected{
-  visibility: hidden !important;
+  /*visibility: hidden !important;*/
 }
 /*****************************************/
 
