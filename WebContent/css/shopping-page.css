@@ -1,58 +1,41 @@
-body{
-  margin: 0px;
-  /*
-  background-color: white;
-  */
-  background-color: #e5e5e5;
-  
-  min-width: 1670px;
-}
-
-
-
-.PageHeader{
-  background-color: #e5e5e5  !important;
-}
-/**
-#e5e5e5
-#222957
-**/
-.PageHeader_Logo{
-  background: url(../icons/header_logo-blue.png) no-repeat  !important;
-  background-size: auto 100% !important;
-}
-
-.PageHeader_SeeCar{
-  display: none !important;
-}
-
-.PageHeader_Menu{
-  background: url(../icons/menu_gray.png) no-repeat !important;
-  background-size: auto 100% !important;
-}
-
-.PageHeader_MenuPage-selected{
-  /*visibility: hidden !important;*/
-}
-
-/** page ShoppingPage **/
 .Content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
+/** page ShoppingPage **/
 .DivStyle {
   display: initial;
 }
 
 .ShoppingPage {
   width: 100%;
+  background-color: #e5e5e5;
 }
 
 .Container {
   width: 100%;
   text-align: center;
+}
+
+/** override PageHeader **/
+.PageHeader {
+  background-color: #e5e5e5 !important;
+}
+
+.PageHeader_Logo {
+  background: url(../icons/header_logo-blue.png) no-repeat !important;
+  background-size: auto 100% !important;
+}
+
+.PageHeader_SeeCar {
+  display: none !important;
+}
+
+.PageHeader_Menu {
+  background: url(../icons/menu_icon-gray.png) no-repeat !important;
+  background-size: auto 100% !important;
 }
 
 /** block  PayWindow **/
@@ -74,9 +57,8 @@ body{
   display: flex;
   justify-content: center;
   margin: 20px 5px;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   color: rgba(0, 0, 0, 0.2);
-  
 }
 
 .ShoppingPageFlow_Item_Caption {
@@ -156,9 +138,4 @@ body{
   font-size: 16px;
   letter-spacing: 2px;
   padding-top: 50px;
-}
-
-/** misc modifier **/
-.dev {
-  border: 1px dotted;
 }
