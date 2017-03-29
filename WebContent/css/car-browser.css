@@ -70,13 +70,13 @@
   width: 20px;
   height: 16px;
   margin-left: 15px;
-  background: url(../icons/heart_empty.png) no-repeat;
+  background: url(../icons/heart-empty.png) no-repeat;
   background-size: auto 16px;
   cursor: pointer;
 }
 
 .CarBlock_Desc_Favorite-selected {
-  background: url(../icons/heart_full.png) no-repeat;
+  background: url(../icons/heart-full.png) no-repeat;
   background-size: auto 16px;
 }
 
