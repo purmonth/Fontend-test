@@ -1,14 +1,12 @@
 /** block CarSelector **/
-.CarSelector
-{
+.CarSelector {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.CarSelectorOption
-{
+.CarSelectorOption {
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -17,16 +15,14 @@
 }
 
 /** Option_Header **/
-.CarSelectorOption_Header
-{
+.CarSelectorOption_Header {
   width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 10px;
 }
 
-.CarSelectorOption_Header_Icon
-{
+.CarSelectorOption_Header_Icon {
   width: 30px;
   height: 40px;
   background: url(../icons/arrow.png) no-repeat center;
@@ -34,8 +30,7 @@
   filter: blur(0.4px);
 }
 
-.CarSelectorOption_Header_Icon-selected
-{
+.CarSelectorOption_Header_Icon-selected {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -43,49 +38,49 @@
   transform: rotate(90deg);
 }
 
-.CarSelectorOption_Header_Caption
-{
+.CarSelectorOption_Header_Caption {
   color: #000000;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  margin-left: 10px; 
+  margin-left: 10px;
 }
 
 /** Option_Item **/
-.CarSelectorOption_Item
-{
+.CarSelectorOption_Item {
   width: 100%;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing : border-box;
-  box-sizing : border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   display: flex;
   font-size: 15px;
   padding-right: 40px;
 }
 
-.CarSelectorOption_Item_Caption
-{
+.CarSelectorOption_Item_Caption {
   font-family: 'Lora', serif;
   height: 40px;
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
   text-overflow: ellipsis;
   width: 80%;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0, 0, 0, 0.5);
   margin-left: 40px;
 }
 
-.CarSelectorOption_Item_Icon
-{
+.CarSelectorOption_Item_Icon {
   width: 30px;
   margin-left: 20px;
   height: 40px;
   text-align: right;
 }
 
-.CarSelectorOption_Item_Icon-selected{
+.CarSelectorOption_Item-selected > .CarSelectorOption_Item_Icon {
+  background: url(../icons/check.png) center no-repeat;
+  background-size: 100% auto;
+}
+
+.CarSelectorOption_Item_Icon-selected {
   background: url(../icons/check.png) center no-repeat;
   background-size: 100% auto;
 }
