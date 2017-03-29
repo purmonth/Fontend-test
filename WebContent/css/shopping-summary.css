@@ -44,7 +44,7 @@
   align-items: center;
   padding: 10px 10%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .ShoppingSummary_Row_Caption {
@@ -72,7 +72,8 @@
 }
 
 .ShoppingSummary_Row_Value {
-  width: 40%;
+  /*width: 40%;*/
+  width: 70%;
   text-align: right;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
