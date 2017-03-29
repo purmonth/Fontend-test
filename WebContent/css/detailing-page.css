@@ -204,6 +204,10 @@
   margin-top: 180px;
 }
 
+.DetailingPageFooter_Caption  {
+  height: 10px;
+}
+
 .DetailingPageFooter_Word {
   font-family: 'Playfair Display', serif;
   width: 60%;
