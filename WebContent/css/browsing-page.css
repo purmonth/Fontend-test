@@ -229,7 +229,7 @@
   height: 400px;
   min-width: 1000px;
   margin-left: 13%;
-  background: url(../image/footer_bg2.png) no-repeat;
+  background: url(../image/footer_bg.png) no-repeat;
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;

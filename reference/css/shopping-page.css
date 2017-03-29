@@ -72,7 +72,7 @@
   width: 100%;
   color: white;
   text-align: center;
-  background-image: url(../image/footer_bg.png);
+  background-image: url(../image/footer_bg-small.png);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
