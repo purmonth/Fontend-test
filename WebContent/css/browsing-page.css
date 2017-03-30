@@ -51,6 +51,13 @@
   padding-top: 0px;
 }
 
+.v-widget .BrowsingPageHeader_Title {
+  width: 100%;
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  padding-top: 100px;
+}
+
 .BrowsingPageHeader_Detail {
   width: 100%;
   letter-spacing: 2px;
@@ -85,7 +92,6 @@
 
 .BrowsingPage_NextStep a {
   display: block;
-  
   height: 40px;
   width: 100%;
 }
@@ -103,11 +109,17 @@
 }
 
 /** block BrowsingPageContent **/
-.BrowsingPageContent{
-  
+@media only screen and (max-width: 2430px) {
+  .BrowsingPageContent {
+    width: 2130px;
+  }
 }
 
-
+@media only screen and (max-width: 2130px) {
+  .BrowsingPageContent {
+    width: 1830px;
+  }
+}
 
 @media only screen and (max-width: 1830px) {
   .BrowsingPageContent {
@@ -223,13 +235,11 @@
   margin: 35px 0;
 }
 
-
-/** BrowsingPageIndex **/
+/** block BrowsingPageIndex **/
 .BrowsingPageIndex {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 /** block BrowsingPageFooter **/
 .BrowsingPageFooter {
