@@ -1,6 +1,5 @@
 /** block CarBrowser **/
 .CarBrowser {
-  min-height: 1400px;
   max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
