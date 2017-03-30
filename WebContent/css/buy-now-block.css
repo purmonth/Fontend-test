@@ -1,15 +1,16 @@
 /*** block BuyNowBlock ***/
 .BuyNowBlock {
+  height: 600px;
   width: 400px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: fixed;
-  top: 600px;
-  right: 80px;
+  top: 726px;
+  left: 1100px;
   z-index: 16;
   background-color: white;
-  box-shadow: -6px 6px 6px rgba(20%, 20%, 40%, 0.4);
+  box-shadow: 0px 0px 18px rgba(20%, 20%, 40%, 0.4);
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -28,6 +29,8 @@
   align-items: center;
   padding: 30px 0;
   font-weight: 200;
+  position: relative;
+  top:-3px;
 }
 
 .BuyNowBlock_Header_Caption {
