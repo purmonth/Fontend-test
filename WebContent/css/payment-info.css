@@ -1,11 +1,9 @@
+/** block PaymentInfo **/
 .PaymentCustomize {
   min-width: 800px;
   float: left;
 }
 
-
-
-/** block PaymentInfo **/
 .PaymentInfo {
   min-width: 750px;
   padding-bottom: 30px;
@@ -14,38 +12,35 @@
   flex-wrap: wrap;
 }
 
-.PaymentInfo_Header{
+.PaymentInfo_Header {
   width: 100%;
   display: flex;
   align-items: center;
   height: 80px;
-  padding:20px 0 30px 50px  ;
+  padding: 20px 0 30px 50px;
 }
 
-.PaymentInfo_Header_Word
-{
+.PaymentInfo_Header_Caption {
   opacity: 0.9;
   color: #394173;
   font-family: 'Playfair Display', serif;
   font-size: 28px;
 }
 
-.PaymentInfo_Header_Line{
+.PaymentInfo_Header_Line {
   height: 20px;
   width: 1px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   margin: 0 25px;
   filter: blur(0.4px);
 }
 
-.PaymentInfo_Header_Supplement{
+.PaymentInfo_Header_Supplement {
   font-size: 20px;
   opacity: 0.7;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-
-
 
 .PaymentInfo_Input {
   width: 42%;
@@ -55,12 +50,20 @@
   flex-direction: column;
 }
 
-.PaymentInfo_Input-longway{
-  width: 215% !important;
+.PaymentInfo_Input.v-widget{
+  width: 45%;
+  padding-left: 50px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.PaymentInfo_Input-long {
+  width: 90% !important;
 }
 
 .PaymentInfo_Input_Caption {
-  color: rgba(0,0,0,0.5);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   font-weight: 700;
   margin: 20px 0px;
@@ -70,8 +73,8 @@
   height: 80px;
   width: 100%;
   font-size: 26px;
-  padding-left: 10%;
-  border: 1px solid rgba(0,0,0,0.2);
+  padding-left: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
 
@@ -79,8 +82,7 @@
   color: #747474;
 }
 
-
-.PaymentInfo_Button{
+.PaymentInfo_Button {
   width: 90%;
   height: 80px;
   font-size: 26px;
@@ -94,29 +96,24 @@
   letter-spacing: 2px;
 }
 
-.PaymentInfo_Supplement{
+.PaymentInfo_Footer {
   width: 90%;
   height: 30px;
-  margin: 20px 0 0 50px;
+  padding: 20px 0 0 50px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.PaymentInfo_Supplement_Word{
-  color: rgba(0,0,0,0.5);
+.PaymentInfo_Footer_Caption {
+  color: rgba(0, 0, 0, 0.5);
 }
 
-
-.PaymentInfo_Supplement_ECpay{
+.PaymentInfo_Footer_Icon {
   height: 30px;
   width: 100px;
   align-items: center;
   text-align: right;
-  
-  background: url(../icons/ec_pay.png) no-repeat right;
+  background: url(../icons/logo_ec_pay.png) no-repeat right;
   background-size: auto 100%;
 }
-
-
-
