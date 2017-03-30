@@ -4,14 +4,50 @@
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 200px;
+    padding: 100px 50px 100px 150px;
+    width: 900px;
+    color: #000000;
 }
+
+.BeforeBuy_Title {
+  text-transform: uppercase;
+  padding: 6px 25px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  background-color: #e7211e;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
+
+
+.BeforeBuy_Header {
+    width: 100%;
+}
+
+.BeforeBuy_Header_Title {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.BeforeBuy_Header_Content {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 0 100px 0;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+
 
 .BeforeBuy_Seller{
     width: 180px;
     padding-right: 30px;
     padding-top: 10px;
     text-align: right;
-    
 }
 
 
@@ -19,7 +55,7 @@
 .BeforeBuy_Seller_Name{
     font-family: 'Open Sans', sans-serif;
     font-size: 34px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .BeforeBuy_Seller_Location{
@@ -35,3 +71,6 @@
     font-weight: 300;
     padding-left: 50px;
 }
+
+
+
