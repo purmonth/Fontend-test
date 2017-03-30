@@ -1,6 +1,5 @@
 $(window).scroll(function(){
 	if($(this).scrollTop() >= 346){
-		
 		if($(this).scrollTop() >= 5350){
 			$(".BuyNowBlock").css("position","absolute").css("top","5700px");
 		}else{
