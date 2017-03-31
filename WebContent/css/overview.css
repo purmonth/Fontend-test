@@ -1,69 +1,63 @@
-/**first-index
-**/
+/** block Overview **/
 .Overview {
-	padding: 100px 50px 100px 150px;
-	width: 900px;
-	color: #000000;
-	display: flex;
-	flex-wrap: wrap;
+  padding: 100px 50px 100px 150px;
+  width: 900px;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .Overview_Title {
-	text-transform: uppercase;
-	padding: 6px 25px;
-	font-family: 'Playfair Display', serif;
-	letter-spacing: 3px;
-	background-color: #e7211e;
-	text-align: center;
-	color: white;
-	font-size: 22px;
+  text-transform: uppercase;
+  padding: 6px 25px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  background-color: #e7211e;
+  text-align: center;
+  color: white;
+  font-size: 22px;
 }
 
-
 .Overview_Header {
-	width: 100%;
+  width: 100%;
 }
 
 .Overview_Header_Caption {
-	font-size: 48px;
-	font-family: 'Playfair Display', serif;
-	margin: 10px 0;
-	letter-spacing: 1px;
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+  margin: 10px 0;
+  letter-spacing: 1px;
 }
 
 .Overview_Header_Content {
-	font-family: 'Raleway', sans-serif;
-	color: rgba(0, 0, 0, 0.5);
-	margin: 0 0 100px 0;
-	font-weight: 900;
-	font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 100px 0;
+  font-weight: 900;
+  font-size: 18px;
 }
 
-
-
-.Overview_Row{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 10px 0;
-	align-items: center;
+.Overview_Row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  align-items: center;
 }
 
-
-.Overview_Row_Caption{
-	width: 20%;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 18px;
-	display: flex;
-	align-self: flex-end;
+.Overview_Row_Caption {
+  width: 20%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  align-self: flex-end;
 }
 
-
-.Overview_Row_Value{
-	width: 70%;
-	font-family: 'Playfair Display', serif;
-	font-size: 32px;
-	display: flex;
-	justify-content: center;
+.Overview_Row_Value {
+  width: 70%;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
 }
