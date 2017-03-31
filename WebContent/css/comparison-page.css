@@ -1,0 +1,122 @@
+body{
+	background-color: #e5e5e5;
+}
+
+
+/**
+ * test
+ */
+.PageHeader_MenuPage-selected{
+	visibility: hidden !important;
+}
+
+
+/** override PageHeader **/
+.PageHeader {
+  background-color: #b6b6b6 !important;
+}
+
+.PageHeader_Logo {
+  background: url(../icons/header_logo-blue.png) no-repeat !important;
+  background-size: auto 100% !important;
+}
+
+.PageHeader_SeeCar {
+  display: none !important;
+}
+
+.PageHeader_Menu {
+  background: url(../icons/menu_icon-gray.png) no-repeat !important;
+  background-size: auto 100% !important;
+}
+
+
+/****/
+.ComparisonPage{
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+
+.ComparisonPage_Block_Line{
+	width: 100%;
+	height: 1px;
+	background-color: rgba(0,0,0,0.2);
+	margin:20px 0;
+}
+
+
+.Content{
+	margin-bottom: 100px;
+}
+
+.ComparisonPage_Bg{
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	height: 900px;
+	background: url(../image/comparison_bg.jpg) no-repeat center;
+	background-size: 100% auto;
+}
+
+
+
+.ComparisonPage_Title{
+	font-family: 'Playfair Display', serif;
+	color: #26306f;
+	padding: 80px 0 30px 0;
+	font-size:  82px;
+	text-align: center;
+}
+
+.ComparisonPage_Detail{
+	font-size: 26px;
+	padding: 0 0 60px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/** block ShoppingPageFooter **/
+.ComparisonPageFooter {
+  height: 250px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-image: url(../image/footer_bg-small.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lora', serif;
+}
+
+.ComparisonPageFooter_Logo {
+  height: 60px;
+  width: 180px;
+  background: url(../icons/logo_DCBP.png) no-repeat center;
+  background-size: 100% auto;
+  padding-bottom: 20px;
+}
+
+.ComparisonPageFooter_Caption {
+  padding-top: 10px;
+  height: 13px;
+}
+
+.ComparisonPageFooter_Caption>img {
+  height: 100%;
+  width: auto;
+}
+
+.ComparisonPageFooter_Address {
+  height: 40px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding-top: 50px;
+}

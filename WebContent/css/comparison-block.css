@@ -1,0 +1,134 @@
+.ComparisonPage_Block{
+	width: 800px;
+	background: url(../icons/comparison-page_box.png);
+  background-size: 100% auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+  margin: 5px 0;
+  padding:0 50px;
+  border-radius: 5px;
+}
+
+.ComparisonPage_Block_Img{
+  margin: 30px 30px 0 0px;
+	width: 30px;
+	background: url(../icons/comparison-page_circle_inactive.png)  no-repeat;
+	background-size: 80% auto; 
+  cursor: pointer;
+}
+
+.ComparisonPage_Block-selected{
+  width: 800px;
+  background: white;
+  background-size: 100% auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0;
+  padding:0 50px;
+  border-radius: 5px;
+}
+
+
+
+.ComparisonPage_Block_Img-selected{
+  margin: 30px 30px 0 0px;
+	width: 30px;
+	background: url(../icons/comparison-page_circle_active.png)  no-repeat;
+	background-size: 80% auto; 
+  cursor: pointer;
+}
+
+.ComparisonPage_Block_Content{
+  margin: 30px 0;
+}
+
+.ComparisonPage_Block_Caption{
+  width: 100%;
+  font-size: 22px;
+  font-weight: 600;
+  color: #26306f;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.ComparisonPage_Block_Value{
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgba(0,0,0,0.4);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+/********************************/
+
+.ComparisonPage_Subtitle{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  font-family: 'Playfair Display', serif;
+  color: #26306f;
+}
+
+
+.ComparisonPage_Subtitle_Line{
+  width: 70px;
+  height: 1px;
+  margin: 0 20px;
+  background:rgba(0,0,0,0.4);
+}
+
+.ComparisonPage_Subtitle_Word{
+  font-size: 32px;
+}
+
+
+
+
+/*****/
+
+.ComparisonPage_Input {
+  width: 45%;
+  padding-left: 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.ComparisonPage_Input_Space{
+  height: 80px;
+  width: 10%;
+}
+
+
+.ComparisonPage_Input-long {
+  width: 100% !important;
+}
+
+
+.ComparisonPage_Field-block{
+  height: 300px !important;
+}
+
+.ComparisonPage_Input_Caption {
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ComparisonPage_Input_Field {
+  height: 80px;
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  
+}
+
