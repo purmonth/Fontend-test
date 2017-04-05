@@ -1,28 +1,23 @@
-
-/******/
-
-
-.ComparisonPage_Discribe{
+.ComparingPage_Discribe {
   width: 45%;
   height: 350px;
-  margin: 50px  0px 0 0;
-
+  margin: 50px 0px 0 0;
 }
 
-.ComparisonPage_Discribe_Caption{
+.ComparingPage_Discribe_Caption {
   font-size: 26px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 
-.ComparisonPage_Discribe_Value{
+.ComparingPage_Discribe_Value {
   font-size: 18px;
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
   font-weight: 100;
   font-family: 'Open Sans', sans-serif;
 }
 
-.ComparisonPage_Button {
+.ComparingPage_Button {
   width: 100%;
   height: 60px;
   cursor: pointer;
@@ -32,7 +27,7 @@
   margin: 40px 0 80px 0;
 }
 
-.ComparisonPage_Button_Caption {
+.ComparingPage_Button_Caption {
   width: 100%;
   height: 100%;
   border-radius: 5px;
@@ -43,14 +38,11 @@
   align-items: center;
   justify-content: center;
   letter-spacing: 1px;
-  box-shadow: 0px 6px 22px rgba(10,221,130,0.5)
+  box-shadow: 0px 6px 22px rgba(10, 221, 130, 0.5)
 }
 
-
-
 /*******/
-
-.ChartOff{
+.ChartOff {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -61,33 +53,27 @@
   padding: 25px;
   background: url(../icons/chart_dashbox.png) no-repeat;
   background-size: 100% 100%;
-  color: rgba(0,0,0,0.2);
-
-  
+  color: rgba(0, 0, 0, 0.2);
 }
 
-
-
-
-.Chart_Cloud{
+.Chart_Cloud {
   width: 100%;
   height: 60px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   background: url(../icons/comparison-page_upload.png) center no-repeat;
-  background-size: auto 100%; 
+  background-size: auto 100%;
 }
 
-
-.Chart_UpdateCaption{
+.Chart_UpdateCaption {
   width: 100%;
   text-align: center;
   font-size: 22px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 
-.Chart_UpdateValue{
+.Chart_UpdateValue {
   width: 100%;
   text-align: center;
   font-size: 18px;
@@ -95,43 +81,38 @@
   font-weight: 600;
 }
 
-
-
 /*****/
-.ChartOn{
+.ChartOn {
   margin-top: 50px;
   height: 310px;
   width: 310px;
   padding: 25px;
   display: flex;
   flex-wrap: wrap;
-  color: rgba(0,0,0,0.6);
+  color: rgba(0, 0, 0, 0.6);
   background: #0ad482;
   background-size: 100% 100%;
   color: white;
 }
 
-.Chart_Caption{
+.Chart_Caption {
   width: 225px;
   font-size: 36px;
   font-family: 'Open Sans', sans-serif;
   margin-top: 20px;
 }
 
-
-.Chart_Cancel{
+.Chart_Cancel {
   width: 65px;
   height: 30px;
-  border: 2px solid rgba(100%,100%,100%,0.8);
+  border: 2px solid rgba(100%, 100%, 100%, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
 }
 
-
-
-.Chart_FileName{
+.Chart_FileName {
   width: 100%;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
@@ -139,8 +120,7 @@
   height: 40px;
 }
 
-
-.Chart_UpdateWord{
+.Chart_UpdateWord {
   font-size: 20px;
   width: 70%;
   letter-spacing: 2px;
@@ -150,7 +130,7 @@
   align-self: flex-end;
 }
 
-.Chart_UpdateImg{
+.Chart_UpdateImg {
   height: 90px;
   width: 30%;
   background: url(../icons/comparison-page_check.png) center no-repeat;
