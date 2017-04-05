@@ -18,6 +18,8 @@
 .ComparisonPage_Discribe_Value{
   font-size: 18px;
   color: rgba(0,0,0,0.3);
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .ComparisonPage_Button {
@@ -41,7 +43,7 @@
   align-items: center;
   justify-content: center;
   letter-spacing: 1px;
-  box-shadow: 0px 0px 22px rgba(10,221,130,0.8)
+  box-shadow: 0px 6px 22px rgba(10,221,130,0.5)
 }
 
 
@@ -131,7 +133,6 @@
 
 .Chart_FileName{
   width: 100%;
-  padding-top: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;

@@ -58,7 +58,7 @@
   margin-top: 10px;
   color: rgba(0,0,0,0.4);
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 /********************************/
@@ -99,8 +99,8 @@
 }
 
 .ComparisonPage_Input_Space{
-  height: 80px;
-  width: 10%;
+  height: 70px;
+  width: 80px;
 }
 
 
@@ -109,9 +109,6 @@
 }
 
 
-.ComparisonPage_Field-block{
-  height: 300px !important;
-}
 
 .ComparisonPage_Input_Caption {
   color: rgba(0, 0, 0, 1);
@@ -124,11 +121,60 @@
 
 .ComparisonPage_Input_Field {
   height: 80px;
-  width: 100%;
-  font-size: 20px;
-  letter-spacing: 2px;
+  width: 335px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  
+  padding-left: 30px;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+ .ComparisonPage_Input_Field-long{
+  width: 770px !important;
+ }
+
+ .ComparisonPage_Field-block{
+  width: 750px;
+  height: 180px;
+  padding: 30px;
+
+}
+
+
+/* placeholder  */
+
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
