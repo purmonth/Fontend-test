@@ -1,69 +1,65 @@
-.ComparisonPage_Block{
-	width: 800px;
-	background: url(../icons/comparison-page_box.png);
+.ComparingPage_Block {
+  width: 800px;
+  background: url(../icons/comparison-page_box.png);
   background-size: 100% auto;
   display: flex;
   flex-wrap: wrap;
   height: 150px;
   margin: 5px 0;
-  padding:0 50px;
+  padding: 0 50px;
   border-radius: 5px;
 }
 
-.ComparisonPage_Block_Img{
+.ComparingPage_Block_Img {
   margin: 30px 30px 0 0px;
-	width: 30px;
-	background: url(../icons/comparison-page_circle_inactive.png)  no-repeat;
-	background-size: 80% auto; 
+  width: 30px;
+  background: url(../icons/comparison-page_circle_inactive.png) no-repeat;
+  background-size: 80% auto;
   cursor: pointer;
 }
 
-.ComparisonPage_Block-selected{
+.ComparingPage_Block-selected {
   width: 800px;
   background: white;
   background-size: 100% auto;
   display: flex;
   flex-wrap: wrap;
   margin: 5px 0;
-  padding:0 50px;
+  padding: 0 50px;
   border-radius: 5px;
 }
 
-
-
-.ComparisonPage_Block_Img-selected{
+.ComparingPage_Block_Img-selected {
   margin: 30px 30px 0 0px;
-	width: 30px;
-	background: url(../icons/comparison-page_circle_active.png)  no-repeat;
-	background-size: 80% auto; 
+  width: 30px;
+  background: url(../icons/comparison-page_circle_active.png) no-repeat;
+  background-size: 80% auto;
   cursor: pointer;
 }
 
-.ComparisonPage_Block_Content{
+.ComparingPage_Block_Content {
   margin: 30px 0;
 }
 
-.ComparisonPage_Block_Caption{
+.ComparingPage_Block_Caption {
   width: 100%;
   font-size: 22px;
   font-weight: 600;
   color: #26306f;
   font-family: 'Open Sans', sans-serif;
-
 }
 
-.ComparisonPage_Block_Value{
+.ComparingPage_Block_Value {
   width: 100%;
   font-size: 18px;
   margin-top: 10px;
-  color: rgba(0,0,0,0.4);
+  color: rgba(0, 0, 0, 0.4);
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
 }
 
 /********************************/
-
-.ComparisonPage_Subtitle{
+.ComparingPage_Subtitle {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -73,24 +69,19 @@
   color: #26306f;
 }
 
-
-.ComparisonPage_Subtitle_Line{
+.ComparingPage_Subtitle_Line {
   width: 70px;
   height: 1px;
   margin: 0 20px;
-  background:rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
-.ComparisonPage_Subtitle_Word{
+.ComparingPage_Subtitle_Word {
   font-size: 32px;
 }
 
-
-
-
 /*****/
-
-.ComparisonPage_Input {
+.ComparingPage_Input {
   width: 45%;
   padding-left: 0px;
   display: flex;
@@ -98,19 +89,16 @@
   flex-direction: column;
 }
 
-.ComparisonPage_Input_Space{
+.ComparingPage_Input_Space {
   height: 70px;
   width: 80px;
 }
 
-
-.ComparisonPage_Input-long {
+.ComparingPage_Input-long {
   width: 100% !important;
 }
 
-
-
-.ComparisonPage_Input_Caption {
+.ComparingPage_Input_Caption {
   color: rgba(0, 0, 0, 1);
   font-size: 18px;
   font-weight: 600;
@@ -119,7 +107,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.ComparisonPage_Input_Field {
+.ComparingPage_Input_Field {
   height: 80px;
   width: 335px;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -132,25 +120,19 @@
   letter-spacing: 2px;
 }
 
- .ComparisonPage_Input_Field-long{
+.ComparingPage_Input_Field-long {
   width: 770px !important;
- }
+}
 
- .ComparisonPage_Field-block{
+.ComparingPage_Field-block {
   width: 745px;
   max-width: 745px;
   height: 180px;
   max-height: 180px;
   padding: 30px;
-
 }
 
-
 /* placeholder  */
-
-
-
-
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: rgba(0, 0, 0, 0.2);
   font-weight: 200;
@@ -158,6 +140,7 @@
   font-size: 20px;
   letter-spacing: 2px;
 }
+
 ::-moz-placeholder { /* Firefox 19+ */
   color: rgba(0, 0, 0, 0.2);
   font-weight: 200;
@@ -165,6 +148,7 @@
   font-size: 20px;
   letter-spacing: 2px;
 }
+
 :-ms-input-placeholder { /* IE 10+ */
   color: rgba(0, 0, 0, 0.2);
   font-weight: 200;
@@ -172,6 +156,7 @@
   font-size: 20px;
   letter-spacing: 2px;
 }
+
 :-moz-placeholder { /* Firefox 18- */
   color: rgba(0, 0, 0, 0.2);
   font-weight: 200;
@@ -179,4 +164,3 @@
   font-size: 20px;
   letter-spacing: 2px;
 }
-
