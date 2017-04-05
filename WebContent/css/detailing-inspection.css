@@ -4,42 +4,94 @@
 .Inspection{
     display: flex;
     flex-wrap: wrap;
+    height: 1000px;
 }
 
 .Inspection_Container{
-    
     display: flex;
-
+    width: 100%;
 }
 
 
 .Inspection_Container_Img{
-    height: 600px;
-    width: 300px;
-    background: url(../icons/inspection_detail_car.png) center no-repeat;
-    background-size: auto 100%; 
+    height: 900px;
+    width: 500px;
 }
 
-.Inspection_Container_Block{
-    
+.Inspection_Container_Img>img{
+    width: auto;
+    height: 130%;
+    position: absolute;
+    left: 50px;
+}
+
+.Inspection_Container_Word{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    width: 400px;
 }
 
+.Inspection_Container_Caption{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.INspection_DotLine{
+    border: 1px dotted rgba(0,0,0,0.2);
+    margin: 20px 0;
+}
+
+
+
 .Inspection_Block{
-    width: 270px;
-    
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
 }
 
 .Inspection_Block_Content{
     color: rgba(0,0,0,0.4);
     font-family: 'Raleway', sans-serif;
+    padding-left: 40px;
 }
 
 .Inspection_Block_Title{
     font-size: 20px;
-    font-weight: 700;
-    font-family: 'Playfair Display SC', serif;
-    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.Inspection_Supplyment{
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    color: rgba(0,0,0,0.5);
+}
+
+
+.Inspection_Block_Header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.Inspection_Block_Icon{
+    width: 20px;
+    height: 20px;
+    background: url(../icons/arrow.png) no-repeat center;
+    background-size: auto 100%;
+    filter: blur(0.4px);
+    cursor: pointer;
+}
+
+.Inspection_Block_Icon-selected{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
 }

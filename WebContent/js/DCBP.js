@@ -46,8 +46,10 @@ $(document).ready(function(){
 	});
 
 	$(".CarSelectorOption_Item_Caption").click(function(){
-		console.log("Hi");
 		$(this).siblings().toggleClass('CarSelectorOption_Item_Icon-selected');
+	});
+	$(".Inspection_Block_Icon").click(function(){
+		$(this).toggleClass('Inspection_Block_Icon-selected');
 	});
 });
 

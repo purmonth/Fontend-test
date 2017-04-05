@@ -29,11 +29,13 @@
 .PeaceOfMindBlock_Content{
     color: rgba(0,0,0,0.4);
     font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 
 .PeaceOfMindBlock_Caption{
     font-size: 20px;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 .PeaceOfMindBlock_Value{
