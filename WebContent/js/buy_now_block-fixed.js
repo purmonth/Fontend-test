@@ -19,14 +19,14 @@ $(window).scroll(function()
 
 $(window).scroll(function()
 {
-    var distance = $(document).height()-1750;
-    /**
-    * 1750 px equal  
-    * footer height 800px  plus 
-    * plus buynowblock height 600px
-    */
     if ($(this).scrollTop() >= 346)
     {
+        var distance = $(".DetailingPage").height()-1750;
+        /**
+        * 1750 px equal  
+        * footer height 800px  plus 
+        * plus buynowblock height 600px
+        */
         
         if ($(this).scrollTop() >= distance)
         {
