@@ -1,3 +1,61 @@
+/** block ComparingSheet **/
+
+.ComparingSheet {
+  width: 800px;
+  background: url(../icons/comparison-page_box.png);
+  background-size: 100% auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0;
+  padding: 0 50px;
+  border-radius: 5px;
+}
+
+.ComparingSheet_Header  {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ComparingSheet_Header_Icon {
+  flex: 0 0 25px;
+  height: 25px;
+  background: url(../icons/comparison-page_circle_inactive.png) no-repeat center;
+  background-size: 100% auto;
+  cursor: pointer;
+}
+
+.ComparingSheet_Header_Caption {
+  width: 100%;
+  padding-left: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #26306f;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ComparingSheet_SubHeader {
+  width: 100%;
+  padding-left: 55px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+.ComparingSheet_Line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+/*----------------*/
+
 .ComparingPage_Block {
   width: 800px;
   background: url(../icons/comparison-page_box.png);
@@ -8,6 +66,13 @@
   margin: 5px 0;
   padding: 0 50px;
   border-radius: 5px;
+}
+
+.ComparingPage_Block_Line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
 }
 
 .ComparingPage_Block_Img {
