@@ -27,7 +27,6 @@
   width: 100%;
 }
 
-
 .PageHeader_SeeCar {
   position: absolute;
   right: 200px;
@@ -167,24 +166,23 @@
 }
 
 /***************   AdenovoPage    *************/
-.AdenovoPage .PageHeader{
-  background-color: #e5e5e5 ;
+.AdenovoPage .PageHeader {
+  background-color: #e5e5e5;
 }
 
-.AdenovoPage .PageHeader_Logo{
-  background: url(../icons/header_logo-blue.png) no-repeat ;
+.AdenovoPage .PageHeader_Logo {
+  background: url(../icons/header_logo-blue.png) no-repeat;
   background-size: auto 75%;
 }
 
-.AdenovoPage .PageHeader_SeeCar{
+.AdenovoPage .PageHeader_SeeCar {
   display: none;
 }
 
-.AdenovoPage .PageHeader_Menu{
+.AdenovoPage .PageHeader_Menu {
   background: url(../icons/menu_icon-black.png) no-repeat;
   background-size: auto 100%;
 }
-
 
 /***************   ShoppingPage    *************/
 .ShoppingPage .PageHeader {
@@ -204,7 +202,6 @@
   background: url(../icons/menu_icon-gray.png) no-repeat;
   background-size: auto 100%;
 }
-
 
 /***************   ComparingPage    *************/
 .ComparingPage .PageHeader {
@@ -226,8 +223,6 @@
   background-size: auto 100%;
 }
 
-
-
 /***************   BrowsingPage    *************/
 .BrowsingPage .PageHeader {
   position: absolute;
@@ -235,11 +230,3 @@
   background: none;
   border-bottom: 2px solid rgba(100%, 100%, 100%, 0.1);
 }
-
-
-/***************   AdenovoPage    *************/
-
-
-
-
-
