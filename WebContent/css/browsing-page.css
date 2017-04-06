@@ -1,5 +1,5 @@
 body{
-  min-width: 1920px;
+  
 }
 
 /** page BrowsingPage **/
@@ -11,15 +11,6 @@ body{
   width: 100%;
   text-align: center;
 }
-
-/** override PageHeader **/
-.PageHeader {
-  position: absolute !important;
-  top: 0;
-  background: none !important;
-  border-bottom: 2px solid rgba(100%, 100%, 100%, 0.1) !important;
-}
-
 
 
 /** block BrowsingPageHeader **/

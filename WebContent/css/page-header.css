@@ -21,6 +21,13 @@
   margin-left: 60px;
 }
 
+.PageHeader_Logo a {
+  display: block;
+  height: 45px;
+  width: 100%;
+}
+
+
 .PageHeader_SeeCar {
   position: absolute;
   right: 200px;
@@ -61,8 +68,8 @@
   visibility: hidden;
   margin-top: 5px;
   position: absolute;
-  right: -2;
-  top: 20;
+  right: -2px;
+  top: 20px;
   color: white;
   font-size: 18px;
   text-align: center;
@@ -158,3 +165,81 @@
 .PageHeader_MenuPage_Language-selected {
   color: rgba(100%, 100%, 100%, 1);
 }
+
+/***************   AdenovoPage    *************/
+.AdenovoPage .PageHeader{
+  background-color: #e5e5e5 ;
+}
+
+.AdenovoPage .PageHeader_Logo{
+  background: url(../icons/header_logo-blue.png) no-repeat ;
+  background-size: auto 75%;
+}
+
+.AdenovoPage .PageHeader_SeeCar{
+  display: none;
+}
+
+.AdenovoPage .PageHeader_Menu{
+  background: url(../icons/menu_icon-black.png) no-repeat;
+  background-size: auto 100%;
+}
+
+
+/***************   ShoppingPage    *************/
+.ShoppingPage .PageHeader {
+  background-color: #e5e5e5;
+}
+
+.ShoppingPage .PageHeader_Logo {
+  background: url(../icons/header_logo-blue.png) no-repeat;
+  background-size: auto 75%;
+}
+
+.ShoppingPage .PageHeader_SeeCar {
+  display: none;
+}
+
+.ShoppingPage .PageHeader_Menu {
+  background: url(../icons/menu_icon-gray.png) no-repeat;
+  background-size: auto 100%;
+}
+
+
+/***************   ComparingPage    *************/
+.ComparingPage .PageHeader {
+  background-color: #b6b6b6;
+  border-bottom: 2px solid rgba(100%, 100%, 100%, 0.2);
+}
+
+.ComparingPage .PageHeader_Logo {
+  background: url(../icons/header_logo-blue.png) no-repeat;
+  background-size: auto 75%;
+}
+
+.ComparingPage .PageHeader_SeeCar {
+  display: none;
+}
+
+.ComparingPage .PageHeader_Menu {
+  background: url(../icons/menu_icon-black.png) no-repeat;
+  background-size: auto 100%;
+}
+
+
+
+/***************   BrowsingPage    *************/
+.BrowsingPage .PageHeader {
+  position: absolute;
+  top: 0;
+  background: none;
+  border-bottom: 2px solid rgba(100%, 100%, 100%, 0.1);
+}
+
+
+/***************   AdenovoPage    *************/
+
+
+
+
+
