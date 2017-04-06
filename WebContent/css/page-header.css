@@ -2,8 +2,8 @@
 .PageHeader {
   position: relative;
   width: 100%;
-  min-width: 1000px;
-  height: 80px;
+  min-width: 1650px;
+  height: 120px;
   background-color: #e7211e;
   display: flex;
   justify-content: space-between;
@@ -13,19 +13,20 @@
 }
 
 .PageHeader_Logo {
-  width: 600px;
-  height: 30%;
+  width: 1000px;
+  height: 45px;
   background: url(../icons/header_logo.png) no-repeat;
-  background-size: auto 100%;
+  background-size: auto 75%;
   cursor: pointer;
-  margin: 50px;
+  margin-left: 60px;
 }
 
 .PageHeader_SeeCar {
   position: absolute;
   right: 200px;
-  width: 200px;
-  height: 40px;
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +49,7 @@
 
 .PageHeader_Menu {
   width: 48px;
-  height: 25px;
+  height: 30px;
   background: url(../icons/menu_icon.png) no-repeat;
   background-size: auto 100%;
   cursor: pointer;
@@ -60,7 +61,8 @@
   visibility: hidden;
   margin-top: 5px;
   position: absolute;
-  right: 0;
+  right: -2;
+  top: 20;
   color: white;
   font-size: 18px;
   text-align: center;
@@ -105,7 +107,7 @@
 
 .PageHeader_MenuPage_Menu {
   width: 50px;
-  height: 25px;
+  height: 30px;
   background: url(../icons/menu_icon.png) right no-repeat;
   background-size: auto 100%;
   cursor: pointer;

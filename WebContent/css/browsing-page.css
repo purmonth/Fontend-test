@@ -1,3 +1,7 @@
+body{
+  min-width: 1920px;
+}
+
 /** page BrowsingPage **/
 .DivStyle {
   display: initial;
@@ -18,8 +22,8 @@
 
 /** block BrowsingPageHeader **/
 .BrowsingPageHeader {
-  min-width: 1450px;
-  height: 820px;
+  min-width: 1920px;
+  height: 1080px;
   background-image: url(../image/hero.png);
   background-size: 100% auto;
   color: white;
@@ -36,27 +40,23 @@
 }
 
 .BrowsingPageHeader_Content {
-  height: 850px;
+  height: 1080px;
   padding-top: 100px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+
 }
 
 .BrowsingPageHeader_Title {
   width: 100%;
-  font-size: 60px;
+  font-size: 104px;
+  letter-spacing: 2px;
   font-family: 'Playfair Display', serif;
-  padding-top: 0px;
+  padding-top: 260px;
+  line-height: 110px;
 }
 
-.v-widget .BrowsingPageHeader_Title {
-  width: 100%;
-  font-size: 60px;
-  font-family: 'Playfair Display', serif;
-  padding-top: 100px;
-}
+
 
 .BrowsingPageHeader_Detail {
   width: 100%;
@@ -64,26 +64,28 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   opacity: 0.6;
-  padding: 10px 0 30px 0;
+  padding: 20px 0 40px 0;
+  font-size: 30px;
 }
 
 .BrowsingPageHeader_Search {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
   margin-bottom: 150px;
 }
 
 /** element BrowsingPage_NextStep **/
 .BrowsingPage_NextStep {
-  width: 50px;
-  height: 40px;
+  width: 100%;
+  height: 50px;
   position: relative;
   opacity: 0.5;
   -webkit-animation-name: NextStepArrow;
   -webkit-animation-duration: 1s;
   background: url(../icons/red_down_double_arrow.png) no-repeat center;
-  background-size: auto 95%;
+  background-size: auto 100%;
   animation-name: NextStepArrow;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
@@ -97,15 +99,15 @@
 }
 
 @-webkit-keyframes NextStepArrow{
-  0%{top:-110px;}
-  50%{top:-120px;}
-  100%{top:-110px;}
+  0%{top: 70px;}
+  50%{top: 60px;}
+  100%{top: 70px;}
 }
 
 @keyframes NextStepArrow{
-  0%{top:-110px;}
-  50%{top:-120px;}
-  100%{top:-110px;}
+  0%{top: 70px;}
+  50%{top: 60px;}
+  100%{top: 70px;}
 }
 
 /** block BrowsingPageContent **/
@@ -140,15 +142,15 @@
 }
 
 .SearchBar {
-  height: 70px;
-  width: 450px;
+  height: 80px;
+  width: 630px;
   display: flex;
   align-items: center;
   border-radius: 5px;
 }
 
 .SearchBar_Img {
-  width: 70px;
+  width: 120px;
   height: 100%;
   text-align: center;
   display: flex;
@@ -162,15 +164,15 @@
 }
 
 .SearchBar_Field {
-  width: 370px;
+  width: 100%;
   height: 100%;
-  font-size: 18px;
+  font-size: 22px;
   border: none;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   background: rgba(100%, 100%, 100%, 0.2);
   color: rgba(100%, 100%, 100%, 0.7);
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 ::-webkit-input-placeholder { /* Chrome */
@@ -203,17 +205,18 @@
 
 .SearchBar_Go {
   margin-left: 10px;
-  width: 80px;
-  height: 70px;
+  width: 100px;
+  height: 80px;
   background: #e7211e;
-  font-size: 18px;
+  font-size: 26px;
+  letter-spacing: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 4px;
-  letter-spacing: 1px;
+  border-radius: 5px;
+  letter-spacing: 3px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 /** block BrowsingPageSidebar **/
