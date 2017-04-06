@@ -11,6 +11,9 @@
   border-radius: 5px;
 }
 
+.ComparingSheet-selected {
+  background: #ffffff;
+}
 .ComparingSheet_Header  {
   width: 100%;
   padding-top: 30px;
@@ -25,6 +28,11 @@
   background: url(../icons/comparing-sheet_checkbox.png) no-repeat center;
   background-size: 100% auto;
   cursor: pointer;
+}
+
+.ComparingSheet-selected .ComparingSheet_Header_Icon {
+  background: url(../icons/comparing-sheet_checkbox-selected.png) no-repeat;
+  background-size: 100% auto;
 }
 
 .ComparingSheet_Header_Caption {
@@ -45,6 +53,16 @@
   color: rgba(0, 0, 0, 0.4);
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
+}
+
+.ComparingSheet_Content {
+  width: 100%;
+  display: none;
+}
+
+.ComparingSheet-selected .ComparingSheet_Content {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .ComparingSheet_Line {
