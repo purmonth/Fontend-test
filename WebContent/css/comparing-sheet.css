@@ -1,5 +1,4 @@
 /** block ComparingSheet **/
-
 .ComparingSheet {
   width: 800px;
   background: url(../image/comparing-sheet_bg.png);
@@ -14,7 +13,8 @@
 .ComparingSheet-selected {
   background: #ffffff;
 }
-.ComparingSheet_Header  {
+
+.ComparingSheet_Header {
   width: 100%;
   padding-top: 30px;
   display: flex;
@@ -31,7 +31,8 @@
 }
 
 .ComparingSheet-selected .ComparingSheet_Header_Icon {
-  background: url(../icons/comparing-sheet_checkbox-selected.png) no-repeat;
+  background: url(../icons/comparing-sheet_checkbox-selected.png)
+    no-repeat;
   background-size: 100% auto;
 }
 
@@ -46,7 +47,7 @@
 
 .ComparingSheet_SubHeader {
   width: 100%;
-  padding:0 0 50px 55px;
+  padding: 0 0 50px 55px;
   font-size: 18px;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.4);
@@ -70,7 +71,6 @@
   background-color: rgba(0, 0, 0, 0.2);
   margin: 20px 0;
 }
-
 
 /********************************/
 .ComparingSheet_Subtitle {
