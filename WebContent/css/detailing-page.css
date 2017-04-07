@@ -54,88 +54,8 @@
 
 
 
-/** block DetailingPageHero_Overlay **/
-.DetailingPageHero_Overlay {
-  height: 850px;
-  width: 100%;
-  top: 80px;
-  position: absolute;
-  z-index: 15;
-}
 
-.DetailingPageHero_Overlay_Back {
-  position: absolute;
-  top: 100px;  
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  cursor: pointer;
-}
 
-.DetailingPageHero_Overlay_Arrow {
-  position: absolute;
-  top: 45%;
-  right: 0;
-  width: 40px;
-  height: 100px;
-  background: url(../icons/detailing-hero_slide_arrow.png) no-repeat center;
-  background-size: auto 100px;
-  cursor: pointer;
-}
-
-.DetailingPageHero_Overlay_Arrow-revert {
-  -webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
-  -o-transform: rotate(-180deg);
-  transform: rotate(-180deg);
-  left:0;
-}
-
-.DetailingPageHero_Overlay_Views {
-  position: absolute;
-  top: 100px;
-  height: 30px;
-  right: 0;
-  height: 30px;
-  background: url(../icons/detailing-hero_views.png) no-repeat center left;
-  background-size: auto 30px;
-  padding-left: 40px;
-}
-
-.DetailingPageHero_Overlay_Loc {
-  position: absolute;
-  bottom: 120px;
-  height: 30px;
-  background: url(../icons/detailing-hero_location_pin.png) no-repeat center left;
-  background-size: auto 30px;
-  padding-left: 40px;
-  font-family: 'Roboto';
-  font-size: 20px;
-  font-weight: 100;
-  letter-spacing: 1px;
-}
-
-.DetailingPageHero_Overlay_Gal {
-  position: absolute;
-  bottom: 120px;
-  height: 30px;
-  left: 250px;
-  background: url(../icons/detailing-page_04_gallery_icon.png) no-repeat center left;
-  background-size: auto 30px;
-  padding-left: 40px;
-  font-family: 'Roboto';
-  font-size: 20px;
-  font-weight: 100;
-  letter-spacing: 1px;
-}
-
-.DetailingPageHero_Overlay_Desc {
-  position: absolute;
-  bottom: 50px;  
-  width: 100%;
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-}
 
 
 
@@ -186,6 +106,20 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** block DetailingPageFooter **/
 .DetailingPageFooter {
@@ -256,37 +190,27 @@
   border-left: 1.5px solid rgba(100%, 100%, 100%, 0.4);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** old styles **/
-.DetailingPageHero_Top {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-}
 
-.DetailingPageHero_Top_BackSearch {
-  width: 45%;
-}
 
-.DetailingPageHero_Top_BackSearch>a {
-  cursor: pointer;
-}
 
-.DetailingPageHero_Top_Views {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 45%;
-}
-
-.DetailingPageHero_Top_Views>img {
-  height: 30px;
-  width: auto;
-  padding-right: 20px;
-}
 
 .DetailingPageHero_Arrow {
   height: 60%;
@@ -296,27 +220,79 @@
   align-items: center;
 }
 
-.DetailingPageHero_Arrow img {
+
+
+
+
+
+
+
+
+
+
+
+
+/** block DetailingPageHero_Overlay **/
+.DetailingPageHero_Overlay {
+  height: 850px;
+  width: 100%;
+  top: 80px;
+  position: absolute;
+  z-index: 15;
+}
+
+.DetailingPageHero_Overlay_Top {
+  width: 100%;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.DetailingPageHero_Overlay_Back {
+  position: absolute;
+  left: 50px;
   cursor: pointer;
 }
 
-.DetailingPageHero_Arrow_Left {
-  width: 45%;
-  transform: rotate(-180deg);
+
+.DetailingPageHero_Overlay_Views {
+  position: absolute;
+  height: 30px;
+  right: 50px;
+  height: 30px;
+  background: url(../icons/detailing-hero_views.png) no-repeat center left;
+  background-size: auto 30px;
+  padding-left: 40px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
 }
 
-.DetailingPageHero_Arrow_Right {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 45%;
-  position: relative;
-  z-index: -1;
+
+.DetailingPageHero_Overlay_Arrow {
+  position: absolute;
+  top: 45%;
+  right: 50px;
+  width: 40px;
+  height: 100px;
+  background: url(../icons/detailing-hero_slide_arrow.png) no-repeat center;
+  background-size: auto 100px;
+  cursor: pointer;
 }
+
+.DetailingPageHero_Overlay_Arrow-revert {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  left: 50px;
+}
+
 
 .DetailingPageHero_CarDetail {
   margin: 0 5%;
@@ -324,31 +300,56 @@
   display: flex;
   flex-wrap: wrap;
   cursor: pointer;
+  padding-top: 30px;
 }
 
-.DetailingPageHero_CarDetail_Row {
-  font-family: 'Roboto';
-  width: 30%;
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-  letter-spacing: 1px;
-  font-weight: 100;
-}
 
-.DetailingPageHero_CarDetail_Row>img {
+
+.DetailingPageHero_Overlay_Loc {
+  position: absolute;
+  bottom: 220px;
   height: 30px;
-  width: auto;
-  padding-right: 20px;
+  background: url(../icons/detailing-hero_location_pin.png) no-repeat center left;
+  background-size: auto 30px;
+  padding-left: 50px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
-.DetailingPageHero_CarDetail_Row>a {
-  font-weight: 400;
+.DetailingPageHero_Overlay_Gal {
+  position: absolute;
+  bottom: 220px;
+  left: 320px;
+  height: 30px;
+  background: url(../icons/detailing-page_04_gallery_icon.png) no-repeat center left;
+  background-size: auto 30px;
+  padding-left: 50px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
-.DetailingPageHero_CarDetail_CarName {
+.DetailingPageHero_Overlay_CarName {
   font-family: 'Playfair Display', serif;
   width: 100%;
   font-size: 50px;
 }
+
+
+
+.DetailingPageHero_Overlay_Desc {
+  position: absolute;
+  bottom: 50px;  
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
+
+
+
+
 
