@@ -52,10 +52,13 @@
   width: 100%;
 }
 
+
+
 /** block DetailingPageHero_Overlay **/
 .DetailingPageHero_Overlay {
   height: 850px;
-  width: 90%;
+  width: 100%;
+  top: 80px;
   position: absolute;
   z-index: 15;
 }
@@ -133,6 +136,10 @@
   font-family: 'Playfair Display', serif;
   font-size: 50px;
 }
+
+
+
+
 
 /** block PageContent **/
 .Page {
@@ -345,10 +352,3 @@
   font-size: 50px;
 }
 
-.absolute {
-  height: 850px;
-  width: 100%;
-  position: absolute;
-  top: 80px;
-  z-index: 15;
-}
