@@ -134,6 +134,7 @@
 
 .ComparingSheet_Input_Field-prompt {
   color: rgba(0, 0, 0, 0.2);
+  font-weight: 200;
 }
 
 .ComparingSheet_Input-long .ComparingSheet_Input_Field {
@@ -152,6 +153,11 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+.ComparingSheet_Input_Area-prompt {
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 200;
 }
 
 /** block-element ComparingSheet_Button **/
