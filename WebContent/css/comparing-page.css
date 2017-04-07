@@ -1,8 +1,3 @@
-body {
-  background-color: #e5e5e5;
-}
-
-
 
 /** page ComparingPage **/
 .DivStyle {
@@ -10,9 +5,13 @@ body {
 }
 
 .ComparingPage {
+  position: relative;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #e5e5e5;
+  
 }
 
 
@@ -59,6 +58,7 @@ body {
   height: 900px;
   background: url(../image/comparison_bg.jpg) no-repeat center;
   background-size: 100% auto;
+  top: 100px;
 }
 
 .ComparingPage_Title {
