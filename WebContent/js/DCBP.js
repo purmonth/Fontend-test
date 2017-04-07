@@ -51,6 +51,9 @@ $(document).ready(function(){
 	$(".Inspection_Block_Icon").click(function(){
 		$(this).toggleClass('Inspection_Block_Icon-selected');
 	});
+	$(".ComparingSheet_Header_Icon").click(function(){
+		$(this).parent().parent().toggleClass('ComparingSheet-selected');
+	});
 });
 
 

@@ -46,8 +46,7 @@
 
 .ComparingSheet_SubHeader {
   width: 100%;
-  padding-left: 55px;
-  padding-bottom: 50px;
+  padding:0 0 50px 55px;
   font-size: 18px;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.4);
@@ -72,77 +71,9 @@
   margin: 20px 0;
 }
 
-/*----------------*/
-
-.ComparingPage_Block {
-  width: 800px;
-  background: url(../image/comparing-sheet_bg.png);
-  background-size: 100% auto;
-  display: flex;
-  flex-wrap: wrap;
-  height: 150px;
-  margin: 5px 0;
-  padding: 0 50px;
-  border-radius: 5px;
-}
-
-.ComparingPage_Block_Line {
-  width: 100%;
-  height: 1px;
-  background-color: rgba(0, 0, 0, 0.2);
-  margin: 20px 0;
-}
-
-.ComparingPage_Block_Img {
-  margin: 30px 30px 0 0px;
-  width: 30px;
-  background: url(../icons/comparing-sheet_checkbox.png) no-repeat;
-  background-size: 80% auto;
-  cursor: pointer;
-}
-
-.ComparingPage_Block-selected {
-  width: 800px;
-  background: white;
-  background-size: 100% auto;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 5px 0;
-  padding: 0 50px;
-  border-radius: 5px;
-}
-
-.ComparingPage_Block_Img-selected {
-  margin: 30px 30px 0 0px;
-  width: 30px;
-  background: url(../icons/comparing-sheet_checkbox-selected.png) no-repeat;
-  background-size: 80% auto;
-  cursor: pointer;
-}
-
-.ComparingPage_Block_Content {
-  margin: 30px 0;
-}
-
-.ComparingPage_Block_Caption {
-  width: 100%;
-  font-size: 22px;
-  font-weight: 600;
-  color: #26306f;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.ComparingPage_Block_Value {
-  width: 100%;
-  font-size: 18px;
-  margin-top: 10px;
-  color: rgba(0, 0, 0, 0.4);
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
-}
 
 /********************************/
-.ComparingPage_Subtitle {
+.ComparingSheet_Subtitle {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -152,19 +83,19 @@
   color: #26306f;
 }
 
-.ComparingPage_Subtitle_Line {
+.ComparingSheet_Subtitle_Line {
   width: 70px;
   height: 1px;
   margin: 0 20px;
   background: rgba(0, 0, 0, 0.4);
 }
 
-.ComparingPage_Subtitle_Word {
+.ComparingSheet_Subtitle_Word {
   font-size: 32px;
 }
 
 /*****/
-.ComparingPage_Input {
+.ComparingSheet_Input {
   width: 45%;
   padding-left: 0px;
   display: flex;
@@ -172,16 +103,16 @@
   flex-direction: column;
 }
 
-.ComparingPage_Input_Space {
+.ComparingSheet_Input_Space {
   height: 70px;
   width: 80px;
 }
 
-.ComparingPage_Input-long {
+.ComparingSheet_Input-long {
   width: 100% !important;
 }
 
-.ComparingPage_Input_Caption {
+.ComparingSheet_Input_Caption {
   color: rgba(0, 0, 0, 1);
   font-size: 18px;
   font-weight: 600;
@@ -190,7 +121,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.ComparingPage_Input_Field {
+.ComparingSheet_Input_Field {
   height: 80px;
   width: 335px;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -203,7 +134,7 @@
   letter-spacing: 2px;
 }
 
-.ComparingPage_Input_Field-long {
+.ComparingSheet_Input_Field-long {
   width: 770px !important;
 }
 

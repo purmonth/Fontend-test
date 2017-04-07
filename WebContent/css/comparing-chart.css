@@ -1,23 +1,23 @@
-.ComparingPage_Discribe {
+.ComparingChart_Discribe {
   width: 45%;
   height: 350px;
   margin: 50px 0px 0 0;
 }
 
-.ComparingPage_Discribe_Caption {
+.ComparingChart_Discribe_Caption {
   font-size: 26px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 
-.ComparingPage_Discribe_Value {
+.ComparingChart_Discribe_Value {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.3);
   font-weight: 100;
   font-family: 'Open Sans', sans-serif;
 }
 
-.ComparingPage_Button {
+.ComparingChart_Button {
   width: 100%;
   height: 60px;
   cursor: pointer;
@@ -27,7 +27,7 @@
   margin: 40px 0 80px 0;
 }
 
-.ComparingPage_Button_Caption {
+.ComparingChart_Button_Caption {
   width: 100%;
   height: 100%;
   border-radius: 5px;
