@@ -132,6 +132,10 @@
   -webkit-box-sizing: border-box;
 }
 
+.ComparingSheet_Input_Field-prompt {
+  color: rgba(0, 0, 0, 0.2);
+}
+
 .ComparingSheet_Input-long .ComparingSheet_Input_Field {
   width: 100%;
 }
