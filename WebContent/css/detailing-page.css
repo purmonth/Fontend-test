@@ -108,19 +108,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** block DetailingPageFooter **/
 .DetailingPageFooter {
   color: white;
@@ -189,47 +176,6 @@
 .DetailingPageFooter_List_Word-skin {
   border-left: 1.5px solid rgba(100%, 100%, 100%, 0.4);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** old styles **/
-
-
-
-
-.DetailingPageHero_Arrow {
-  height: 60%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 /** block DetailingPageHero_Overlay **/
@@ -346,6 +292,16 @@
   width: 100%;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
+}
+
+
+
+.DetailingPageHero_Arrow {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
