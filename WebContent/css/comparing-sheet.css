@@ -14,6 +14,7 @@
   background: #ffffff;
 }
 
+/** block-element ComparingSheet_Header **/
 .ComparingSheet_Header {
   width: 100%;
   padding-top: 30px;
@@ -63,6 +64,7 @@
 .ComparingSheet-selected .ComparingSheet_Content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .ComparingSheet_Line {
@@ -72,7 +74,7 @@
   margin: 20px 0;
 }
 
-/********************************/
+/** block-element ComparingSheet_Subtitle **/
 .ComparingSheet_Subtitle {
   width: 100%;
   display: flex;
@@ -94,22 +96,16 @@
   font-size: 32px;
 }
 
-/*****/
+/** block-element ComparingSheet_Input **/
 .ComparingSheet_Input {
-  width: 45%;
-  padding-left: 0px;
+  flex: 0 0 45%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 
-.ComparingSheet_Input_Space {
-  height: 70px;
-  width: 80px;
-}
-
 .ComparingSheet_Input-long {
-  width: 100% !important;
+  flex: 0 0 100%;
 }
 
 .ComparingSheet_Input_Caption {
@@ -123,7 +119,7 @@
 
 .ComparingSheet_Input_Field {
   height: 80px;
-  width: 335px;
+  width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding-left: 30px;
@@ -132,18 +128,24 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
-.ComparingSheet_Input_Field-long {
-  width: 770px !important;
+.ComparingSheet_Input-long .ComparingSheet_Input_Field {
+  width: 100%;
 }
 
-.ComparingPage_Field-block {
-  width: 745px;
-  max-width: 745px;
+.ComparingSheet_Input_Area {
+  resize: none;
+  width: 100%;
   height: 180px;
   max-height: 180px;
   padding: 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 /* placeholder  */
