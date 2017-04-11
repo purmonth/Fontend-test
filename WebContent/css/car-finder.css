@@ -1,7 +1,7 @@
 
 
 
-.PageFind{
+.CarFinder{
   height: 150px;
   width: 100%;
   padding-top: 50px;
@@ -11,7 +11,7 @@
 }
 
 
-.PageFind_SearchBar
+.CarFinder_SearchBar
 {
   height: 50px;
   min-width: 50%;
@@ -22,7 +22,7 @@
   margin-right: 50px;
 }
 
-.PageFind_SearchBar_Img
+.CarFinder_SearchBar_Img
 {
   width: 70px;
   height: 100%;
@@ -32,12 +32,12 @@
   background: rgba(100%,100%,100%,1);
 }
 
-.PageFind_SearchBar_Img>img{
+.CarFinder_SearchBar_Img>img{
     width: auto;
     height: 50%;
 }
 
-.PageFind_SearchBar_Field
+.CarFinder_SearchBar_Field
 {
   width: 100%;
   height: 100%;
@@ -48,7 +48,7 @@
 
 }
 
-.PageFind_PricingDisplay{
+.CarFinder_PricingDisplay{
   font-family: 'Lato', sans-serif;
   min-width: 500px;
   font-size: 16px;
@@ -57,13 +57,13 @@
   align-items: center;
 }
 
-.PageFind_PricingDisplay_Caption{
+.CarFinder_PricingDisplay_Caption{
   width: 130px;
   padding:0 30px;
   font-weight: 900;
 }
 
-.PageFind_PricingDisplay_Block{
+.CarFinder_PricingDisplay_Block{
   padding:  5px 20px;
   border:1px solid rgba(0,0,0,0.3);
   border-radius: 3px;
@@ -72,7 +72,7 @@
   cursor: pointer;
 }
 
-.PageFind_PricingDisplay_Block-selected{
+.CarFinder_PricingDisplay_Block-selected{
   background: #e7211e;
   border:1px solid #e7211e;
   border-radius: 3px;
@@ -81,7 +81,7 @@
 }
 
 
-.PageFind_Sort{
+.CarFinder_Sort{
   font-family: 'Lato', sans-serif;
   min-width: 340px;
   display: flex;
@@ -90,23 +90,23 @@
   margin: 0 70px 20px 30px ;
 }
 
-.PageFind_Sort_List{
+.CarFinder_Sort_List{
   width: 200px;
 }
 
-.PageFind_Sort_Menu{
+.CarFinder_Sort_Menu{
   width: 40px;
   height: 25px;
   cursor: pointer;
 }
 
-.PageFind_Sort_Menu>img{
+.CarFinder_Sort_Menu>img{
   width: auto;
   height: 100%;
   transition:.5s;
 }
 
-.PageFind_Sort_Menu>img:hover{
+.CarFinder_Sort_Menu>img:hover{
   transform: scale(1.2);
 }
 
