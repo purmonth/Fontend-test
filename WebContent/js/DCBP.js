@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
 	$(".PageHeader_MenuPage_Menu").click(function(){
 		$(".PageHeader_MenuPage").hide();
@@ -8,10 +10,8 @@ $(document).ready(function(){
 	$(".CarBlock_Desc_Favorite").click(function(){
 		$(this).toggleClass("CarBlock_Desc_Favorite-selected");
 	});
-	$(".PageFind_PricingDisplay_Block").click(function(){
-		$(".PageFind_PricingDisplay_Block").removeClass("PageFind_PricingDisplay_Block-selected");
-		$(this).toggleClass("PageFind_PricingDisplay_Block-selected");
-	});
+
+
 	$(".PageFind_PricingDisplay_Block").click(function(){
 		$(".PageFind_PricingDisplay_Block").removeClass("PageFind_PricingDisplay_Block-selected");
 		$(this).toggleClass("PageFind_PricingDisplay_Block-selected");
@@ -24,6 +24,9 @@ $(document).ready(function(){
 		$(".ButtonGroup_Button").removeClass("ButtonGroup_Button-selected");
 		$(this).toggleClass("ButtonGroup_Button-selected");
 	});
+	
+
+
 	$(".ShoppingPageFlow_Item").click(function(){
 		$(".ShoppingPageFlow_Item").removeClass("ShoppingPageFlow_Item-selected")
 		$(this).toggleClass("ShoppingPageFlow_Item-selected")
@@ -54,6 +57,28 @@ $(document).ready(function(){
 	$(".ComparingSheet_Header_Icon").click(function(){
 		$(this).parent().parent().toggleClass('ComparingSheet-selected');
 	});
+	Click($(".PageHeader_MenuPage_Language"));
+	/*
+	Fade($(".ShoppingPageFlow_Item"));
+	*/
 });
-
-
+/*
+function Fade(element) {
+	element.mouseenter(function(){
+		element.fadeTo('fast',0.8);
+	});
+	element.mouseleave(function(){
+		element.fadeTo('fast',1);
+	});
+};
+*/
+/*
+function Click(element) {
+	$(element).click(function(){
+		$(element).removeClass(element+"-selected");
+		$(this).toggleClass(this+"-selected");
+		console.log(this);
+		console.log(element);
+	});
+}
+*/

@@ -1,31 +1,4 @@
 
-.CarFinder_Sorter select {
-  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
-    linear-gradient(135deg, gray 50%, transparent 50%),
-    radial-gradient(#ddd 70%, transparent 72%);
-  background-position: calc(100% - 20px) calc(1em + 2px),
-    calc(100% - 15px) calc(1em + 2px), calc(100% - .5em) .5em;
-  background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
-  background-repeat: no-repeat;
-}
-
-.CarFinder_Sorter select:focus {
-  background-image: linear-gradient(45deg, white 50%, transparent 50%),
-    linear-gradient(135deg, transparent 50%, white 50%),
-    radial-gradient(gray 70%, transparent 72%);
-  background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em,
-    calc(100% - .5em) .5em;
-  background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
-  background-repeat: no-repeat;
-  border-color: green;
-  outline: 0;
-}
-
-.CarFinder_Sorter select:-moz-focusring {
-  color: transparent;
-  text-shadow: 0 0 0 #000;
-}
-
 /*********************/
 /** block CarFinder **/
 .CarFinder{
@@ -116,10 +89,42 @@
   font-size: 18px;
   margin: 0 70px 20px 30px ;
 }
-
+/*****************/
 .CarFinder_Sort_List{
-  width: 200px;
+   width: 268px;
+   margin: 0 10px;
+   background: url(../icons/car_find_arrow.png) no-repeat right center;
+   background-size: auto 90%; 
+   height: 30px;
 }
+
+
+.CarFinder_Sort_List select {
+  background: transparent;
+  height: 29px;
+  padding-left: 20px; /* If you add too much padding here, the options won't show in IE */
+  width: 100%; 
+  /* Chrome */
+  -webkit-appearance: none;
+  /* Firefox */
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: ' '; /* space */
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #e7211e;
+  height: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+select::-ms-expand{
+    display: none;
+}
+
+
+
+/******************/
 
 .CarFinder_Sort_Menu{
   width: 40px;
