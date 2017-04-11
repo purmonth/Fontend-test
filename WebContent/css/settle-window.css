@@ -9,7 +9,7 @@
 }
 
 .SettleWindow .v-window-closebox {
-  background-color: rgba(0, 0, 0, 0);
+  background: none;
   color: #ffffff;
   font-size: 60px;
 }
