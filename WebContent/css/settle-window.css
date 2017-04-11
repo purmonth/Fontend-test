@@ -24,7 +24,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  border: 5px #ffffff solid;
+  border: 4px #ffffff solid;
   color: #ffffff;
 }
 
@@ -37,12 +37,15 @@
 }
 
 .SettleWindow_Line {
-  height: 1px;
+  height: 1.5px;
   width: 100%;
   background: #a0a0a0;
+  opacity: 0.4;
 }
 
 .SettleWindow_Desc {
   font-size: 22px;
   text-align:center;
+  max-width: 300px;
+  padding: 30px 0;
 }
