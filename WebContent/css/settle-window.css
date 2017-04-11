@@ -1,0 +1,48 @@
+/** Block LightBox **/
+.SettleWindow {
+  background: none !important;
+}
+
+.v-window-modalitycurtain {
+  background-color: #000000 !important;
+  opacity: 0.9 !important;
+}
+
+.SettleWindow .v-window-closebox {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  font-size: 60px;
+}
+
+.SettleWindow .v-scrollable {
+  overflow: hidden;
+}
+
+.SettleWindow_Content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px #ffffff solid;
+  color: #ffffff;
+}
+
+.SettleWindow_Caption {
+  min-width: 375px;
+  height: 100px;
+  background: url(../icons/logo_DCBP.png) no-repeat center;
+  background-position: center;
+  background-size: auto 20px;
+}
+
+.SettleWindow_Line {
+  height: 1px;
+  width: 100%;
+  background: #a0a0a0;
+}
+
+.SettleWindow_Desc {
+  font-size: 22px;
+  text-align:center;
+}
