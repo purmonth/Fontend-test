@@ -81,7 +81,9 @@
 }
 
 
-.CarFinder_Sort{
+
+/*****************/
+.CarFinder_Sorter{
   font-family: 'Lato', sans-serif;
   min-width: 340px;
   display: flex;
@@ -89,19 +91,20 @@
   font-size: 18px;
   margin: 0 70px 20px 30px ;
 }
-/*****************/
-.CarFinder_Sort_List{
+
+.CarFinder_Sorter_List{
    width: 268px;
    margin: 0 10px;
    background: url(../icons/car_find_arrow.png) no-repeat right center;
    background-size: auto 90%; 
    height: 30px;
+   display: flex;
+   align-items: center;
 }
 
 
-.CarFinder_Sort_List select {
+.CarFinder_Sorter_List select {
   background: transparent;
-  height: 29px;
   padding-left: 20px; /* If you add too much padding here, the options won't show in IE */
   width: 100%; 
   /* Chrome */
@@ -113,8 +116,10 @@
   border: 1px solid #ccc;
   font-size: 16px;
   color: #e7211e;
-  height: 30px;
+  height: 35px;
   font-family: 'Lato', sans-serif;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -126,19 +131,19 @@ select::-ms-expand{
 
 /******************/
 
-.CarFinder_Sort_Menu{
+.CarFinder_Menu{
   width: 40px;
   height: 25px;
   cursor: pointer;
 }
 
-.CarFinder_Sort_Menu>img{
+.CarFinder_Menu>img{
   width: auto;
   height: 100%;
   transition:.5s;
 }
 
-.CarFinder_Sort_Menu>img:hover{
+.CarFinder_Menu>img:hover{
   transform: scale(1.2);
 }
 
