@@ -48,7 +48,7 @@
 }
 
 .ShoppingSummary_Row_Caption {
-  width: 60%;
+  width: 40%;
   font-family: 'Open Sans', sans-serif;
   color: rgba(100%, 100%, 100%, 0.2);
   text-align: left;
@@ -72,11 +72,11 @@
 }
 
 .ShoppingSummary_Row_Value {
-  /*width: 40%;*/
-  width: 70%;
+  width: 60%;
   text-align: right;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
+  white-space: normal !important;
 }
 
 .ShoppingSummary_Row_Value-emphasize {

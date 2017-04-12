@@ -9,7 +9,7 @@
 }
 
 .SettleWindow .v-window-closebox {
-  background-color: rgba(0, 0, 0, 0);
+  background: none;
   color: #ffffff;
   font-size: 60px;
 }
@@ -46,6 +46,7 @@
 .SettleWindow_Desc {
   font-size: 22px;
   text-align:center;
-  max-width: 300px;
-  padding: 30px 0;
+  max-width: 400px;
+  padding: 30px 20px;
+  white-space: normal !important;
 }
