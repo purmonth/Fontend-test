@@ -22,20 +22,18 @@
   margin-right: 50px;
 }
 
-.CarFinder_SearchBar_Img
+.CarFinder_SearchBar_Caption
 {
   width: 70px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(100%,100%,100%,1);
+  background: url(../icons/black_magnifying_glass.png) center no-repeat;
+  background-size: auto 50%;
 }
 
-.CarFinder_SearchBar_Img>img{
-    width: auto;
-    height: 50%;
-}
+
 
 .CarFinder_SearchBar_Field
 {
@@ -92,7 +90,7 @@
   margin: 0 70px 20px 30px ;
 }
 
-.CarFinder_Sorter_List{
+.CarFinder_Sorter_Selector{
    width: 268px;
    margin: 0 10px;
    background: url(../icons/car_find_arrow.png) no-repeat right center;
@@ -103,7 +101,7 @@
 }
 
 
-.CarFinder_Sorter_List select {
+.CarFinder_Sorter_Selector select {
   background: transparent;
   padding-left: 20px; /* If you add too much padding here, the options won't show in IE */
   width: 100%; 
