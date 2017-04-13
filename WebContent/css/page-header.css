@@ -62,15 +62,12 @@
   margin-right: 60px;
 }
 
-@media only screen and (max-width: 1250px){
+@media only screen and (max-width: 1250px) {
   .PageHeader_Logo {
- 
-  background: url(../icons/header_logo-short.png) no-repeat;
-  background-size: auto 75%;
-  
+    background: url(../icons/header_logo-short.png) no-repeat;
+    background-size: auto 75%;
   }
 }
-
 
 /** block-element PageHeader_MenuPage **/
 .PageHeader_MenuPage {
@@ -240,4 +237,3 @@
   background: none;
   border-bottom: 2px solid rgba(100%, 100%, 100%, 0.1);
 }
-
