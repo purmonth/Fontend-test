@@ -61,28 +61,23 @@
   margin-bottom: 150px;
 }
 
-
-
-
 @media only screen and (max-width: 1500px) {
-  .BrowsingPageHeader_Title{
+  .BrowsingPageHeader_Title {
     font-size: 88px;
   }
-  .BrowsingPageHeader_Detail{
+  .BrowsingPageHeader_Detail {
     font-size: 22px;
   }
 }
 
-
 @media only screen and (max-width: 1050px) {
-  .BrowsingPageHeader_Title{
+  .BrowsingPageHeader_Title {
     font-size: 68px;
   }
-  .BrowsingPageHeader_Detail{
+  .BrowsingPageHeader_Detail {
     font-size: 20px;
   }
 }
-
 
 /** element BrowsingPage_NextStep **/
 .BrowsingPage_NextStep {
@@ -198,25 +193,20 @@
   font-weight: 100;
 }
 
-
 @media only screen and (max-width: 1500px) {
-  .SearchBar{
-    width: 500px ;
-    height: 55px ;
+  .SearchBar {
+    width: 500px;
+    height: 55px;
   }
-  .SearchBar_Field{
+  .SearchBar_Field {
     font-size: 18px;
   }
-  .SearchBar_Go{
-    width: 80px ;
-    height: 55px ;
+  .SearchBar_Go {
+    width: 80px;
+    height: 55px;
     font-size: 22px;
   }
 }
-
-
-
-
 
 /** block BrowsingPageSidebar **/
 .BrowsingPageSidebar {
