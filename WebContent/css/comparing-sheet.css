@@ -1,3 +1,4 @@
+
 /** block ComparingSheet **/
 .ComparingSheet {
   width: 800px;
@@ -136,7 +137,7 @@
   color: rgba(0, 0, 0, 0.2);
   font-weight: 200;
 }
-
+  
 .ComparingSheet_Input-long .ComparingSheet_Input_Field {
   width: 100%;
 }

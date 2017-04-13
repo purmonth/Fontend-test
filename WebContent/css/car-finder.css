@@ -1,8 +1,10 @@
 
+
+
 /*********************/
 /** block CarFinder **/
 .CarFinder{
-  height: 150px;
+  
   width: 100%;
   padding-top: 50px;
   display: flex;
@@ -39,25 +41,71 @@
 {
   width: 100%;
   height: 100%;
-  font-size: 16px;
   border: none;
   background: white;
   margin-left: 10px;
-
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
+
+
+.CarFinder_SearchBar_Field-prompt {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+}
+
+
+
+
+/* placeholder  */
+input[type="text"].CarFinder_SearchBar_Field::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+input[type="text"].CarFinder_SearchBar_Field::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+input[type="text"].CarFinder_SearchBar_Field:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
+  
+/*************************/
 
 .CarFinder_PricingDisplay{
   font-family: 'Lato', sans-serif;
   min-width: 500px;
   font-size: 16px;
-  margin: 0 0 20px 0 ;
+  margin:20px;
   display: flex;
   align-items: center;
 }
 
 .CarFinder_PricingDisplay_Caption{
   width: 130px;
-  padding:0 30px;
   font-weight: 900;
 }
 
@@ -83,11 +131,11 @@
 /*****************/
 .CarFinder_Sorter{
   font-family: 'Lato', sans-serif;
-  min-width: 340px;
+  min-width: 500px;
   display: flex;
   align-items: center;
   font-size: 18px;
-  margin: 0 70px 20px 30px ;
+  margin: 20px;
 }
 
 .CarFinder_Sorter_Selector{
@@ -144,4 +192,3 @@ select::-ms-expand{
 .CarFinder_Menu>img:hover{
   transform: scale(1.2);
 }
-
