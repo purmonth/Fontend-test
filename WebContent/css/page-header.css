@@ -1,3 +1,4 @@
+
 /** block PageHeader **/
 .PageHeader {
   position: relative;
@@ -15,7 +16,7 @@
 .PageHeader_Logo {
   width: 1000px;
   height: 45px;
-  background: url(../icons/header_logo.png) no-repeat;
+  background: url(../icons/header_logo.png) left center no-repeat;
   background-size: auto 75%;
   cursor: pointer;
   margin-left: 60px;
@@ -27,7 +28,7 @@
   width: 100%;
 }
 
-.PageHeader_SeeCar {
+.PageHeader_Compare {
   position: absolute;
   right: 200px;
   width: 250px;
@@ -64,8 +65,28 @@
 
 @media only screen and (max-width: 1250px) {
   .PageHeader_Logo {
-    background: url(../icons/header_logo-short.png) no-repeat;
+    background: url(../icons/header_logo-short.png) left center no-repeat;
     background-size: auto 75%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .PageHeader{
+    width: 100%;
+  }
+  .PageHeader_Logo{
+    width: 150px;
+    background-size: 80% auto;
+    margin-left: 30px;
+  }
+  .PageHeader_Compare{
+    display: none;
+  }
+  .PageHeader_Menu {
+    height: 30px;
+    width: 30px;
+    background-size: 100% auto;
+    margin-right: 30px;
   }
 }
 
@@ -172,6 +193,18 @@
   color: rgba(100%, 100%, 100%, 1);
 }
 
+@media only screen and (max-width: 425px) {
+  .PageHeader_MenuPage {
+  top: 15px;
+  margin-right: 0px;
+  }
+  .PageHeader_MenuPage_Menu {
+  width: 30px;
+  background-size: 100% auto;
+  }
+
+}
+
 /***************   AdenovoPage    *************/
 .AdenovoPage .PageHeader {
   background-color: #e5e5e5;
@@ -236,4 +269,14 @@
   top: 0;
   background: none;
   border-bottom: 2px solid rgba(100%, 100%, 100%, 0.1);
+}
+
+@media only screen and (max-width: 425px) {
+  .BrowsingPage .PageHeader {
+    position: relative;
+    background: url(../image/hero.png);
+    background-size: 100% auto;
+    background-position: 0% 60%;
+    min-width: 100%;
+  }
 }

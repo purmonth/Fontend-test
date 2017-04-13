@@ -13,7 +13,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   margin-right: 50px;
 }
 
@@ -34,7 +34,7 @@
   background: white;
   margin-left: 10px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 
@@ -49,7 +49,7 @@ input[type="text"].CarFinder_SearchBar_Field::-webkit-input-placeholder
   color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 
@@ -58,7 +58,7 @@ input[type="text"].CarFinder_SearchBar_Field::-moz-placeholder {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 
@@ -67,7 +67,7 @@ input[type="text"].CarFinder_SearchBar_Field:-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 
@@ -76,7 +76,7 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 
@@ -112,10 +112,22 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder {
   font-weight: 100;
 }
 
+@media only screen and (max-width: 425px) {
+  .CarFinder{
+    padding: 10px 0;
+  }
+  .CarFinder_SearchBar {
+    display: none;
+  }
+  .CarFinder_PricingDisplay {
+    display: none;
+  }
+
+}
+
 /*****************/
 .CarFinder_Sorter {
   font-family: 'Lato', sans-serif;
-  min-width: 500px;
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -156,6 +168,11 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder {
   display: none;
 }
 
+.CarFinder_Sorter_Caption{
+  white-space: nowrap;
+}
+
+
 /******************/
 .CarFinder_Menu {
   width: 40px;
@@ -171,4 +188,10 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder {
 
 .CarFinder_Menu>img:hover {
   transform: scale(1.2);
+}
+
+@media only screen and (max-width: 425px) {
+  .CarFinder_Menu{
+    display: none;
+  }
 }
