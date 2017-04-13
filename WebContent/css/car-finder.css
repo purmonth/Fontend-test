@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 
@@ -6,34 +5,27 @@
 /** block CarFinder **/
 .CarFinder{
   
-=======
-/*********************/
-/** block CarFinder **/
-.CarFinder {
-  height: 150px;
->>>>>>> a2a58092c9861f8c10c5d7cf22dabb75197ea77a
   width: 100%;
-  margin-top: 50px;
+  padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.CarFinder.v-layout{
-  margin-top: 35px;
-}
 
-.CarFinder_SearchBar {
+.CarFinder_SearchBar
+{
   height: 50px;
   min-width: 50%;
   width: 100%;
   display: flex;
   align-items: center;
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0,0,0,0.3);
   margin-right: 50px;
 }
 
-.CarFinder_SearchBar_Caption {
+.CarFinder_SearchBar_Caption
+{
   width: 70px;
   height: 100%;
   display: flex;
@@ -43,13 +35,15 @@
   background-size: auto 50%;
 }
 
-.CarFinder_SearchBar_Field {
+
+
+.CarFinder_SearchBar_Field
+{
   width: 100%;
   height: 100%;
   border: none;
   background: white;
   margin-left: 10px;
-<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
@@ -60,13 +54,13 @@
   color: rgba(0, 0, 0, 1);
   font-weight: 600;
 }
-
+  
 
 
 
 /* placeholder  */
 input[type="text"].CarFinder_SearchBar_Field::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -74,7 +68,7 @@ input[type="text"].CarFinder_SearchBar_Field::-webkit-input-placeholder { /* Chr
 }
 
 input[type="text"].CarFinder_SearchBar_Field::-moz-placeholder { /* Firefox 19+ */
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -82,7 +76,7 @@ input[type="text"].CarFinder_SearchBar_Field::-moz-placeholder { /* Firefox 19+ 
 }
 
 input[type="text"].CarFinder_SearchBar_Field:-ms-input-placeholder { /* IE 10+ */
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -90,7 +84,7 @@ input[type="text"].CarFinder_SearchBar_Field:-ms-input-placeholder { /* IE 10+ *
 }
 
 input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder { /* Firefox 18- */
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -98,7 +92,6 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder { /* Firefox 18- *
 }
 
 
-  
 /*************************/
 
 .CarFinder_PricingDisplay{
@@ -106,74 +99,59 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder { /* Firefox 18- *
   min-width: 500px;
   font-size: 16px;
   margin:20px;
-=======
-}
-
-.CarFinder_PricingDisplay {
-  font-family: 'Lato', sans-serif;
-  min-width: 500px;
-  font-size: 16px;
-  margin: 0 0 20px 0;
->>>>>>> a2a58092c9861f8c10c5d7cf22dabb75197ea77a
   display: flex;
   align-items: center;
 }
 
-.CarFinder_PricingDisplay_Caption {
+.CarFinder_PricingDisplay_Caption{
   width: 130px;
-<<<<<<< HEAD
-=======
-  padding: 0 30px;
->>>>>>> a2a58092c9861f8c10c5d7cf22dabb75197ea77a
   font-weight: 900;
 }
 
-.CarFinder_PricingDisplay_Block {
-  padding: 5px 20px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+.CarFinder_PricingDisplay_Block{
+  padding:  5px 20px;
+  border:1px solid rgba(0,0,0,0.3);
   border-radius: 3px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0,0,0,0.3);
   font-weight: 700;
   cursor: pointer;
 }
 
-.CarFinder_PricingDisplay_Block-selected {
+.CarFinder_PricingDisplay_Block-selected{
   background: #e7211e;
-  border: 1px solid #e7211e;
+  border:1px solid #e7211e;
   border-radius: 3px;
   color: white;
   font-weight: 100;
 }
 
+
+
 /*****************/
-.CarFinder_Sorter {
+.CarFinder_Sorter{
   font-family: 'Lato', sans-serif;
   min-width: 500px;
   display: flex;
   align-items: center;
   font-size: 18px;
-<<<<<<< HEAD
   margin: 20px;
-=======
-  margin: 0 70px 20px 30px;
->>>>>>> a2a58092c9861f8c10c5d7cf22dabb75197ea77a
 }
 
-.CarFinder_Sorter_Selector {
-  width: 268px;
-  margin: 0 10px;
-  background: url(../icons/car_find_arrow.png) no-repeat right center;
-  background-size: auto 90%;
-  height: 30px;
-  display: flex;
-  align-items: center;
+.CarFinder_Sorter_Selector{
+   width: 268px;
+   margin: 0 10px;
+   background: url(../icons/car_find_arrow.png) no-repeat right center;
+   background-size: auto 90%; 
+   height: 30px;
+   display: flex;
+   align-items: center;
 }
+
 
 .CarFinder_Sorter_Selector select {
   background: transparent;
-  padding-left: 20px;
-  /* If you add too much padding here, the options won't show in IE */
-  width: 100%;
+  padding-left: 20px; /* If you add too much padding here, the options won't show in IE */
+  width: 100%; 
   /* Chrome */
   -webkit-appearance: none;
   /* Firefox */
@@ -189,27 +167,28 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder { /* Firefox 18- *
   align-items: center;
 }
 
-.CarFinder_Sorter_Selector select::-ms-expand {
-  display: none;
+
+select::-ms-expand{
+    display: none;
 }
 
+
+
 /******************/
-.CarFinder_Menu {
+
+.CarFinder_Menu{
   width: 40px;
   height: 25px;
   cursor: pointer;
 }
 
-.CarFinder_Menu>img {
+.CarFinder_Menu>img{
   width: auto;
   height: 100%;
-  transition: .5s;
+  transition:.5s;
 }
 
-.CarFinder_Menu>img:hover {
+.CarFinder_Menu>img:hover{
   transform: scale(1.2);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> a2a58092c9861f8c10c5d7cf22dabb75197ea77a
+
