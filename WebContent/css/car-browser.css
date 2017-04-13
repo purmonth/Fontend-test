@@ -5,43 +5,38 @@
   flex-wrap: wrap;
 }
 
-** block BrowsingPageContent **/
+/** block BrowsingPageContent **/
 @media only screen and (max-width: 2400px) {
-  .CarBrowser{
+  .CarBrowser {
     width: 1950px;
   }
 }
 
 @media only screen and (max-width: 2100px) {
-
-  .CarBrowser{
+  .CarBrowser {
     width: 1650px;
   }
 }
 
 @media only screen and (max-width: 1800px) {
-
-  .CarBrowser{
+  .CarBrowser {
     width: 1350px;
   }
 }
 
 @media only screen and (max-width: 1500px) {
-  .CarBrowser{
+  .CarBrowser {
     width: 1050px;
   }
 }
 
 @media only screen and (max-width: 1200px) {
-  .CarBrowser{
+  .CarBrowser {
     width: 705px;
   }
 }
 
-
-
 /*********************/
-
 .CarBlock {
   -webkit-box-sizing: initial;
   -moz-box-sizing: initial;
