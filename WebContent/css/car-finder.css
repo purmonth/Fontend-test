@@ -43,6 +43,12 @@
   font-weight: 600;
 }
 
+@media only screen and (max-width: 425px) {
+  .CarFinder{
+    padding: 10px 0;
+  }
+}
+
 /* placeholder  */
 input[type="text"].CarFinder_SearchBar_Field::-webkit-input-placeholder
   { /* Chrome/Opera/Safari */
@@ -113,9 +119,6 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder {
 }
 
 @media only screen and (max-width: 425px) {
-  .CarFinder{
-    padding: 10px 0;
-  }
   .CarFinder_SearchBar {
     display: none;
   }
@@ -132,6 +135,17 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder {
   align-items: center;
   font-size: 18px;
   margin: 20px;
+}
+
+.CarFinder_SidebarButton{
+  height: 35px;
+  width: 35px;
+  background: url(../icons/red_down_double_arrow.png) center no-repeat;
+  background-size: auto 70%;
+  border:1px solid rgba(0,0,0,0.4);
+  display: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 .CarFinder_Sorter_Selector {
@@ -172,6 +186,28 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder {
   white-space: nowrap;
 }
 
+
+@media only screen and (max-width: 425px){
+  .CarFinder{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;
+  }
+  .CarFinder_Sorter{
+    font-size: 16px;
+    width: 250px;
+    margin: 0px;
+  }
+  .CarFinder_Sorter_Selector{
+    width: 200px;
+  }
+  .CarFinder_Sorter_Selector select {
+    font-size: 12px;
+  }
+  .CarFinder_SidebarButton{
+    display: block;
+  }
+}
 
 /******************/
 .CarFinder_Menu {

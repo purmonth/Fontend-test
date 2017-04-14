@@ -57,6 +57,7 @@
   -webkit-animation: valo-animate-in-fade 600ms;
   -moz-animation: valo-animate-in-fade 600ms;
   animation: valo-animate-in-fade 600ms;
+  z-index: 0;
 }
 
 .CarBlock_Img {

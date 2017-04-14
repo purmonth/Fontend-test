@@ -57,10 +57,13 @@ $(document).ready(function(){
 	$(".ComparingSheet_Header_Icon").click(function(){
 		$(this).parent().parent().toggleClass('ComparingSheet-selected');
 	});
-	Click($(".PageHeader_MenuPage_Language"));
-	/*
-	Fade($(".ShoppingPageFlow_Item"));
-	*/
+
+	//test
+	
+	$(".CarFinder_SidebarButton").click(function(){
+		$(".BrowsingPageSidebar").toggleClass('BrowsingPageSidebar-selected');
+	});
+                      
 });
 /*
 function Fade(element) {
