@@ -320,7 +320,7 @@
   width: 150px;
   margin: 0 1%;
   height: 20%;
-  background: url(../icons/button_google.png) no-repeat center;
+  background: url(../icons/store_google.png) no-repeat center;
   background-size: 100% auto;
   cursor: pointer;
 }
@@ -329,7 +329,7 @@
   width: 150px;
   margin: 0 1%;
   height: 20%;
-  background: url(../icons/button_apple.png) no-repeat center;
+  background: url(../icons/store_apple.png) no-repeat center;
   background-size: 100% auto;
   cursor: pointer;
 }
