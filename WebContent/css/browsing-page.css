@@ -367,6 +367,13 @@
   letter-spacing: 2px;
 }
 
+.BrowsingPageFooter_Caption{
+  font-size: 12px;
+  letter-spacing: 8px;
+  font-family: 'Playfair Display', serif;
+  white-space: normal;
+}
+
 .BrowsingPageFooter_List_Word-skin {
   border-left: 1.5px solid rgba(100%, 100%, 100%, 0.4);
 }
