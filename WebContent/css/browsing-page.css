@@ -318,8 +318,8 @@
 
 .BrowsingPageFooter_Button_Google {
   width: 150px;
+  height: 100px;
   margin: 0 1%;
-  height: 20%;
   background: url(../icons/store_google.png) no-repeat center;
   background-size: 100% auto;
   cursor: pointer;
@@ -327,8 +327,8 @@
 
 .BrowsingPageFooter_Button_Apple {
   width: 150px;
+  height: 100px;
   margin: 0 1%;
-  height: 20%;
   background: url(../icons/store_apple.png) no-repeat center;
   background-size: 100% auto;
   cursor: pointer;
