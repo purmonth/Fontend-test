@@ -269,9 +269,15 @@
   padding-bottom: 20px;
 }
 
-.AdenovoPageFooter_Caption {
+
+
+.AdenovoPageFooter_Caption{
   padding-top: 10px;
   height: 13px;
+  font-size: 22px;
+  letter-spacing: 8px;
+  font-family: 'Playfair Display', serif;
+  white-space: normal;
 }
 
 .AdenovoPageFooter_Caption>img {

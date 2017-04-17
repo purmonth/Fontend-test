@@ -106,6 +106,10 @@
 .ShoppingPageFooter_Caption {
   padding-top: 10px;
   height: 13px;
+  font-size: 18px;
+  letter-spacing: 8px;
+  font-family: 'Playfair Display', serif;
+  white-space: normal;
 }
 
 .ShoppingPageFooter_Caption>img {
