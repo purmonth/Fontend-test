@@ -137,6 +137,10 @@ input[type="text"].CarFinder_SearchBar_Field:-moz-placeholder {
   margin: 20px;
 }
 
+.CarFinder_Sorter.v-layout {
+  margin-left: 0px;
+}
+
 .CarFinder_SidebarButton{
   height: 35px;
   width: 35px;
