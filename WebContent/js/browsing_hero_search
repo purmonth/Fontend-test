@@ -62,7 +62,18 @@ $(document).ready(function(){
 		$(".BrowsingPageSidebar").toggleClass('BrowsingPageSidebar-selected');
 	});
 
-	
+	$(".SearchBar_Go").click(function(){
+		var item = $(".SearchBar_Field").val();
+		location.replace(location.pathname + "/Browse_Cars?q=" + encodeURI(item));
+	});
+
+	$(".SearchBar_Field").keypress(function(e){
+		code = (e.keyCode ? e.keyCode : e.which);
+		if(code == 13){
+			var item = $(".SearchBar_Field").val();
+			location.replace(location.pathname + "/Browse_Cars?q=" + encodeURI(item));
+		}
+	});
                       
 });
 
